@@ -1,0 +1,829 @@
+# Data report
+#   The sequence info section contains information only on the selected sequences
+#   The Assembly info and stats are for the full genome assembly
+
+# Organism info
+species_name: Lyngbya sp. PCC 8106
+strain: PCC 8106
+tax_id: 313612
+
+# Assembly information
+#   A RefSeq assembly (GCF) represents an NCBI-derived copy of a user-submitted
+#   GenBank assembly (GCA). The RefSeq assembly (GCF) and annotation may not
+#   be identical to the GenBank assembly (GCA) and annotation. RefSeq
+#   assemblies (GCF) always have annotation while only a subset of GenBank
+#   assemblies (GCA) have annotation.
+assembly_info:
+  assembly_level: Contig
+  assembly_name: ASM16909v1
+  assembly_type: haploid
+  bioproject: PRJNA224116
+  submission_date: '2006-12-15'
+  GenBank_assm_acc: GCA_000169095.1
+  submitter: The Gordon and Betty Moore Foundation Marine Microbiology Initiative
+  RefSeq_category: na
+  RefSeq_assm_acc: GCF_000169095.1
+
+# Assembly stats
+assembly_stats:
+  total_sequence_length: 7037511
+  total_ungapped_length: 7037511
+  number_of_contigs: 110
+  contig_n50: 130196
+  contig_l50: 19
+  number_of_scaffolds: 110
+  scaffold_n50: 130196
+  scaffold_l50: 19
+  number_of_component_sequences: 110
+
+# Annotation info
+#   NCBI GFF3 description https://ftp.ncbi.nlm.nih.gov/genomes/README_GFF3.txt
+annotation_info:
+  name: From INSDC submitter
+  source: The Gordon and Betty Moore Foundation Marine Microbiology Initiative
+  release_date: Dec 15, 2006
+  stats:
+    gene_counts:
+      total: 5904
+      protein_coding: 5526
+      non_coding: 57
+      pseudogene: 321
+
+# WGS project
+wgs_info:
+  wgs_project_accession: AAVU01
+  master_wgs_url: https://www.ncbi.nlm.nih.gov/nuccore/AAVU00000000.1
+  wgs_contigs_url: https://www.ncbi.nlm.nih.gov/Traces/wgs/AAVU01
+
+# Sequence information
+sequence_info:
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000001.1
+  assembly_unit: Primary Assembly
+  length: 306111
+  GenBank_accession: AAVU01000001.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000002.1
+  assembly_unit: Primary Assembly
+  length: 298132
+  GenBank_accession: AAVU01000002.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000003.1
+  assembly_unit: Primary Assembly
+  length: 284203
+  GenBank_accession: AAVU01000003.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000004.1
+  assembly_unit: Primary Assembly
+  length: 239124
+  GenBank_accession: AAVU01000004.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000005.1
+  assembly_unit: Primary Assembly
+  length: 223844
+  GenBank_accession: AAVU01000005.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000006.1
+  assembly_unit: Primary Assembly
+  length: 203149
+  GenBank_accession: AAVU01000006.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000007.1
+  assembly_unit: Primary Assembly
+  length: 187976
+  GenBank_accession: AAVU01000007.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000008.1
+  assembly_unit: Primary Assembly
+  length: 181157
+  GenBank_accession: AAVU01000008.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000009.1
+  assembly_unit: Primary Assembly
+  length: 171481
+  GenBank_accession: AAVU01000009.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000010.1
+  assembly_unit: Primary Assembly
+  length: 171036
+  GenBank_accession: AAVU01000010.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000011.1
+  assembly_unit: Primary Assembly
+  length: 166738
+  GenBank_accession: AAVU01000011.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000012.1
+  assembly_unit: Primary Assembly
+  length: 165860
+  GenBank_accession: AAVU01000012.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000013.1
+  assembly_unit: Primary Assembly
+  length: 163401
+  GenBank_accession: AAVU01000013.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000014.1
+  assembly_unit: Primary Assembly
+  length: 152382
+  GenBank_accession: AAVU01000014.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000015.1
+  assembly_unit: Primary Assembly
+  length: 145495
+  GenBank_accession: AAVU01000015.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000016.1
+  assembly_unit: Primary Assembly
+  length: 144962
+  GenBank_accession: AAVU01000016.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000017.1
+  assembly_unit: Primary Assembly
+  length: 142076
+  GenBank_accession: AAVU01000017.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000018.1
+  assembly_unit: Primary Assembly
+  length: 130768
+  GenBank_accession: AAVU01000018.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000019.1
+  assembly_unit: Primary Assembly
+  length: 130196
+  GenBank_accession: AAVU01000019.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000020.1
+  assembly_unit: Primary Assembly
+  length: 122992
+  GenBank_accession: AAVU01000020.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000021.1
+  assembly_unit: Primary Assembly
+  length: 108332
+  GenBank_accession: AAVU01000021.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000022.1
+  assembly_unit: Primary Assembly
+  length: 101469
+  GenBank_accession: AAVU01000022.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000023.1
+  assembly_unit: Primary Assembly
+  length: 100835
+  GenBank_accession: AAVU01000023.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000024.1
+  assembly_unit: Primary Assembly
+  length: 97263
+  GenBank_accession: AAVU01000024.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000025.1
+  assembly_unit: Primary Assembly
+  length: 96784
+  GenBank_accession: AAVU01000025.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000026.1
+  assembly_unit: Primary Assembly
+  length: 94125
+  GenBank_accession: AAVU01000026.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000027.1
+  assembly_unit: Primary Assembly
+  length: 91896
+  GenBank_accession: AAVU01000027.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000028.1
+  assembly_unit: Primary Assembly
+  length: 89883
+  GenBank_accession: AAVU01000028.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000029.1
+  assembly_unit: Primary Assembly
+  length: 88773
+  GenBank_accession: AAVU01000029.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000030.1
+  assembly_unit: Primary Assembly
+  length: 87338
+  GenBank_accession: AAVU01000030.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000031.1
+  assembly_unit: Primary Assembly
+  length: 84435
+  GenBank_accession: AAVU01000031.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000032.1
+  assembly_unit: Primary Assembly
+  length: 83280
+  GenBank_accession: AAVU01000032.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000033.1
+  assembly_unit: Primary Assembly
+  length: 79926
+  GenBank_accession: AAVU01000033.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000034.1
+  assembly_unit: Primary Assembly
+  length: 78694
+  GenBank_accession: AAVU01000034.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000035.1
+  assembly_unit: Primary Assembly
+  length: 78593
+  GenBank_accession: AAVU01000035.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000036.1
+  assembly_unit: Primary Assembly
+  length: 77256
+  GenBank_accession: AAVU01000036.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000037.1
+  assembly_unit: Primary Assembly
+  length: 76048
+  GenBank_accession: AAVU01000037.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000038.1
+  assembly_unit: Primary Assembly
+  length: 75179
+  GenBank_accession: AAVU01000038.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000039.1
+  assembly_unit: Primary Assembly
+  length: 73425
+  GenBank_accession: AAVU01000039.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000040.1
+  assembly_unit: Primary Assembly
+  length: 73345
+  GenBank_accession: AAVU01000040.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000041.1
+  assembly_unit: Primary Assembly
+  length: 72791
+  GenBank_accession: AAVU01000041.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000042.1
+  assembly_unit: Primary Assembly
+  length: 66264
+  GenBank_accession: AAVU01000042.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000043.1
+  assembly_unit: Primary Assembly
+  length: 63987
+  GenBank_accession: AAVU01000043.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000044.1
+  assembly_unit: Primary Assembly
+  length: 58324
+  GenBank_accession: AAVU01000044.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000045.1
+  assembly_unit: Primary Assembly
+  length: 57933
+  GenBank_accession: AAVU01000045.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000046.1
+  assembly_unit: Primary Assembly
+  length: 55905
+  GenBank_accession: AAVU01000046.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000047.1
+  assembly_unit: Primary Assembly
+  length: 54269
+  GenBank_accession: AAVU01000047.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000048.1
+  assembly_unit: Primary Assembly
+  length: 52818
+  GenBank_accession: AAVU01000048.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000049.1
+  assembly_unit: Primary Assembly
+  length: 50425
+  GenBank_accession: AAVU01000049.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000050.1
+  assembly_unit: Primary Assembly
+  length: 50259
+  GenBank_accession: AAVU01000050.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000051.1
+  assembly_unit: Primary Assembly
+  length: 47490
+  GenBank_accession: AAVU01000051.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000052.1
+  assembly_unit: Primary Assembly
+  length: 45336
+  GenBank_accession: AAVU01000052.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000053.1
+  assembly_unit: Primary Assembly
+  length: 44235
+  GenBank_accession: AAVU01000053.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000054.1
+  assembly_unit: Primary Assembly
+  length: 41412
+  GenBank_accession: AAVU01000054.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000055.1
+  assembly_unit: Primary Assembly
+  length: 37746
+  GenBank_accession: AAVU01000055.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000056.1
+  assembly_unit: Primary Assembly
+  length: 37059
+  GenBank_accession: AAVU01000056.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000057.1
+  assembly_unit: Primary Assembly
+  length: 35130
+  GenBank_accession: AAVU01000057.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000058.1
+  assembly_unit: Primary Assembly
+  length: 33585
+  GenBank_accession: AAVU01000058.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000059.1
+  assembly_unit: Primary Assembly
+  length: 33565
+  GenBank_accession: AAVU01000059.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000060.1
+  assembly_unit: Primary Assembly
+  length: 33210
+  GenBank_accession: AAVU01000060.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000061.1
+  assembly_unit: Primary Assembly
+  length: 31933
+  GenBank_accession: AAVU01000061.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000062.1
+  assembly_unit: Primary Assembly
+  length: 30512
+  GenBank_accession: AAVU01000062.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000063.1
+  assembly_unit: Primary Assembly
+  length: 29463
+  GenBank_accession: AAVU01000063.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000064.1
+  assembly_unit: Primary Assembly
+  length: 28989
+  GenBank_accession: AAVU01000064.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000065.1
+  assembly_unit: Primary Assembly
+  length: 26484
+  GenBank_accession: AAVU01000065.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000066.1
+  assembly_unit: Primary Assembly
+  length: 25735
+  GenBank_accession: AAVU01000066.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000067.1
+  assembly_unit: Primary Assembly
+  length: 25666
+  GenBank_accession: AAVU01000067.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000068.1
+  assembly_unit: Primary Assembly
+  length: 25328
+  GenBank_accession: AAVU01000068.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000069.1
+  assembly_unit: Primary Assembly
+  length: 24239
+  GenBank_accession: AAVU01000069.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000070.1
+  assembly_unit: Primary Assembly
+  length: 22568
+  GenBank_accession: AAVU01000070.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000071.1
+  assembly_unit: Primary Assembly
+  length: 22565
+  GenBank_accession: AAVU01000071.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000072.1
+  assembly_unit: Primary Assembly
+  length: 22093
+  GenBank_accession: AAVU01000072.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000073.1
+  assembly_unit: Primary Assembly
+  length: 19350
+  GenBank_accession: AAVU01000073.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000074.1
+  assembly_unit: Primary Assembly
+  length: 18932
+  GenBank_accession: AAVU01000074.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000075.1
+  assembly_unit: Primary Assembly
+  length: 18723
+  GenBank_accession: AAVU01000075.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000076.1
+  assembly_unit: Primary Assembly
+  length: 18317
+  GenBank_accession: AAVU01000076.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000077.1
+  assembly_unit: Primary Assembly
+  length: 15374
+  GenBank_accession: AAVU01000077.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000078.1
+  assembly_unit: Primary Assembly
+  length: 14059
+  GenBank_accession: AAVU01000078.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000079.1
+  assembly_unit: Primary Assembly
+  length: 13990
+  GenBank_accession: AAVU01000079.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000080.1
+  assembly_unit: Primary Assembly
+  length: 13814
+  GenBank_accession: AAVU01000080.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000081.1
+  assembly_unit: Primary Assembly
+  length: 13503
+  GenBank_accession: AAVU01000081.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000082.1
+  assembly_unit: Primary Assembly
+  length: 13166
+  GenBank_accession: AAVU01000082.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000083.1
+  assembly_unit: Primary Assembly
+  length: 12787
+  GenBank_accession: AAVU01000083.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000084.1
+  assembly_unit: Primary Assembly
+  length: 11408
+  GenBank_accession: AAVU01000084.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000085.1
+  assembly_unit: Primary Assembly
+  length: 10019
+  GenBank_accession: AAVU01000085.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000086.1
+  assembly_unit: Primary Assembly
+  length: 9160
+  GenBank_accession: AAVU01000086.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000087.1
+  assembly_unit: Primary Assembly
+  length: 9047
+  GenBank_accession: AAVU01000087.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000088.1
+  assembly_unit: Primary Assembly
+  length: 8686
+  GenBank_accession: AAVU01000088.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000089.1
+  assembly_unit: Primary Assembly
+  length: 8491
+  GenBank_accession: AAVU01000089.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000090.1
+  assembly_unit: Primary Assembly
+  length: 8188
+  GenBank_accession: AAVU01000090.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000091.1
+  assembly_unit: Primary Assembly
+  length: 6381
+  GenBank_accession: AAVU01000091.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000092.1
+  assembly_unit: Primary Assembly
+  length: 4610
+  GenBank_accession: AAVU01000092.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000093.1
+  assembly_unit: Primary Assembly
+  length: 3347
+  GenBank_accession: AAVU01000093.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000094.1
+  assembly_unit: Primary Assembly
+  length: 3313
+  GenBank_accession: AAVU01000094.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000095.1
+  assembly_unit: Primary Assembly
+  length: 2285
+  GenBank_accession: AAVU01000095.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000096.1
+  assembly_unit: Primary Assembly
+  length: 2016
+  GenBank_accession: AAVU01000096.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000097.1
+  assembly_unit: Primary Assembly
+  length: 1985
+  GenBank_accession: AAVU01000097.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000098.1
+  assembly_unit: Primary Assembly
+  length: 1952
+  GenBank_accession: AAVU01000098.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000099.1
+  assembly_unit: Primary Assembly
+  length: 1937
+  GenBank_accession: AAVU01000099.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000100.1
+  assembly_unit: Primary Assembly
+  length: 1863
+  GenBank_accession: AAVU01000100.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000101.1
+  assembly_unit: Primary Assembly
+  length: 1857
+  GenBank_accession: AAVU01000101.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000102.1
+  assembly_unit: Primary Assembly
+  length: 1784
+  GenBank_accession: AAVU01000102.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000103.1
+  assembly_unit: Primary Assembly
+  length: 1718
+  GenBank_accession: AAVU01000103.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000104.1
+  assembly_unit: Primary Assembly
+  length: 1718
+  GenBank_accession: AAVU01000104.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000105.1
+  assembly_unit: Primary Assembly
+  length: 1639
+  GenBank_accession: AAVU01000105.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000106.1
+  assembly_unit: Primary Assembly
+  length: 1582
+  GenBank_accession: AAVU01000106.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000107.1
+  assembly_unit: Primary Assembly
+  length: 1472
+  GenBank_accession: AAVU01000107.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000108.1
+  assembly_unit: Primary Assembly
+  length: 1340
+  GenBank_accession: AAVU01000108.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000109.1
+  assembly_unit: Primary Assembly
+  length: 1221
+  GenBank_accession: AAVU01000109.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_AAVU01000110.1
+  assembly_unit: Primary Assembly
+  length: 1197
+  GenBank_accession: AAVU01000110.1

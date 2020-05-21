@@ -1,0 +1,188 @@
+LOCUS       NZ_FO818640             4160 bp    DNA     linear   CON 17-APR-2020
+DEFINITION  Limnospira indica PCC 8005.
+ACCESSION   NZ_FO818640 REGION: 3632945..3637104
+VERSION     NZ_FO818640.1  GI:890654500
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMEA3283116
+            Assembly: GCF_000973065.1
+KEYWORDS    RefSeq; Complete genome.
+SOURCE      Limnospira indica PCC 8005
+  ORGANISM  Limnospira indica PCC 8005
+            Bacteria; Cyanobacteria; Oscillatoriophycideae; Oscillatoriales;
+            Microcoleaceae; Limnospira.
+REFERENCE   1  (bases 1 to 4160)
+  AUTHORS   Genoscope -,C.E.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-FEB-2014) Genoscope - CEA (Commissariat a l'energie
+            atomique et aux energies alternatives) : BP 191 91006 EVRY cedex -
+            FRANCE (E-mail : seqref@genoscope.cns.fr - Web :
+            www.genoscope.cns.fr)
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            FO818640.
+            Annotation results relative to BLAST similarities, COG
+            assignations, enzymatic function prediction (PRIAM software), TMHMM
+            and SignalP predictions, and synteny conservation (Syntonizer
+            software) are available in the MicroScope annotation system
+            http://www.genoscope.cns.fr/agc/microscope.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 04/17/2020 01:50:13
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.11
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 5,836
+            CDSs (total)                      :: 5,784
+            Genes (coding)                    :: 5,115
+            CDSs (with protein)               :: 5,115
+            Genes (RNA)                       :: 52
+            rRNAs                             :: 2, 2, 2 (5S, 16S, 23S)
+            complete rRNAs                    :: 2, 2, 2 (5S, 16S, 23S)
+            tRNAs                             :: 42
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 669
+            CDSs (without protein)            :: 669
+            Pseudo Genes (ambiguous residues) :: 0 of 669
+            Pseudo Genes (frameshifted)       :: 295 of 669
+            Pseudo Genes (incomplete)         :: 287 of 669
+            Pseudo Genes (internal stop)      :: 235 of 669
+            Pseudo Genes (multiple problems)  :: 136 of 669
+            CRISPR Arrays                     :: 5
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4160
+                     /organism="Limnospira indica PCC 8005"
+                     /mol_type="genomic DNA"
+                     /strain="PCC 8005"
+                     /type_material="reference strain of Limnospira indica"
+                     /db_xref="taxon:376219"
+     gene            983..2773
+                     /gene="ltrA"
+                     /locus_tag="XZ46_RS15925"
+                     /old_locus_tag="ARTHRO_40379"
+     CDS             983..2773
+                     /gene="ltrA"
+                     /locus_tag="XZ46_RS15925"
+                     /old_locus_tag="ARTHRO_40379"
+                     /EC_number="2.7.7.49"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_009548019.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="group II intron reverse transcriptase/maturase"
+                     /protein_id="WP_108615237.1"
+                     /db_xref="GI:1383487514"
+                     /translation="MGNNTVVLEWQDVDWKSIERRVFRLQKRIHQAERRGDIKTVRGL
+                     QKLLLKSWSARMLAARRVTQDNQGKKTAGVDGVKSLSPKARMRLVGQLKLNSKAKPAR
+                     RVWIPKPGRDEKRPLGIPTIYDRALQALVKMALEPQWEAKFEPNSYGFRPGRSCQDAI
+                     GAIFNAIRCKPKWVLDADIAKCFDRIDHGKLLDKLETIPAIRRQIRAWLKAGVIDSGQ
+                     LFPTDEGTPQGGVISPLLANIALHGMEESIKELVEQLPGKGSRTNRRRAVSLIRYADD
+                     FVIIHENLGVIEKCRDHIQEWLKGMGLELKEEKTHITHTQECDNPGFDFLGFNIRQHK
+                     VGKYKTGKNTHNEPLGFKTIIKPSKKAVKSHYQKLKQIVDSHIVAPQEGLIRHLNPVI
+                     RGWSNYYSTAVSKQIFSQLDELLYWKLARWGKRRHSNKTGKWVARKYWRKIGSRNWAF
+                     ATRTESNPMQLRSHAETPIIHHTKVKGEASPYDGNLKYWSTRMGKQPGIPTRVSKLLK
+                     KQKGKCAHCGLTFREEDVMEIDHIIPKSKGGKDTYKNLQLLHRHCHDVKTALDGSHGS
+                     HDKSQVIEEPDEVKVSSPVLETSRVGDYPA"
+     gene            2826..3989
+                     /locus_tag="XZ46_RS15930"
+                     /old_locus_tag="ARTHRO_40380"
+     CDS             2826..3989
+                     /locus_tag="XZ46_RS15930"
+                     /old_locus_tag="ARTHRO_40380"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_015179133.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase"
+                     /protein_id="WP_046319790.1"
+                     /db_xref="GI:809069838"
+                     /translation="MDEAVRTVQFIRNQAIRYWMDNQGTGQNDLQKLCAQLAKEFPFA
+                     AELNSMARQASAERAWSAISRFYENCKKGIPGKKGFPSFKKNNRSVEYKTSGWKLDSN
+                     RKAITFTDKKGIGRLKLKGTRDLHFYPIEQIKRVRLVKRADGYYVQFCIRVERTEFVE
+                     PSGRAIGLDVGLKEFYTDSNGETVGNPRHLRKSESRLKQSQRTVSRRKKGGQNRAKAK
+                     VVLGKRHLKISRQRKDLAVKLARCVIQSNDLVAYEDLRIRNMVRNHSLAKSISDASWY
+                     QFRVWLEYLGKVFGKSTIAVPPHRTSQECSRCGVIVQKTLSTRTHVCRCGCVMDRDYN
+                     AARNILSRGLSTVGHTGTLALDASNASGESTSTLAGAILSEQVGSLSEESPSL"
+ORIGIN      
+        1 agttgaagtt tgttaacctt ttcccatttt aggggttagc cagcccccta aattggcagt
+       61 ggttgccaag ttacagcctg ttcagaaatc atctgatcac ctctcaaagt ccctctccct
+      121 ctatgggatc cagatttagg gtgagggcaa tatattaagc gactggtgaa caaactgtaa
+      181 ctaaaaggga gtttgatggg ctaattgaca tattcatggt tgatggtatg atagatgcac
+      241 atgacattac gacaatagtg cgggagtctg aaagccccgt cgctttagcg cggggatgaa
+      301 agacgacacg gcgacttgag tcgccgtcct gccaagacgg cttatattgt gtgcatggat
+      361 atagccatga tgtgcgattc gttcccgcca aaagtagaag gaaaattcct gaaacgtagg
+      421 cggggcaagg aacacagccc ccaaagggca ttgaaccttg acaactagat atcgatggtg
+      481 gtgaaagtcc atcccgcgag gtgtatcgcg tgaaagcacg tcccccacag tagcgactgg
+      541 tcatcaatct gtgaagcggg gatgaaaggg agtaagcctg ggtctaaacg ggcgccctct
+      601 tgagcaagtg tccatggata gaaaacgaag tcacgtccga aagcgtcgtt actataaacc
+      661 tgcgaaaatt agactgacac gcaggagcca aaatggctaa aggataaagg ggaggctgat
+      721 atcatacaga cctctcatac acccaaataa acccggcgta aagtggcatc ctaaaggcac
+      781 aatcaatcga tatctggaac gaagtaacct ccgttgttgc tctcaggaat aaggtcgaaa
+      841 tcctgagtag gaaaccatcc gcaaaccaac gtgaggaagg attgagtcag aagcgaatgt
+      901 ctggggtaat gcccaggata tgctgacgga ctcacgataa cttggaagat ggagccttag
+      961 tagcatggaa atgcccaaaa cgattggaaa caatacggtg gtgctggaat ggcaagatgt
+     1021 tgattggaaa tcaatcgaac gtcgagtctt ccgcctgcaa aaacggattc atcaagccga
+     1081 acgtcgtggt gacataaaaa cagttcgcgg actccaaaag ttactgctga agagctggtc
+     1141 agccagaatg ttagcggctc gtcgggttac acaagataat caaggcaaaa agacggcagg
+     1201 agtggatggg gttaaatccc tatccccaaa agcacgtatg cgccttgtag gtcaattgaa
+     1261 gctcaactca aaagccaaac ccgcacgtcg ggtatggatt cccaaaccgg gaagagacga
+     1321 aaagagacca ttaggaatac ccacaatata cgaccgcgca ttacaagcct tagtcaaaat
+     1381 ggcactcgaa ccccaatggg aagccaaatt tgaacctaac tcatacgggt tcagaccagg
+     1441 taggtcttgt caggacgcaa tcggggcaat attcaatgcc attaggtgca aacctaaatg
+     1501 ggtattagac gccgacattg ctaaatgctt tgacaggatt gaccatggca aactattgga
+     1561 caagctcgaa acgatacccg ccatcagacg acaaatccgg gcatggttaa aagctggggt
+     1621 aatagattct ggacagctat tcccgaccga tgaggggaca ccacagggag gcgtaataag
+     1681 tcccctactg gcaaatattg ccctccacgg catggaagag agcatcaagg aattagtgga
+     1741 acaactacct ggaaaaggta gtcgtaccaa tcgaagacga gcagtatcct taatcagata
+     1801 cgcagatgac ttcgttatca ttcacgaaaa ccttggggta atcgagaaat gtcgtgacca
+     1861 catccaggaa tggttgaaag ggatgggatt agaactcaaa gaggaaaaaa ctcatatcac
+     1921 tcacactcaa gagtgtgata acccgggatt cgattttctc ggttttaaca tccgacaaca
+     1981 taaagttggc aaatacaaaa ccgggaagaa tacccataat gagcctctag gattcaaaac
+     2041 catcatcaaa cccagcaaga aggctgtcaa gtcccattac cagaaattga aacagatagt
+     2101 agattctcac atcgtcgcac cacaagaggg gctaattagg caccttaatc cggtcatcag
+     2161 gggatggagt aactactact caactgcggt gtcaaaacaa atattctccc aattggacga
+     2221 actcctctat tggaaattag ccagatgggg aaaaagaaga cactcaaata agactgggaa
+     2281 atgggtagct cggaaatatt ggcggaagat tggaagtaga aattgggctt tcgcgactcg
+     2341 cacggagtca aacccgatgc agttacgaag ccatgcagaa acaccaatta tccaccacac
+     2401 caaggtcaaa ggcgaagcca gtccatacga cggtaatctt aaatactgga gtacaagaat
+     2461 gggcaaacaa ccaggaattc ctacaagggt gtcaaagctc ttgaagaaac aaaaagggaa
+     2521 gtgcgcccac tgcggactaa cattccggga agaagacgtg atggaaatcg accacatcat
+     2581 ccctaagtcg aaaggcggaa aggatacata caagaacctc caacttcttc accgtcactg
+     2641 tcacgacgtt aagacggcct tagatggtag tcacggttct catgacaaga gccaagttat
+     2701 cgaggagccg gatgaggtta aagtctcaag tccggttttg gagacgagtc gggtgggcga
+     2761 ctacccggct tagtttaact gtactagagt tcaaagccta cggaaaaccc cagcaattca
+     2821 gcgccataga cgaggcggtg agaacagttc agttcatccg aaaccaagcc atccgttatt
+     2881 ggatggacaa ccagggaact ggacagaacg acctgcaaaa gctatgtgct caacttgcta
+     2941 aggaattccc ttttgctgct gaactcaaca gcatggctcg gcaagcatcc gcagaaagag
+     3001 cctggagtgc aatctctcga ttctacgaaa actgcaagaa gggtatcccc ggaaagaaag
+     3061 ggtttccctc ttttaagaaa aataaccgct cggtagagta caaaacctct gggtggaagt
+     3121 tagactcgaa tcgcaaggca atcaccttca ccgacaagaa gggcattggt agactaaagc
+     3181 tcaaaggcac tcgtgatctg catttctatc caatagagca gattaagcga gttcgcctcg
+     3241 tcaaaagagc cgatggctac tatgttcagt tctgtattcg tgtagaacgg actgaatttg
+     3301 ttgaaccctc tggtcgagcc atcggcttgg atgttggact caaagagttc tacaccgata
+     3361 gcaacggtga aacagttgga aacccccggc atctcaggaa aagtgaatca cgactaaagc
+     3421 agtcgcagcg cactgtttcc agaaggaaga aagggggtca gaatcgagcc aaggccaagg
+     3481 tggttctagg caagcgccat ctcaagataa gtaggcagcg taaagatttg gctgtgaagt
+     3541 tggcaagatg cgtaatccag tctaacgact tggtagccta tgaagatttg agaatcagga
+     3601 atatggtgcg aaatcacagc cttgctaaat cgattagcga cgcttcctgg tatcagtttc
+     3661 gggtgtggtt ggaatatttg ggcaaggtgt tcggcaagag cactattgct gttccacccc
+     3721 acaggacaag ccaggaatgc tctcgctgcg gtgtcattgt gcagaagact ttatccactc
+     3781 gaactcatgt ttgtcgatgt ggatgtgtga tggacaggga ctataatgca gcgagaaaca
+     3841 tccttagtcg gggattgagt acggtagggc ataccggaac tttggcgcta gacgcaagca
+     3901 acgcttcagg agaatcgacc tctactttgg ctggagcaat cctgtctgag caagttggct
+     3961 cgttgagtga agaatccccg tcgctttagc gcggggagtg tcaaatgaca tggcaaatag
+     4021 tgataaccat gttgatgacc tgtggaacgc ggggcaaagc cgatcgccaa accgtaagat
+     4081 ccaatagtag agaaaaaact gctataggcg gtttggtagg taggaagccc gggctgtaat
+     4141 cttcgattca gcgtcgggta
+//

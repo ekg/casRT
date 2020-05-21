@@ -1,0 +1,226 @@
+LOCUS       NZ_CM001632             4418 bp    DNA     linear   CON 09-DEC-2019
+DEFINITION  Arthrospira platensis C1 chromosome, whole genome shotgun sequence.
+ACCESSION   NZ_CM001632 REGION: 4564989..4569406
+VERSION     NZ_CM001632.1  GI:423061881
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN02470135
+            Assembly: GCF_000307915.1
+KEYWORDS    WGS; RefSeq.
+SOURCE      Arthrospira platensis C1
+  ORGANISM  Arthrospira platensis C1
+            Bacteria; Cyanobacteria; Oscillatoriophycideae; Oscillatoriales;
+            Microcoleaceae; Arthrospira.
+REFERENCE   1  (bases 1 to 4418)
+  AUTHORS   Cheevadhanarak,S., Paithoonrangsarid,K., Prommeenate,P.,
+            Kaewngam,W., Musigkain,A., Tragoonrung,S., Tabata,S., Kaneko,T.,
+            Chaijaruwanich,J., Sangsrakru,D., Tangphatsornruang,S.,
+            Chanprasert,J., Tongsima,S., Kusonmano,K., Jeamton,W., Dulsawat,S.,
+            Klanchui,A., Vorapreeda,T., Chumchua,V., Khannapho,C.,
+            Thammarongtham,C., Plengvidhya,V., Subudhi,S., Hongsthong,A.,
+            Ruengjitchatchawalya,M., Meechai,A., Senachak,J. and
+            Tanticharoen,M.
+  TITLE     Draft genome sequence of Arthrospira platensis C1 (PCC9438)
+  JOURNAL   Stand Genomic Sci 6 (1), 43-53 (2012)
+   PUBMED   22675597
+REFERENCE   2  (bases 1 to 4418)
+  AUTHORS   Cheevadhanarak,S., Paithoonrangsarid,K., Prommeenate,P.,
+            Kaewngam,W., Musigkain,A., Tragoonrung,S., Tabata,S., Kaneko,T.,
+            Chaijaruwanich,J., Sangsrakru,D., Tangphatsornruang,S.,
+            Chanprasert,J., Tongsima,S., Kusonmano,K., Jeamton,W., Dulsawat,S.,
+            Klanchui,A., Vorapreeda,T., Chumchua,V., Khannapho,C.,
+            Thammarongtham,C., Plengvidhya,V., Subudhi,S., Hongsthong,A.,
+            Ruengjitchatchawalya,M., Meechai,A., Senachak,J. and
+            Tanticharoen,M.
+  TITLE     Draft genome sequence of Arthrospira platensis C1 (PCC9438)
+  JOURNAL   Stand Genomic Sci 6 (1), 43-53 (2012)
+   PUBMED   22675597
+REFERENCE   3  (bases 1 to 4418)
+  AUTHORS   Cheevadhanarak,S., Paithoonrangsarid,K., Prommeenate,P.,
+            Kaewngam,W., Musigkain,A., Tragoonrung,S., Tabata,S., Kaneko,T.,
+            Chaijaruwanich,J., Sangsrakru,D., Tangphatsornruang,S.,
+            Chanprasert,J., Thongsima,S., Kusolmano,K., Jeamton,W.,
+            Dulsawat,S., Klanchui,A., Vorapreeda,T., Chumchua,V., Khannapho,C.,
+            Thammarongtham,C., Plengvidhya,V., Subudhi,S., Hongsthong,A.,
+            Ruengjitchatchawalya,M., Meechai,A., Senachak,J. and
+            Tanticharoen,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-AUG-2011) School of Bioresources and Technology, King
+            Mongkut's University of Technology Thonburi, 49 Soi Teintale 25
+            Bangkuntien-Chaitale Rd., Bangkuntien, Bangkok 10150, Thailand
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            CM001632.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            Source DNA available from Prof. Dr. Avigad Vonshak at the Jacob
+            Blaustein Institute for Desert Research at Sede Boqer, Ben-Gurion
+            University of the Negev, Israel.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: Newbler v. 2.3
+            Genome Coverage       :: 28x
+            Sequencing Technology :: Sanger; 454 GS FLX Titanium
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 12/07/2019 12:26:50
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.10
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 5,521
+            CDSs (total)                      :: 5,472
+            Genes (coding)                    :: 4,845
+            CDSs (with protein)               :: 4,845
+            Genes (RNA)                       :: 49
+            rRNAs                             :: 2, 2, 2 (5S, 16S, 23S)
+            complete rRNAs                    :: 2, 2, 2 (5S, 16S, 23S)
+            tRNAs                             :: 39
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 627
+            CDSs (without protein)            :: 627
+            Pseudo Genes (ambiguous residues) :: 1 of 627
+            Pseudo Genes (frameshifted)       :: 298 of 627
+            Pseudo Genes (incomplete)         :: 232 of 627
+            Pseudo Genes (internal stop)      :: 207 of 627
+            Pseudo Genes (multiple problems)  :: 101 of 627
+            CRISPR Arrays                     :: 5
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4418
+                     /organism="Arthrospira platensis C1"
+                     /mol_type="genomic DNA"
+                     /strain="C1"
+                     /db_xref="taxon:459495"
+     gene            complement(86..208)
+                     /locus_tag="SPLC1_RS28530"
+     CDS             complement(86..208)
+                     /locus_tag="SPLC1_RS28530"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_006616580.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Photosystem II reaction center X protein"
+                     /protein_id="WP_071533658.1"
+                     /db_xref="GI:1101983700"
+                     /translation="MTPSLMNFFYSLLAGILIIVVPATVGLIFISQKDKIIRRS"
+     gene            complement(433..1596)
+                     /locus_tag="SPLC1_RS19745"
+                     /old_locus_tag="SPLC1_S490430"
+     CDS             complement(433..1596)
+                     /locus_tag="SPLC1_RS19745"
+                     /old_locus_tag="SPLC1_S490430"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_015203422.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase"
+                     /protein_id="WP_046319790.1"
+                     /db_xref="GI:809069838"
+                     /translation="MDEAVRTVQFIRNQAIRYWMDNQGTGQNDLQKLCAQLAKEFPFA
+                     AELNSMARQASAERAWSAISRFYENCKKGIPGKKGFPSFKKNNRSVEYKTSGWKLDSN
+                     RKAITFTDKKGIGRLKLKGTRDLHFYPIEQIKRVRLVKRADGYYVQFCIRVERTEFVE
+                     PSGRAIGLDVGLKEFYTDSNGETVGNPRHLRKSESRLKQSQRTVSRRKKGGQNRAKAK
+                     VVLGKRHLKISRQRKDLAVKLARCVIQSNDLVAYEDLRIRNMVRNHSLAKSISDASWY
+                     QFRVWLEYLGKVFGKSTIAVPPHRTSQECSRCGVIVQKTLSTRTHVCRCGCVMDRDYN
+                     AARNILSRGLSTVGHTGTLALDASNASGESTSTLAGAILSEQVGSLSEESPSL"
+     gene            complement(1649..3458)
+                     /gene="ltrA"
+                     /locus_tag="SPLC1_RS19750"
+                     /pseudo
+     CDS             complement(1649..3458)
+                     /gene="ltrA"
+                     /locus_tag="SPLC1_RS19750"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_006668216.1"
+                     /note="frameshifted; internal stop; Derived by automated
+                     computational analysis using gene prediction method:
+                     Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="group II intron reverse transcriptase/maturase"
+ORIGIN      
+        1 acggttgggg gtggaggggg aatagcgatc gcccctagcc ccccataaac cccaatttag
+       61 ctaaaaatcg gctcctgtca agtttctaag aacgacggat gattttatcc ttctggctaa
+      121 taaagattaa cccaacagtt gccgggacga caatgatcag gataccagcc agcaagctat
+      181 agaagaaatt catcaatgaa ggtgtcatct taatcagatc cttagagtgc aagtgcagat
+      241 tatattttta ttattgtaaa ctacccgacg ctgaatcgaa gattacagcc cgggcttcct
+      301 acctaccaaa ccgcctatag cagttttttc tctactattt gatcttacgg tttggcgatc
+      361 ggctttgccc cgcgttccac aggtcatcaa catggttatc actatttgcc atgtcatttg
+      421 acactccccg cgctaaagcg acggggattc ttcactcaac gagccaactt gctcagacag
+      481 gattgctcca gccaaagtag aggtcgattc tcctgaagcg ttgcttgcgt ctagcgccaa
+      541 agttccggta tgccctaccg tactcaatcc ccgactaagg atgtttctcg ctgcattata
+      601 gtccctgtcc atcacacatc cacatcgaca aacatgagtt cgagtggata aagtcttctg
+      661 cacaatgaca ccgcagcgag agcattcctg gcttgtcctg tggggtggaa cagcaatagt
+      721 gctcttgccg aacaccttgc ccaaatattc caaccacacc ctaaactgat accaggaagc
+      781 gtcgctaatc gatttagcaa ggctgtgatt tcgcaccata ttcctgattc tcaaatcttc
+      841 ataggctacc aagtcgttag actggattac gcatcttgcc aacttcacag ccaaatcttt
+      901 acgctgccta cttatcttga gatggcgctt gcctagaacc accttggcct tggctcgatt
+      961 ctgaccccct ttcttccttc tggaaacagt gcgctgcgac tgctttagtc gtgattcact
+     1021 tttcctgaga tgccgggggt ttccaactgt ttcaccgttg ctatcggtgt agaactcttt
+     1081 gagtccaaca tccaagccga tggctcgacc agagggttca acaaattcag tccgttctac
+     1141 acgaatacag aactgaacat agtagccatc ggctcttttg acgaggcgaa ctcgcttaat
+     1201 ctgctctatt ggatagaaat gcagatcacg agtgcctttg agctttagtc taccaatgcc
+     1261 cttcttgtcg gtgaaggtga ttgccttgcg attcgagtct aacttccacc cagaggtttt
+     1321 gtactctacc gagcggttat ttttcttaaa agagggaaac cctttctttc cggggatacc
+     1381 cttcttgcag ttttcgtaga atcgagagat tgcactccag gctctttctg cggatgcttg
+     1441 ccgagccatg ctgttgagtt cagcagcaaa agggaattcc ttagcaagtt gagcacatag
+     1501 cttttgcagg tcgttctgtc cagttccctg gttgtccatc caataacgga tggcttggtt
+     1561 tcggatgaac tgaactgttc tcaccgcctc gtctatggcg ctgaattgct ggggttttcc
+     1621 gtaggctttg aactctagta cagttaaact aagccgggta gtcgcccacc cgactcgtct
+     1681 ccaaaaccgg acttgagact ttaacctcat ccggctcctc gataacttgg ctcttgtcat
+     1741 gagaaccgtg actaccatct aaggccgtct taacgtcgtg acagtgacgg tgaagaagtt
+     1801 ggaggttctt gtatgtatcc tttaagcctt tcgacttagg gatgatgtgg tcgttttcca
+     1861 tcacgtcttc tccccggaag ttaatccgca agtgggcgca ctcccctttt tgtttcttca
+     1921 agagctttga cacccttgta ggaattcctg gttgttggcc cattcttgta ctccagtatt
+     1981 taagattacc gtcgtatgga ctggtttcgc ctttgacctt ggtgtggtgg ataattggtg
+     2041 tttctgcatg gcttcgtaac tgcatcgggt ttgactccgt gcgagtcgcg aaagcccaat
+     2101 ttctacttcc aatcttccgc caatatttcc gagctaccca tttcccagtc ttatttgagt
+     2161 gtcttctttt tccccatctg gctaatttcc aatagaggag ttcgtccaat tgggagaata
+     2221 tttgttttga caccgcagtt gagtagtagt tactccatcc cctgatgacc ggattaaggt
+     2281 gcctaattag cccctcttgt ggtgcgacga tgtgagaatc tactatctgt ttcaatttct
+     2341 ggtaatggga cttgacagcc ttcttgctgg gtttgatgat ggttttgaat catagaggct
+     2401 cattatgggt attcttcccg gttttgtatt ggccaacttt atgttgtcgg atgttaaaac
+     2461 cgagaaaatc gaatcccggg ttatcacact cttgagtgtg agtgatatga gtttttttcc
+     2521 tctttgagtt ctaatcccat ccctttcaac cattcctgga tgtggtcacg acatttctcg
+     2581 attaccccaa ggttttcgtg aatgataacg aagtcatctg cgtatctgat taaggatact
+     2641 gctcgtcttc gattggtacg actacctttt ccaggtagtt gttccactaa ttccttgatg
+     2701 ctctcttcca tgccgtggag ggcaatattt gccagtaggg gacttattac gcctccctgt
+     2761 ggtgtcccct catcggtcgg gaatagctgt ccagaatcta ttaccccagc ttttaaccat
+     2821 gcccggattt gtcgtctgat ggcgggtatc gtttcgagct tgtccaatag tttgccatgg
+     2881 tcaatcctgt caaagcattt agcaatgtcg gcgtctaata cccatttagg tttgcaccta
+     2941 atggcattga atattgcccc gattgcgtcc tgacaagacc tacctggtct gaacccgtat
+     3001 gagttaggtt caaatttggc ttcccattgg ggttcgagtg ccattttgac taaggcttgt
+     3061 aatgcgcggt cgtatattgt gggtattcct aatggtctct tttcgtctct tcccggtttg
+     3121 ggaatccata cccgacgtgc gggtttggct tttgagttga gcttcaattg acctacaagg
+     3181 cgcatacgtg cttttgggga tagggattta accccatcca ctcctgccgt ctttttgcct
+     3241 tgattatctt gtgtaacccg acgagccgct aacattctgg ctgaccagct cttcagcagt
+     3301 aacttttgga gtccgcgaac tgttttgatg tcaccacgac gttcggcttg atgaatccgt
+     3361 ttttgcaggc ggaagactcg acgttcgatt gatttccaat caacatcttg ccattccagc
+     3421 accaccgtat tgtttccaat cgttttgggc atttccatgc tactaaggct ccatcttcca
+     3481 agttatcgtg agtccgtcag catatcctgg gcattacccc agacattcgc ttctgactca
+     3541 atccttcctc acgttggctt gcggatggtt tcctactcag gatttcgacc ttattcctga
+     3601 gagcaacaac ggaggttact tcgttccaga tatcgattga ttgtgccttt aggatgccac
+     3661 tttacgccgg gtttatttgg gtgtatgaga ggtctgtatg atatcagcct cccctttatc
+     3721 ctttagccat tttggctcct gcgtgtcagt ctaattttcg caggtttata gtaacgacgc
+     3781 tttcggacgt gacttcgttt tctatccatg gacacttgct caagagggcg cccgtttaga
+     3841 cccaggctta ctccctttca tccccgcttc acaggttgat gaccagtcgc tactgtgggg
+     3901 gacgtgcttt cacgcgatac acctcgcggg atggactttc accaccatcg atatctagtt
+     3961 gtcaaggttc aatgcccttt gggggctgtg ttccttgccc cgcctacgtt tcaggaattt
+     4021 tccttctact tttggcggga acgaatcgca catcatggct atatccatgc acacaatata
+     4081 agccgtcttg gcaggacggc gactcaagtc gccgtgtcgt ctttcatccc cgcgctaaag
+     4141 cgacggcgct ttcagactcc cgcactattg tcgtaatgtc atgtgcatct atcataccat
+     4201 caaccatgaa tatgtcaatt agcccatcaa actccctttt agttacagtt tgttcaccag
+     4261 tcgcttaata tattgccctc accctaaatc tggatcccat agagggagag ggactttgag
+     4321 aggtgatcag atgatttctg aacaggctgt aacttggcaa ccactgccaa tttagggggc
+     4381 tggctaaccc ctaaaatggg aaaaggttaa caaacttc
+//

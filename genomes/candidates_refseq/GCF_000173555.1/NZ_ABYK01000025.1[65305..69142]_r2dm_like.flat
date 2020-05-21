@@ -1,0 +1,220 @@
+LOCUS       NZ_ABYK01000025         3838 bp    DNA     linear   CON 20-JAN-2020
+DEFINITION  Arthrospira maxima CS-328 ctg50, whole genome shotgun sequence.
+ACCESSION   NZ_ABYK01000025 REGION: 65305..69142
+VERSION     NZ_ABYK01000025.1  GI:209525908
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN02441783
+            Assembly: GCF_000173555.1
+KEYWORDS    WGS; RefSeq.
+SOURCE      Arthrospira maxima CS-328
+  ORGANISM  Arthrospira maxima CS-328
+            Bacteria; Cyanobacteria; Oscillatoriophycideae; Oscillatoriales;
+            Microcoleaceae; Limnospira.
+REFERENCE   1  (bases 1 to 3838)
+  AUTHORS   Carrieri,D, Ananyev,G, Lenz,O, Bryant,DA and Dismukes,GC.
+  TITLE     Contribution of a sodium ion gradient to energy conservation during
+            fermentation in the cyanobacterium Arthrospira (Spirulina) maxima
+            CS-328
+  JOURNAL   Appl. Environ. Microbiol. 77 (20), 7185-7194 (2011)
+   PUBMED   21890670
+REFERENCE   2  (bases 1 to 3838)
+  AUTHORS   Carrieri,D., Ananyev,G., Lenz,O., Bryant,D.A. and Dismukes,G.C.
+  TITLE     Contribution of a sodium ion gradient to energy conservation during
+            fermentation in the cyanobacterium Arthrospira (Spirulina) maxima
+            CS-328
+  JOURNAL   Appl. Environ. Microbiol. 77 (20), 7185-7194 (2011)
+   PUBMED   21890670
+REFERENCE   3  (bases 1 to 3838)
+  AUTHORS   Lucas,S., Copeland,A., Lapidus,A., Glavina del Rio,T., Tice,H.,
+            Bruce,D., Goodwin,L., Pitluck,S., Larimer,F., Land,M.L., Hauser,L.
+            and Bryant,D.A.
+  CONSRTM   US DOE Joint Genome Institute (JGI-PGF)
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-OCT-2008) US DOE Joint Genome Institute, 2800
+            Mitchell Drive B100, Walnut Creek, CA 94598-1698, USA
+REFERENCE   4  (bases 1 to 3838)
+  AUTHORS   Lucas,S., Copeland,A., Lapidus,A., Glavina del Rio,T., Tice,H.,
+            Bruce,D., Goodwin,L., Pitluck,S., Larimer,F., Land,M.L., Hauser,L.
+            and Bryant,D.A.
+  CONSRTM   US DOE Joint Genome Institute (JGI-PGF)
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-OCT-2008) US DOE Joint Genome Institute, 2800
+            Mitchell Drive B100, Walnut Creek, CA 94598-1698, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            ABYK01000025.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            URL -- http://www.jgi.doe.gov
+            JGI Project ID: 4043125
+            Source DNA and Organism available from Donald A. Bryant
+            (dab14@psu.edu)
+            Contacts: Donald A. Bryant (dab14@psu.edu)
+                 David Bruce (microbes@cuba.jgi-psf.org)
+            Whole genome sequencing and draft assembly at JGI-PGF
+            Annotation by JGI-ORNL
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this
+            project in a timely fashion and we welcome collaborative
+            interaction on the project and analysis.
+            (http://www.genome.gov/page.cfm?pageID=10506376).
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 01/20/2020 14:18:29
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.10
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 5,613
+            CDSs (total)                      :: 5,568
+            Genes (coding)                    :: 4,869
+            CDSs (with protein)               :: 4,869
+            Genes (RNA)                       :: 45
+            rRNAs                             :: 2, 1, 2 (5S, 16S, 23S)
+            complete rRNAs                    :: 2, 1, 1 (5S, 16S, 23S)
+            partial rRNAs                     :: 1 (23S)
+            tRNAs                             :: 36
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 699
+            CDSs (without protein)            :: 699
+            Pseudo Genes (ambiguous residues) :: 0 of 699
+            Pseudo Genes (frameshifted)       :: 266 of 699
+            Pseudo Genes (incomplete)         :: 344 of 699
+            Pseudo Genes (internal stop)      :: 228 of 699
+            Pseudo Genes (multiple problems)  :: 124 of 699
+            CRISPR Arrays                     :: 9
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3838
+                     /organism="Arthrospira maxima CS-328"
+                     /mol_type="genomic DNA"
+                     /submitter_seqid="ctg50"
+                     /strain="CS-328"
+                     /db_xref="taxon:513049"
+     gene            794..2603
+                     /gene="ltrA"
+                     /locus_tag="AMAXDRAFT_RS15465"
+                     /pseudo
+     CDS             794..2603
+                     /gene="ltrA"
+                     /locus_tag="AMAXDRAFT_RS15465"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_006668216.1"
+                     /note="frameshifted; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="group II intron reverse transcriptase/maturase"
+     gene            2656..3819
+                     /locus_tag="AMAXDRAFT_RS15470"
+                     /old_locus_tag="AmaxDRAFT_3327"
+     CDS             2656..3819
+                     /locus_tag="AMAXDRAFT_RS15470"
+                     /old_locus_tag="AmaxDRAFT_3327"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_015203422.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase"
+                     /protein_id="WP_046319790.1"
+                     /db_xref="GI:809069838"
+                     /translation="MDEAVRTVQFIRNQAIRYWMDNQGTGQNDLQKLCAQLAKEFPFA
+                     AELNSMARQASAERAWSAISRFYENCKKGIPGKKGFPSFKKNNRSVEYKTSGWKLDSN
+                     RKAITFTDKKGIGRLKLKGTRDLHFYPIEQIKRVRLVKRADGYYVQFCIRVERTEFVE
+                     PSGRAIGLDVGLKEFYTDSNGETVGNPRHLRKSESRLKQSQRTVSRRKKGGQNRAKAK
+                     VVLGKRHLKISRQRKDLAVKLARCVIQSNDLVAYEDLRIRNMVRNHSLAKSISDASWY
+                     QFRVWLEYLGKVFGKSTIAVPPHRTSQECSRCGVIVQKTLSTRTHVCRCGCVMDRDYN
+                     AARNILSRGLSTVGHTGTLALDASNASGESTSTLAGAILSEQVGSLSEESPSL"
+     gene            complement(3836..>3838)
+                     /locus_tag="AMAXDRAFT_RS15475"
+                     /old_locus_tag="AmaxDRAFT_3328"
+     CDS             complement(3836..>3838)
+                     /locus_tag="AMAXDRAFT_RS15475"
+                     /old_locus_tag="AmaxDRAFT_3328"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_006619778.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DUF4079 domain-containing protein"
+                     /protein_id="WP_006619778.1"
+                     /db_xref="GI:493669436"
+                     /translation="MDLPIPDTIKPYLNFIHPAIMWVLLALTIYAMYLGVQIRRTRSS
+                     EGEQKKELIKGKFNSKHYQVGSLILALMVLGSIGGMSVTYINNHKLFVGPHLLVGLGM
+                     TGMVAVSASLSPLMQKGVNWARYTHIGLNTVLLGLFLWQALTGVEILQRIISNM"
+ORIGIN      
+        1 tgggaaactg tcacgcacgg ttttgtatgg gagggggtag aggcgactct actctcgacc
+       61 cctactacta cttacttacg acaatagtgc gggagtctga aagccccgtc gctttagcgc
+      121 ggggatgaaa gacgacacgg cgacttgagt cgccgtcctg ccaagacggc ttatattgtg
+      181 tgcatggata tagccatgat gtgcgattcg ttcccgccaa aagtagaagg aaaattcctg
+      241 aaacgtaggc agggcaagga acacagcccc caaagggcat tgaaccttga caactagata
+      301 tcgatggtgg tgaaagtcca tcccgcgagg tgtatcgcgt gaaagcacgt cccccacagt
+      361 agcgactggt catcaacctg tgaagcgggg atgaaaggga gtaagcctgg gtctaaacgg
+      421 gcgccctctt gagcaagtgt ccatggatag aaaacgaagt cacgtccgaa agcgtcgtta
+      481 ctataaacct gcgaaaatta gactgacacg caggagccaa aatggctaaa ggataaaggg
+      541 gaggctgata tcatacagac ctctcataca cccaaataaa cccggcgtaa agtggcatcc
+      601 taaaggcaca atcaatcgat atctggaacg aagtaacctc cgttgttgct ctcaggaata
+      661 aggtcgaaat cctgagtagg aaaccatccg caagccaacg tgaggaagga ttgagtcaga
+      721 agcgaatgtc tggggtaatg cccaggatat gctgacggac tcacgataac ttggaagatg
+      781 gagccttagt agcatggaaa tgcccaaaac gattggaaac aatacggtgg tgctggaatg
+      841 gcaagatgtt gattggaaat caatcgaacg tcgagtcttc cgcctgcaaa aacggattca
+      901 tcaagccgaa cgtcgtggtg acatcaaaac agttcgcgga ctccaaaagt tactgctgaa
+      961 gagctggtca gccagaatgt tagcggctcg tcgggttaca caagataatc aaggcaaaaa
+     1021 gacggcagga gtggatgggg ttaaatccct atccccaaaa gcacgtatgc gccttgtagg
+     1081 tcaattgaag ctcaactcaa aagccaaacc cgcacgtcgg gtatggattc ccaaaccggg
+     1141 aagagacgaa aagagaccat taggaatacc cacaatatac gaccgcgcat tacaagcctt
+     1201 agtcaaaatg gcactcgaac cccaatggga agccaaattt gaacctaact catacgggtt
+     1261 cagaccaggt aggtcttgtc aggacgcaat cggggcaata ttcaatgcca ttaggtgcaa
+     1321 acctaaatgg gtattagacg ccgacattgc taaatgcttt gacaggattg accatggcaa
+     1381 actattggac aagctcgaaa cgatacccgc catcagacga caaatccggg catggttaaa
+     1441 agctggggta atagattctg gacagctatt cccgaccgat gaggggacac cacagggagg
+     1501 cgtaataagt cccctactgg caaatattgc cctccacggc atggaagaga gcatcaagga
+     1561 attagtggaa caactacctg gaaaaggtag tcgtaccaat cgaagacgag cagtatcctt
+     1621 aatcagatac gcagatgact tcgttatcat tcacgaaaac cttggggtaa tcgagaaatg
+     1681 tcgtgaccac atccaggaat ggttgaaagg gatgggatta gaactcaaag aggaaaaaaa
+     1741 ctcatatcac tcacactcaa gagtgtgata acccgggatt cgattttctc ggttttaaca
+     1801 tccgacaaca taaagttggc aaatacaaaa ccgggaagaa tacccataat gagcctctag
+     1861 gattcaaaac catcatcaaa cccagcaaga aggctgtcaa gtcccattac cagaaattga
+     1921 aacagatagt agattctcac atcgtcgcac cacaagaggg gctaattagg caccttaatc
+     1981 cggtcatcag gggatggagt aactactact caactgcggt gtcaaaacaa atattctccc
+     2041 aattggacga actcctctat tggaaattag ccagatgggg aaaaagaaga cactcaaata
+     2101 agactgggaa atgggtagct cggaaatatt ggcggaagat tggaagtaga aattgggctt
+     2161 tcgcgactcg cacggagtca aacccgatgc agttacgaag ccatgcagaa acaccaatta
+     2221 tccaccacac caaggtcaaa ggcgaagcca gtccatacga cggtaatctt aaatactgga
+     2281 gtacaagaat gggcaaacaa ccaggaattc ctacaagggt gtcaaagctc ttgaagaaac
+     2341 aaaaagggaa gtgcgcccac tgcggactaa cattccggga agaagacgtg atggaaatcg
+     2401 accacatcat ccctaagtcg aaaggcggaa aggatacata caagaacctc caacttcttc
+     2461 accgtcactg tcacgacgtt aagacggcct tagatggtag tcacggttct catgacaaga
+     2521 gccaagttat cgaggagccg gatgaggtta aagtctcaag tccggttttg gagacgagtc
+     2581 gggtgggcga ctacccggct tagtttaact gtactagagt tcaaagccta cggaaaaccc
+     2641 cagcaattca gcgccataga cgaggcggtg agaacagttc agttcatccg aaaccaagcc
+     2701 atccgttatt ggatggacaa ccagggaact ggacagaacg acctgcaaaa gctatgtgct
+     2761 caacttgcta aggaattccc ttttgctgct gaactcaaca gcatggctcg gcaagcatcc
+     2821 gcagaaagag cctggagtgc aatctctcga ttctacgaaa actgcaagaa gggtatcccc
+     2881 ggaaagaaag ggtttccctc ttttaagaaa aataaccgct cggtagagta caaaacctct
+     2941 gggtggaagt tagactcgaa tcgcaaggca atcaccttca ccgacaagaa gggcattggt
+     3001 agactaaagc tcaaaggcac tcgtgatctg catttctatc caatagagca gattaagcga
+     3061 gttcgcctcg tcaaaagagc cgatggctac tatgttcagt tctgtattcg tgtagaacgg
+     3121 actgaatttg ttgaaccctc tggtcgagcc atcggcttgg atgttggact caaagagttc
+     3181 tacaccgata gcaacggtga aacagttgga aacccccggc atctcaggaa aagtgaatca
+     3241 cgactaaagc agtcgcagcg cactgtttcc agaaggaaga aagggggtca gaatcgagcc
+     3301 aaggccaagg tggttctagg caagcgccat ctcaagataa gtaggcagcg taaagatttg
+     3361 gctgtgaagt tggcaagatg cgtaatccag tctaacgact tggtagccta tgaagatttg
+     3421 agaatcagga atatggtgcg aaatcacagc cttgctaaat cgattagcga cgcttcctgg
+     3481 tatcagttta gggtgtggtt ggaatatttg ggcaaggtgt tcggcaagag cactattgct
+     3541 gttccacccc acaggacaag ccaggaatgc tctcgctgcg gtgtcattgt gcagaagact
+     3601 ttatccactc gaactcatgt ttgtcgatgt ggatgtgtga tggacaggga ctataatgca
+     3661 gcgagaaaca tccttagtcg gggattgagt acggtagggc ataccggaac tttggcgcta
+     3721 gacgcaagca acgcttcagg agaatcgacc tctactttgg ctggagcaat cctgtctgag
+     3781 caagttggct cgttgagtga agaatccccg tcgctttagc gcggggagtg tcaaacta
+//
