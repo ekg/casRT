@@ -1,0 +1,89 @@
+# Data report
+#   The sequence info section contains information only on the selected sequences
+#   The Assembly info and stats are for the full genome assembly
+
+# Organism info
+species_name: Euhalothece natronophila Z-M001
+strain: Z-M001
+tax_id: 522448
+
+# Assembly information
+#   A RefSeq assembly (GCF) represents an NCBI-derived copy of a user-submitted
+#   GenBank assembly (GCA). The RefSeq assembly (GCF) and annotation may not
+#   be identical to the GenBank assembly (GCA) and annotation. RefSeq
+#   assemblies (GCF) always have annotation while only a subset of GenBank
+#   assemblies (GCA) have annotation.
+assembly_info:
+  assembly_level: Complete Genome
+  assembly_name: ASM790408v1
+  assembly_type: haploid
+  bioproject: PRJNA224116
+  submission_date: '2019-08-08'
+  GenBank_assm_acc: GCA_007904085.1
+  submitter: Chungnam National Univ.
+  RefSeq_category: representative genome
+  RefSeq_assm_acc: GCF_007904085.1
+
+# Assembly stats
+assembly_stats:
+  total_number_of_chromosomes: 5
+  total_sequence_length: 3524308
+  total_ungapped_length: 3524308
+  number_of_contigs: 5
+  contig_n50: 3326959
+  contig_l50: 1
+  number_of_scaffolds: 5
+  scaffold_n50: 3326959
+  scaffold_l50: 1
+  number_of_component_sequences: 5
+
+# Annotation info
+#   NCBI GFF3 description https://ftp.ncbi.nlm.nih.gov/genomes/README_GFF3.txt
+annotation_info:
+  name: From INSDC submitter
+  source: Chungnam National Univ.
+  release_date: Aug 08, 2019
+  stats:
+    gene_counts:
+      total: 3466
+      protein_coding: 3257
+      non_coding: 54
+      pseudogene: 155
+
+# Sequence information
+sequence_info:
+- chr_name: ANONYMOUS
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CP042326.1
+  assembly_unit: Primary Assembly
+  length: 3326959
+  GenBank_accession: CP042326.1
+- chr_name: pEu1
+  sort_order: 2
+  assigned_molecule_location_type: Plasmid
+  RefSeq_accession: NZ_CP042327.1
+  assembly_unit: Primary Assembly
+  length: 82066
+  GenBank_accession: CP042327.1
+- chr_name: pEu2
+  sort_order: 3
+  assigned_molecule_location_type: Plasmid
+  RefSeq_accession: NZ_CP042328.1
+  assembly_unit: Primary Assembly
+  length: 45552
+  GenBank_accession: CP042328.1
+- chr_name: pEu3
+  sort_order: 4
+  assigned_molecule_location_type: Plasmid
+  RefSeq_accession: NZ_CP042329.1
+  assembly_unit: Primary Assembly
+  length: 44260
+  GenBank_accession: CP042329.1
+- chr_name: pEu4
+  sort_order: 5
+  assigned_molecule_location_type: Plasmid
+  RefSeq_accession: NZ_CP042330.1
+  assembly_unit: Primary Assembly
+  length: 25471
+  GenBank_accession: CP042330.1

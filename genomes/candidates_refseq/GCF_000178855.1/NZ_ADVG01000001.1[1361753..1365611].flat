@@ -1,0 +1,310 @@
+LOCUS       NZ_ADVG01000001         3859 bp    DNA     linear   CON 06-MAY-2020
+DEFINITION  Ktedonobacter racemifer DSM 44963 strain SOSP1-21 Krac_Contig206,
+            whole genome shotgun sequence.
+ACCESSION   NZ_ADVG01000001 REGION: 1361753..1365611
+VERSION     NZ_ADVG01000001.1  GI:298240972
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN02441796
+            Assembly: GCF_000178855.1
+KEYWORDS    WGS; RefSeq.
+SOURCE      Ktedonobacter racemifer DSM 44963
+  ORGANISM  Ktedonobacter racemifer DSM 44963
+            Bacteria; Chloroflexi; Ktedonobacteria; Ktedonobacterales;
+            Ktedonobacteraceae; Ktedonobacter.
+REFERENCE   1  (bases 1 to 3859)
+  AUTHORS   Chang,Y.J., Land,M., Hauser,L., Chertkov,O., Del Rio,T.G.,
+            Nolan,M., Copeland,A., Tice,H., Cheng,J.F., Lucas,S., Han,C.,
+            Goodwin,L., Pitluck,S., Ivanova,N., Ovchinikova,G., Pati,A.,
+            Chen,A., Palaniappan,K., Mavromatis,K., Liolios,K., Brettin,T.,
+            Fiebig,A., Rohde,M., Abt,B., Goker,M., Detter,J.C., Woyke,T.,
+            Bristow,J., Eisen,J.A., Markowitz,V., Hugenholtz,P., Kyrpides,N.C.,
+            Klenk,H.P. and Lapidus,A.
+  TITLE     Non-contiguous finished genome sequence and contextual data of the
+            filamentous soil bacterium Ktedonobacter racemifer type strain
+            (SOSP1-21)
+  JOURNAL   Stand Genomic Sci 5 (1), 97-111 (2011)
+   PUBMED   22180814
+REFERENCE   2  (bases 1 to 3859)
+  AUTHORS   Chang,YJ, Land,M, Hauser,L, Chertkov,O, Del Rio,TG, Nolan,M,
+            Copeland,A, Tice,H, Cheng,JF, Lucas,S, Han,C, Goodwin,L, Pitluck,S,
+            Ivanova,N, Ovchinikova,G, Pati,A, Chen,A, Palaniappan,K,
+            Mavromatis,K, Liolios,K, Brettin,T, Fiebig,A, Rohde,M, Abt,B,
+            Goker,M, Detter,JC, Woyke,T, Bristow,J, Eisen,JA, Markowitz,V,
+            Hugenholtz,P, Kyrpides,NC, Klenk,HP and Lapidus,A.
+  TITLE     Non-contiguous finished genome sequence and contextual data of the
+            filamentous soil bacterium Ktedonobacter racemifer type strain
+            (SOSP1-21)
+  JOURNAL   Stand Genomic Sci 5 (1), 97-111 (2011)
+   PUBMED   22180814
+REFERENCE   3  (bases 1 to 3859)
+  AUTHORS   Lucas,S., Copeland,A., Lapidus,A., Glavina del Rio,T., Dalin,E.,
+            Tice,H., Bruce,D., Goodwin,L., Pitluck,S., Kyrpides,N.,
+            Mavromatis,K., Ivanova,N., Chertkov,O., Brettin,T., Detter,J.C.,
+            Han,C., Land,M., Hauser,L., Markowitz,V., Cheng,J.-F.,
+            Hugenholtz,P., Woyke,T., Wu,D., Jando,J., Schneider,S.,
+            Sikorski,J., Klenk,H.-P. and Eisen,J.A.
+  CONSRTM   US DOE Joint Genome Institute (JGI-PGF)
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-MAY-2010) US DOE Joint Genome Institute, 2800
+            Mitchell Drive, Walnut Creek, CA 94598-1698, USA
+REFERENCE   4  (bases 1 to 3859)
+  AUTHORS   Lucas,S., Copeland,A., Lapidus,A., Glavina del Rio,T., Dalin,E.,
+            Tice,H., Bruce,D., Goodwin,L., Pitluck,S., Kyrpides,N.,
+            Mavromatis,K., Ivanova,N., Chertkov,O., Brettin,T., Detter,J.C.,
+            Han,C., Land,M., Hauser,L., Markowitz,V., Cheng,J.-F.,
+            Hugenholtz,P., Woyke,T., Wu,D., Jando,J., Schneider,S.,
+            Sikorski,J., Klenk,H.-P. and Eisen,J.A.
+  CONSRTM   US DOE Joint Genome Institute (JGI-PGF)
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-MAY-2010) US DOE Joint Genome Institute, 2800
+            Mitchell Drive, Walnut Creek, CA 94598-1698, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            ADVG01000001.
+            URL -- http://www.jgi.doe.gov
+            JGI Project ID: 4083037
+            Source DNA and organism available from Hans-Peter Klenk at the
+            German Collection of Microorganisms and Cell Cultures (DSMZ)
+            (hans-peter.klenk@dsmz.de)
+            Contacts: Jonathan A. Eisen (jaeisen@ucdavis.edu)
+                      Tanja Woyke (microbe@cuba.jgi-psf.org)
+            Whole genome sequencing and draft assembly at JGI-PGF
+            Finishing done by JGI-LANL
+            Annotation by JGI-ORNL and JGI-PGF
+            We are labeling this project as Permanent Draft. No additional work
+            on this project is planned at this time.
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this
+            project in a timely fashion and we welcome collaborative
+            interaction on the project and analysis.
+            (http://www.genome.gov/page.cfm?pageID=10506376).
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 05/04/2020 05:39:02
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.11
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 11,931
+            CDSs (total)                      :: 11,842
+            Genes (coding)                    :: 10,873
+            CDSs (with protein)               :: 10,873
+            Genes (RNA)                       :: 88
+            rRNAs                             :: 7, 8, 8 (5S, 16S, 23S)
+            complete rRNAs                    :: 7, 8, 8 (5S, 16S, 23S)
+            tRNAs                             :: 62
+            ncRNAs                            :: 3
+            Pseudo Genes (total)              :: 969
+            CDSs (without protein)            :: 969
+            Pseudo Genes (ambiguous residues) :: 0 of 969
+            Pseudo Genes (frameshifted)       :: 478 of 969
+            Pseudo Genes (incomplete)         :: 514 of 969
+            Pseudo Genes (internal stop)      :: 147 of 969
+            Pseudo Genes (multiple problems)  :: 158 of 969
+            CRISPR Arrays                     :: 6
+            ##Genome-Annotation-Data-END##
+            
+            ##Metadata-START##
+            Organism Display Name :: Ktedonobacter racemifer SOSP1-21, DSM
+                                     44963
+            Culture Collection ID :: DSM 44963
+            GOLD Stamp ID         :: Gi02261
+            Isolation Site        :: Soil sample collected in Gerenzano Italy
+            Isolation Country     :: Italy
+            Oxygen Requirement    :: Aerobe
+            Cell Shape            :: Filament-shaped
+            Motility              :: Nonmotile
+            Sporulation           :: Sporulating
+            Temperature Range     :: Mesophile
+            Temperature Optimum   :: 28 - 33C
+            pH                    :: 4.8 - 6.8
+            Gram Staining         :: gram+
+            Biotic Relationship   :: Free living
+            Diseases              :: None
+            Habitat               :: Soil
+            Phenotypes            :: Acidophile
+            ##Metadata-END##
+FEATURES             Location/Qualifiers
+     source          1..3859
+                     /organism="Ktedonobacter racemifer DSM 44963"
+                     /mol_type="genomic DNA"
+                     /submitter_seqid="Krac_Contig206"
+                     /strain="SOSP1-21"
+                     /isolation_source="soil sample"
+                     /culture_collection="DSM:44963"
+                     /type_material="type strain of Ktedonobacter racemifer"
+                     /db_xref="taxon:485913"
+                     /country="Italy: Gerenzano"
+     gene            complement(<1..4)
+                     /gene="pyrF"
+                     /locus_tag="KRAC_RS06020"
+                     /old_locus_tag="Krac_10511"
+     CDS             complement(<1..4)
+                     /gene="pyrF"
+                     /locus_tag="KRAC_RS06020"
+                     /old_locus_tag="Krac_10511"
+                     /EC_number="4.1.1.23"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_011767381.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="orotidine-5'-phosphate decarboxylase"
+                     /protein_id="WP_007905285.1"
+                     /db_xref="GI:495180495"
+                     /translation="MNFVEKLLTASRRQESLLCVGLDPEPGRLPASLRQEPVMSAIVR
+                     FCQDIIAATAPYACAFKPNLAFFEVLGPAGLQVFQEVVQAVPAHIPVIADAKRGDIGN
+                     TARAYAKTFFETYGCDAVTINPYMGRDSVAPFLEYRDKGTLLLCRTSNPGARDIQDLR
+                     VQDEGGTLRHLYEVVAQLVQSWNTAGNCGLVVGATYPEELRQIRAICAQMPILIPGIG
+                     AQGGDLEAAVQAGVDAQGELAIISSSRAILYASEGEDFAQAAAAEARRTRDQINAARQ
+                     KKD"
+     gene            complement(74..1237)
+                     /gene="tnpB"
+                     /locus_tag="KRAC_RS06025"
+                     /old_locus_tag="Krac_10512"
+     CDS             complement(74..1237)
+                     /gene="tnpB"
+                     /locus_tag="KRAC_RS06025"
+                     /old_locus_tag="Krac_10512"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_007922534.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="IS200/IS605 family element transposase accessory
+                     protein TnpB"
+                     /protein_id="WP_040442902.1"
+                     /db_xref="GI:750138824"
+                     /translation="MGRPMRLVYPTPQQQQMLAQTFGCCRFVYNWALRKKTDAYYKDH
+                     QRLYYKELSILLTDLKKQEETHWLNEVSSVPLQQALRHLDKAFLNFFEGRAKYPTFHK
+                     KRNTQSATYTANAFTWRNGSLTLAKMSEPLQIVWSRPLPNEAIPSSVTITKDCADRYF
+                     ISLLVEEEIAHLPCNEKAIGADLGLKSFVVLSTGEVVGNPRFFHKDEKNLAKAQRRHA
+                     KKKKGSKNRDKARLKVARIHARIADRRRDFLHKLSTRLIRENQTMCVESLQVKNMVKH
+                     PTLSKAISDVGWSEFVSQLEYKADWYGRNLVKIDKWYPSSKRCFECGHILTSLPLDIR
+                     QWDCPECGVHHDRDINAAKNIVTVGLTVLACGESIRPGRVSSRSGKTQRSRKP"
+     gene            complement(1216..3021)
+                     /gene="ltrA"
+                     /locus_tag="KRAC_RS06030"
+                     /old_locus_tag="Krac_10513"
+     CDS             complement(1216..3021)
+                     /gene="ltrA"
+                     /locus_tag="KRAC_RS06030"
+                     /old_locus_tag="Krac_10513"
+                     /EC_number="2.7.7.49"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_007920543.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="group II intron reverse transcriptase/maturase"
+                     /protein_id="WP_007905288.1"
+                     /db_xref="GI:495180498"
+                     /translation="MESRRSSTIANRKAPRIKKKIDPESEAWNKLPWRKFEQHVYRIQ
+                     KRIYRASQRGNQRAVQKLQKLLMKSEAARLLAVRRVSQDNQGKKTAGVDGVKNLKPQQ
+                     RRQVASLIHPKQWPQKVKPVRRVFIPKPGKNEQRPLGIPTMYERGRQCLVKSALEPEW
+                     EARFEVNSYGFRPGRSCHDAIAAIFLDIGKKAKYVLDADIRGCFDNIDQTALLKKLQT
+                     YPRLRQAVQAWLKSGVMTEGEFTPTTSGTPQGGVVSPLLMNIALYGLEEALKGVKRTT
+                     RDKPQMVRYADDLVVFHSTLETILEVKTRINDWLRDMGLELKPSKTRISHTLTPYEGN
+                     VGFEFLGFSIRQYPVGKNRTGTNSQGTPLGFKTIIKPSKEAVKRHIAQMKQQINKRRS
+                     APQGQLIKELSAIIRGWSNYYRTVCSKAEYSRCDYILQQQLWSWAIRRHPNKNRHWIR
+                     QRYWKRGEGQYSIFATSEDYDLRRHDATKIQRHVKVKGAASPYDGNLMYWSQRLKNHP
+                     TTRGTLAMLLLKQQGKCRWCDLQFREGDQIEIDHITPKSEGGGEELSNKCALHRHCHD
+                     QRHGTHNKGHMIEEPSEEKSSCSVLQTSGWGDPCA"
+     gene            complement(3856..>3859)
+                     /locus_tag="KRAC_RS06035"
+                     /old_locus_tag="Krac_10514"
+     CDS             complement(3856..>3859)
+                     /locus_tag="KRAC_RS06035"
+                     /old_locus_tag="Krac_10514"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_006561975.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=3
+                     /transl_table=11
+                     /product="phosphoribosyltransferase"
+                     /protein_id="WP_007905289.1"
+                     /db_xref="GI:495180499"
+                     /translation="MSSDATLMELFEQAGAIITNSHFVYSSGRHSSVYVNKDALYLRP
+                     ELISSLCERMGQPYDPEQIDVVVGPTIGAVILSQWTAYHLTRRKPSGEILAVFAEKGS
+                     DGVDKQFFFGRGYDKFVKGNNVLVVEDILTTGGSARQTIEAVRRYGGNVIGLSVLCNR
+                     GNVGPEQVGGVPIHALVELPLQTYTAEECPFCREGVPVNTELGKGRAFLAKQQAVDAQ
+                     KL"
+ORIGIN      
+        1 tcatcttttt accctcttct atgaattgac atcctcccca tggctaaaag ccaggggatt
+       61 cctagagtca cctctagggt ttcctgcttc gctgagtctt gccagaacga gacgaaaccc
+      121 gtcctggtct tatggactct ccacaggcga ggaccgtgag ccccacggtc acaatattct
+      181 tggcagcgtt gatatcgcgg tcatgatgga caccacattc aggacaatcc cattggcgaa
+      241 tatcaagcgg taaggaggtg agaatatgac cacactcgaa acaccgttta ctggagggat
+      301 accacttgtc gatcttgaca agatttcgac cataccagtc tgccttgtat tcgagctgag
+      361 acacaaactc actccatccc acatcgctga tcgctttgct cagggttggg tgcttgacca
+      421 tatttttgac ctgcaaactc tccacgcaca tcgtttggtt ttcacgaatc aggcgggtag
+      481 agagcttgtg caggaagtca cggcgacgat cagcgatacg agcatgaatg cgtgcgacct
+      541 tgagacgcgc cttgtctcga tttttcgagc cctttttctt cttggcatgg cggcgttgag
+      601 ctttcgccag gttcttttcg tccttgtgaa agaatctggg attgcctact acttcacccg
+      661 tcgagagaac cacaaaggac ttcaagccaa gatcagcacc aatcgccttc tcattgcaag
+      721 gcagatgggc aatttcctct tccacaagga gactgatgaa gtagcgatca gcgcaatctt
+      781 tggtgatagt gacgctcgaa ggaatggcct cgtttggcag aggacgcgac cacacgatct
+      841 ggagaggctc gctcatcttg gcaagcgtaa gagagccatt gcgccaggtg aaagcattgg
+      901 ctgtatacgt ggcggattgg gtatttcgct ttttgtggaa ggtcgggtat ttggcacgac
+      961 cttcaaagaa gttgagaaac gctttgtcca ggtggcgaag agcctgctgc aatggcacac
+     1021 tggaaacctc gttcaaccag tgcgtctctt cttgcttttt caagtcagtt aacaggatac
+     1081 ttaactcttt gtagtagagt cgctgatggt ctttgtaata ggcatccgtt ttcttgcgca
+     1141 aggcccagtt atagacgaag cgacaacacc caaaggtctg agcaagcatc tgttgctgtt
+     1201 gtggtgtggg ataaactaag cgcatgggtc gccccatccg ctcgtctgca aaaccgagca
+     1261 tgaagatttc tcttcactcg gctcctcaat catatggccc ttgttatggg taccatgtct
+     1321 ttggtcgtgg caatgtcggt ggagagcaca cttgttactc agttcctctc ctcctccctc
+     1381 acttttagga gtgatgtggt ctatctcgat ttgatctcct tcgcggaact gcaaatcgca
+     1441 ccatctacac ttgccttgct gcttcagaag cagcatcgcc agtgttcctc tcgttgttgg
+     1501 gtggtttttc agtcgttggc tccaatacat gaggtttccg tcataggggc tggcagcacc
+     1561 ttttactttg acatgtcgtt ggatcttcgt cgcatcatgc cttctcaggt cataatcttc
+     1621 ggaggttgca aagatgctgt attggccttc gcctctcttc cagtaccttt gcctaatcca
+     1681 atgtctgttt ttgtttgggt gcctacgaat tgcccacgac catagctgtt gctgaagaat
+     1741 gtagtcacat ctactgtact cagccttgga gcagactgtt ctgtagtagt tggaccatcc
+     1801 cctgatgatg gcagaaagtt ccttaatcag ttggccttgc ggcgctgatc tccgtttgtt
+     1861 gatttgctgc ttcatctggg ctatgtgtcg tttgacggct tctttgctcg gtttgatgat
+     1921 cgttttgaag ccaagcggag tgccttgtga gtttgtccct gtacggttct ttcctaccgg
+     1981 atattgccgg atggaaaatc ctagaaactc gaatcccaca tttccttcat agggtgtgag
+     2041 cgtgtggctt attctcgttt tacttggctt cagttccagt cccatgtccc ttaaccagtc
+     2101 attgattctt gttttcactt caaggatggt ttctagcgtt gaatgaaaga ccactagatc
+     2161 atcggcgtat cgtaccattt ggggtttatc ccttgtggtc ctctttacgc ctttgagagc
+     2221 ctcttccagc ccgtacaacg ctatattcat gagtaaagga gagacaacgc caccctgcgg
+     2281 ggttccgctg gttgtaggtg tgaattcccc ctctgtcatg actcccgatt tgagccaggc
+     2341 ctggacggcc tgtctcagac gtggataggt ctgaagtttt ttcaagagtg ctgtctggtc
+     2401 aatgttatcg aaacagcccc ggatgtcagc gtcaaggaca tattttgcct tttttccgat
+     2461 atccagaaag attgctgcga tagcatcgtg acaggatcgt ccagggcgaa aaccatagct
+     2521 gttcacctca aagcgagctt cccattctgg ttcgagcgcg gatttcacaa gacattgtcg
+     2581 tccgcgctca tacatcgtag gaatccctaa aggccgttgt tcgttttttc caggcttggg
+     2641 gataaatacc cttcggactg gttttacttt ctgcggccat tgtttgggat gaatgagcga
+     2701 tgccacctgt cgcctctgtt gaggtttcaa gttcttcact ccatcaaccc ccgctgtttt
+     2761 cttgccctgg ttatcctgtg agacgcggcg tacagcaaga agccttgctg cttccgattt
+     2821 catcaagagc ttttgaagtt tttggactgc acgttgattg ccacgttgac tggctcggta
+     2881 gattctcttt tggatgcggt agacatgctg ctcaaacttg cgccagggca acttgttcca
+     2941 agcctcactc tcagggtcaa ttttcttctt gatcctgggt gctttcctat ttgctatcgt
+     3001 acttgatctt ctactttcca tacaactgtg tccacgtcag cctatcctct cgctttccga
+     3061 gaggcattcg cttcttggac aatccttccg tcgtgctgct tgcggttggc acctgctcat
+     3121 ggtatcgacc cccatgagag caaacacgcg gttactccgt tccgttgctc tgtttttcgc
+     3181 taccgtaggt gtgcattctc caccggagtc ctgacagata ggcaatggag ctgtaccatc
+     3241 tccattgtgt actcgactcg ttcccgtttt gggctggctt gttatcctgc gtaagccagt
+     3301 tttccgtaac gatggttcag tcatgcattc gttttatctg ccttgttaga caggcttctc
+     3361 accgtagtag ccagctagaa ggtgtcctca tatcaggttt atgaggcatc ccccgtttca
+     3421 tcccgcttca ctgattgagg gccagtcgct acagtgggga tgatgctatc cattcctatc
+     3481 gaatgagaga ggaattgcgc ctctcgtcag agaaacagtt gtcagtgtct ttcaaaaaaa
+     3541 acaccgctgc tcgtccccca tttatcatgg tttggagcaa aacgggtcgc acgatacacc
+     3601 cgatacttga aagcgcgttt ctgtttcata cgttacattg tagcagttac agtgtaaaaa
+     3661 ggcaatacgt cttcccaccc tatccacccc aaaaaggaac gcgccattca ttcccatgtt
+     3721 tgcgcaacag gggtcttctg gcgcggtttg ataacctgat cggcggatac gtggtattgt
+     3781 agggtccatg cttgcatgga catgctccca cgagatccgc accctcagcg cttgaagtcc
+     3841 aagccagctt ggcccctac
+//

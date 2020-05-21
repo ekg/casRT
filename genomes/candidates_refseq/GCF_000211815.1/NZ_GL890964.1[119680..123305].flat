@@ -1,0 +1,220 @@
+LOCUS       NZ_GL890964             3626 bp    DNA     linear   CON 30-JAN-2020
+DEFINITION  Moorea producens 3L scf52111, whole genome shotgun sequence.
+ACCESSION   NZ_GL890964 REGION: 119680..123305
+VERSION     NZ_GL890964.1  GI:332710782
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN02471690
+            Assembly: GCF_000211815.1
+KEYWORDS    WGS; RefSeq.
+SOURCE      Moorea producens 3L
+  ORGANISM  Moorea producens 3L
+            Bacteria; Cyanobacteria; Oscillatoriophycideae; Oscillatoriales;
+            Oscillatoriaceae; Moorea.
+REFERENCE   1  (bases 1 to 3626)
+  AUTHORS   Jones,A.C., Monroe,E.A., Podell,S., Hess,W.R., Klages,S.,
+            Esquenazi,E., Niessen,S., Hoover,H., Rothmann,M., Lasken,R.S.,
+            Yates,J.R. 3rd, Reinhardt,R., Kube,M., Burkart,M.D., Allen,E.E.,
+            Dorrestein,P.C., Gerwick,W.H. and Gerwick,L.
+  TITLE     Genomic insights into the physiology and ecology of the marine
+            filamentous cyanobacterium Lyngbya majuscula
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 108 (21), 8815-8820 (2011)
+   PUBMED   21555588
+REFERENCE   2  (bases 1 to 3626)
+  AUTHORS   Jones,A.C., Monroe,E.A., Podell,S., Hess,W.R., Klages,S.,
+            Esquenazi,E., Niessen,S., Hoover,H., Rothmann,M., Lasken,R.S.,
+            Yates,J.R. 3rd, Reinhardt,R., Kube,M., Burkart,M.D., Allen,E.E.,
+            Dorrestein,P.C., Gerwick,W.H. and Gerwick,L.
+  TITLE     Genomic insights into the physiology and ecology of the marine
+            filamentous cyanobacterium Lyngbya majuscula
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 108 (21), 8815-8820 (2011)
+   PUBMED   21555588
+REFERENCE   3  (bases 1 to 3626)
+  AUTHORS   Jones,A.C., Monroe,E.A., Podell,S., Hess,W.R., Klages,S.,
+            Esquenazi,E., Niessen,S., Hoover,H., Rothmann,M., Kube,M.,
+            Reinhardt,R., Lasken,R., Yates,J.R. III, Burkart,M., Allen,E.E.,
+            Gerwick,W.H. and Gerwick,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-DEC-2010) Scripps Institution of Oceanography,
+            University of California, San Diego, 9500 Gilman Drive, La Jolla,
+            CA 92093-0202, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            GL890964.
+            Source DNA and cyanobacterial cultures are available from Dr.
+            William Gerwick at Scripps Institution of Oceanography, University
+            of California, San Diego, 9500 Gilman Dr., MC 0212, La Jolla, CA
+            92093-0212.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: Celera v. 5.4
+            Genome Coverage       :: 12x
+            Sequencing Technology :: Sanger; 454
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 01/30/2020 20:15:34
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.11
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 7,176
+            CDSs (total)                      :: 7,105
+            Genes (coding)                    :: 6,433
+            CDSs (with protein)               :: 6,433
+            Genes (RNA)                       :: 71
+            rRNAs                             :: 2, 3, 2 (5S, 16S, 23S)
+            complete rRNAs                    :: 2, 1, 1 (5S, 16S, 23S)
+            partial rRNAs                     :: 2, 1 (16S, 23S)
+            tRNAs                             :: 60
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 672
+            CDSs (without protein)            :: 672
+            Pseudo Genes (ambiguous residues) :: 7 of 672
+            Pseudo Genes (frameshifted)       :: 233 of 672
+            Pseudo Genes (incomplete)         :: 417 of 672
+            Pseudo Genes (internal stop)      :: 125 of 672
+            Pseudo Genes (multiple problems)  :: 97 of 672
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3626
+                     /organism="Moorea producens 3L"
+                     /mol_type="genomic DNA"
+                     /submitter_seqid="scf52111"
+                     /strain="3L"
+                     /type_material="type strain of Moorea producens"
+                     /db_xref="taxon:489825"
+     gene            187..1047
+                     /locus_tag="LYNGBM3L_RS26405"
+                     /old_locus_tag="LYNGBM3L_58030"
+     CDS             187..1047
+                     /locus_tag="LYNGBM3L_RS26405"
+                     /old_locus_tag="LYNGBM3L_58030"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008190789.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase"
+                     /protein_id="WP_008188613.1"
+                     /db_xref="GI:495463921"
+                     /translation="MIILEFKAKGKKHQYSAIDEAIRTVKFIRNSCLRYWMDNKGVNK
+                     FDLNKYSAVLAKKFAFANELNSTARQSSAERAWSSIARFFENCKKKVPGKKGFPRFQK
+                     HCRSVEYKQSGWKLSPDNKSITFSDKKGIGKLKLKGTWDLWRFDKKQIKRVRIVRRAD
+                     GYYVQFCVSVDINEQLKPADATIGLDVGLKDFYTDSRGNTEPNPRFYRTGEKRLKFYQ
+                     RRVSRKKKGSSNRKKAINRLGRTHLKISRQREEHAKRLVRSYRKKSAAFIVGRLCIKG
+                     GRFCCKAALF"
+     gene            complement(1171..1323)
+                     /locus_tag="LYNGBM3L_RS45230"
+                     /old_locus_tag="LYNGBM3L_57380"
+     CDS             complement(1171..1323)
+                     /locus_tag="LYNGBM3L_RS45230"
+                     /old_locus_tag="LYNGBM3L_57380"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_008188615.1"
+                     /db_xref="GI:495463923"
+                     /translation="MNQGKAVTRISRGKDSHLHGYQVVVVLLDQAVNPPYIHGMVSHQ
+                     RIALLN"
+     gene            1763..3460
+                     /gene="ltrA"
+                     /locus_tag="LYNGBM3L_RS26410"
+                     /old_locus_tag="LYNGBM3L_58040"
+     CDS             1763..3460
+                     /gene="ltrA"
+                     /locus_tag="LYNGBM3L_RS26410"
+                     /old_locus_tag="LYNGBM3L_58040"
+                     /EC_number="2.7.7.49"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_015174573.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="group II intron reverse transcriptase/maturase"
+                     /protein_id="WP_008182183.1"
+                     /db_xref="GI:495457491"
+                     /translation="MKKSNTLGFSQKSEWNKVNWRKLEKTVFKLQKRIYRASQRGDVR
+                     VVRKLQKTMMKSWSAKMIAVRRVTQQNKGKKTAGIDGVKALTNKQRLKLVASLKILKK
+                     AQPTRRVWIPKPGKKEERPLGIPTIYDRALQALAKQALEPEWEARFEPNSYGFRPGRS
+                     CHDAIEAIFSNICHKPKWVLDADIAKCFDKINQEALLEKLNTYPSMRRLIKSWLKAGV
+                     MDKGIFSPTDKGTPQGGVISPLLANIALHGMEQAVWNHANSVKGKKTYYKRGLSLIRY
+                     ADDFVIMHPDQNVVVEYQQIVNEWLGNIGLELKPSKTIIAHTFNGFDFLGFNIRQYKA
+                     GKNHSKQGFKTIIKPSKEKVKEHYEQLSSVIDRYRAAPQEALISHLKPIINGWCNYYK
+                     SVCSKDTFNSLGYRLWNKLQRWGYRRHPNKSKTWVAKKYWGTIDEDRWTFMKDVNHFL
+                     PKHSKTEIVRHKKVQDIRSPYDGDLIYWSTRMRKHPEMTTQKGRLLERQEGKCAHCGL
+                     TFRDGDLLEKHHILPRALGGNNKDENLELLHLHCHDAKHGKRINTSSLDDNPLMRYQ"
+ORIGIN      
+        1 agggaggtac tgaccctcct accactgcgt tataaaaatc ctttagagcc gaaaacccct
+       61 tgtctaatga ccggggatga aggctcacag cggcttgacg cgccgtgaaa aaaacattct
+      121 gaaactttcc aaatttttat tctgagtatg gtaaattaaa ataataacgg tagaggtcga
+      181 taaccgatga tcatattaga gtttaaagcg aaaggcaaga aacatcaata ttctgcaata
+      241 gatgaggcta ttcggacagt taaattcatc cgaaatagtt gcctaaggta ttggatggac
+      301 aataaagggg taaacaaatt tgacctcaat aaatacagtg ctgtccttgc taaaaaattc
+      361 gcttttgcaa atgagctaaa ttctaccgct cgtcagtcca gcgctgaaag agcatggtca
+      421 tcaattgccc gattctttga aaactgcaag aaaaaagtac ccggaaagaa gggttttcct
+      481 aggttccaaa aacactgccg ctcagtcgaa tataaacagt caggctggaa gttgtccccc
+      541 gacaataaat cgataacgtt tagcgacaaa aagggaattg gaaagctcaa actcaaaggt
+      601 acatgggact tgtggcgctt tgacaagaaa caaataaaga gggttcggat agtccgtcga
+      661 gctgatggct attacgttca gttctgcgtc tcggttgata ttaatgagca gttaaaacct
+      721 gctgacgcca ccattggctt agatgtcggc ctaaaggatt tttataccga ttctagagga
+      781 aatactgaac ctaaccccag attttacaga acgggagaaa aacgtttaaa gttttaccaa
+      841 cgccgggttt cccggaaaaa gaaaggctca tccaaccgca agaaagcaat taatagacta
+      901 ggtaggacac acctcaaaat aagtaggcaa cgtgaagaac atgccaagag actggttaga
+      961 agttaccgca agaagagtgc agcctttata gttggtaggc tatgcatcaa aggtggcagg
+     1021 ttttgttgta aggctgcact cttctaaggt ttcgtctccg gcgcgttgcg tggttcgatc
+     1081 taacgatttg gtcgcttacg aagatttgag ggttaaaaat ttggttaaaa accactgctt
+     1141 ggctaagtct attaatgatg caggttggta tcaatttagg agtgcgattc gttggtgaga
+     1201 aaccatacca tgaatgtatg ggggattaac cgcttggtcc aatagaacca cgacaacttg
+     1261 ataaccatga aggtgagaat ccttccctcg tgaaatccga gtgacagcct taccctgatt
+     1321 catgaaccta acaaactcat ggattaatgc aagggtcgaa cagtgaagca cccttaacct
+     1381 gaccaggtgt tagtaacagg caaagaaccc acgggtacga gagaaagata cgtctgaatc
+     1441 atcgtcatga taacgtagcg aaataaggtt tgatacgcta cagacaaata agtcaatgga
+     1501 agaaggtttg aatagttttc taattattca aagatttccc agaagtcttc ccggtgaata
+     1561 gtatcaccct aaaggttcac agaatggtta tcaggaacga agtaaccctc atacatactc
+     1621 tcagaaaggt cgaatattct gagtaggtag ttagccgcaa gttagatgag ggcaagattg
+     1681 agtcagaagc aaatgcctag agtaataact aggatacgct gaccgactca cgttatagga
+     1741 aaaagtatag tcgtaagtag taatgaaaaa gtctaatact ctgggattct cccaaaagtc
+     1801 ggaatggaat aaagtcaact ggcgaaagct agaaaagact gtatttaagt tacaaaaacg
+     1861 aatataccga gcctcacaac gtggtgatgt ccgcgtggta agaaagctac aaaagaccat
+     1921 gatgaaatca tggtcagcta agatgattgc ggtcagacgg gtaactcaac aaaataaagg
+     1981 caaaaagact gccggaatag atggggtcaa agctttaacg aataagcaac gcctcaaatt
+     2041 agtagccagc ctgaaaatcc taaagaaagc tcaaccaacc agaagggtat ggatacctaa
+     2101 acccggaaag aaagaagagc gtcctttagg gatacccacc atatatgacc gtgccctaca
+     2161 agccctagcc aaacaagcat tagaaccaga atgggaagcc agatttgaac caaactccta
+     2221 tgggttcaga cctggacgct catgtcacga tgctatagaa gcaatattta gcaatatatg
+     2281 tcataaacca aaatgggttc tagatgcaga tattgctaaa tgctttgaca aaataaatca
+     2341 ggaagctcta ctagaaaaat taaatactta tccatccatg agacgtttaa ttaagtcctg
+     2401 gcttaaagct ggtgtgatgg ataaaggaat attctcacct acagataagg gcacccctca
+     2461 aggtggagtt atatccccac ttttagcaaa tatagccctt catggcatgg aacaggcggt
+     2521 atggaatcac gccaactcgg tgaaaggaaa gaaaacctat tataaaagag gattgtccct
+     2581 aatcagatat gcagatgatt tcgtaataat gcaccctgac cagaacgtgg tagtagaata
+     2641 tcaacaaata gtcaacgaat ggttaggaaa tatagggtta gaactgaaac caagtaaaac
+     2701 tataatagcc cacacattta atggttttga tttcctagga ttcaatatca gacaatataa
+     2761 agcggggaaa aaccactcaa aacaaggttt caaaactatc atcaaaccat ccaaggaaaa
+     2821 agtgaaagag cattatgagc agctctcatc agtaatagac agatatagag ccgctccgca
+     2881 agaggcatta ataagccatc ttaaacccat tataaacgga tggtgtaatt attacaaatc
+     2941 tgtatgtagt aaagacactt tcaacagttt agggtatagg ctttggaaca aacttcagag
+     3001 atggggatat aggagacacc ctaataaatc aaagacctgg gtagctaaga agtattgggg
+     3061 aaccatcgat gaggataggt ggactttcat gaaagatgtg aaccattttc tcccgaagca
+     3121 tagcaaaacg gagatagtca gacacaagaa agtccaagat ataagaagtc cctatgatgg
+     3181 agacctaatc tattggagta ccagaatgag aaagcatcct gagatgacca ctcagaaggg
+     3241 aaggctttta gaacggcaag aagggaaatg cgctcattgt ggtcttactt tcagggatgg
+     3301 cgacttatta gaaaaacacc acatcttacc acgtgctcta ggaggtaata ataaggatga
+     3361 gaatctggag ttattacacc tacactgcca cgatgcaaaa cacggaaaga gaataaacac
+     3421 ctcaagtcta gatgacaatc cgttaatgag gtaccaatga caatggttcc tatgatgagg
+     3481 agccgtgtga tgtgaaaatg tcacgcacgg ttctgaagac gagtcagtgg ggtgattcac
+     3541 tggcttagtt taataatggt tggagcattt tggaaccaag tttggtagga tcactgttgc
+     3601 agtaaacccc gcctacacca gccaaa
+//

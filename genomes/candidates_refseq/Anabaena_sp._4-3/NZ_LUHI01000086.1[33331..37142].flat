@@ -1,0 +1,231 @@
+LOCUS       NZ_LUHI01000086         3812 bp    DNA     linear   CON 16-DEC-2019
+DEFINITION  Anabaena sp. CA = ATCC 33047 contig220, whole genome shotgun
+            sequence.
+ACCESSION   NZ_LUHI01000086 REGION: 33331..37142
+VERSION     NZ_LUHI01000086.1  GI:1054617426
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN04536551
+            Assembly: GCF_001597855.1
+KEYWORDS    WGS; RefSeq.
+SOURCE      Anabaena sp. CA = ATCC 33047
+  ORGANISM  Anabaena sp. CA = ATCC 33047
+            Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Anabaena;
+            unclassified Anabaena.
+REFERENCE   1  (bases 1 to 3812)
+  AUTHORS   Brown,R.M. Jr. and Pfeffer,S.J.
+  TITLE     Complete genome sequence of Anabaena sp. ATCC 33047: Efficient
+            producer of sucrose for use as a biofuel feedstock
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 3812)
+  AUTHORS   Brown,R.M. Jr. and Pfeffer,S.J.
+  TITLE     Complete genome sequence of Anabaena sp. ATCC 33047: Efficient
+            producer of sucrose for use as a biofuel feedstock
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 3812)
+  AUTHORS   Brown,R.M. Jr. and Pfeffer,S.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-MAR-2016) Molecular Biosciences, College of Natural
+            Sciences, University of Texas at Austin, 2506 Speedway, Austin, TX
+            78712, USA
+REFERENCE   4  (bases 1 to 3812)
+  AUTHORS   Brown,R.M. Jr. and Pfeffer,S.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-MAR-2016) Molecular Biosciences, College of Natural
+            Sciences, University of Texas at Austin, 2506 Speedway, Austin, TX
+            78712, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            LUHI01000086.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: 2012
+            Assembly Method        :: Velvet v. 1.2.03
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 12.0x
+            Sequencing Technology  :: Illumina NextSeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 12/16/2019 14:51:15
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.10
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 4,674
+            CDSs (total)                      :: 4,621
+            Genes (coding)                    :: 4,456
+            CDSs (with protein)               :: 4,456
+            Genes (RNA)                       :: 53
+            rRNAs                             :: 1, 4, 1 (5S, 16S, 23S)
+            complete rRNAs                    :: 1, 1, 1 (5S, 16S, 23S)
+            partial rRNAs                     :: 3 (16S)
+            tRNAs                             :: 43
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 165
+            CDSs (without protein)            :: 165
+            Pseudo Genes (ambiguous residues) :: 17 of 165
+            Pseudo Genes (frameshifted)       :: 30 of 165
+            Pseudo Genes (incomplete)         :: 117 of 165
+            Pseudo Genes (internal stop)      :: 22 of 165
+            Pseudo Genes (multiple problems)  :: 20 of 165
+            CRISPR Arrays                     :: 11
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3812
+                     /organism="Anabaena sp. CA = ATCC 33047"
+                     /mol_type="genomic DNA"
+                     /submitter_seqid="contig220"
+                     /strain="ATCC 33047"
+                     /isolation_source="Estuarial environment"
+                     /culture_collection="ATCC:33047"
+                     /db_xref="taxon:52271"
+                     /country="USA: Port Aransas"
+                     /collection_date="1977"
+     gene            complement(<1..7)
+                     /locus_tag="A3776_RS22545"
+     CDS             complement(<1..7)
+                     /locus_tag="A3776_RS22545"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_010999248.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Dethiobiotin synthetase"
+                     /protein_id="WP_066384541.1"
+                     /db_xref="GI:1054616659"
+                     /translation="MNYETARKLLVGQTIAIEENPDALLMRMQQGKPPVPGQITSILL
+                     ALKVVFEALKPSPSLDRELAFALYELSVKSQQLFVAGRRAGVDWPPLLKEDLLRIAFA
+                     VESIFSGVWQTPPAGSL"
+     gene            complement(68..>1210)
+                     /gene="tnpB"
+                     /locus_tag="A3776_RS22550"
+                     /pseudo
+     CDS             complement(68..>1210)
+                     /gene="tnpB"
+                     /locus_tag="A3776_RS22550"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_015163149.1"
+                     /note="incomplete; partial in the middle of a contig;
+                     missing N-terminus; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="IS200/IS605 family element transposase accessory
+                     protein TnpB"
+     gene            complement(1219..3090)
+                     /gene="ltrA"
+                     /locus_tag="A3776_RS22555"
+     CDS             complement(1219..3090)
+                     /gene="ltrA"
+                     /locus_tag="A3776_RS22555"
+                     /EC_number="2.7.7.49"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_015174573.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="group II intron reverse transcriptase/maturase"
+                     /protein_id="WP_066384544.1"
+                     /db_xref="GI:1054616662"
+                     /translation="MSNTLNNQTVEWSQTDWRKLERRVYKLQKRIFQASSRGDLKAVR
+                     RLQKTLMRSWSARMLAVRRVTQDNQGKCTAGVDGVKKLSPIQRLKLVKNLELKGKSKP
+                     TRRVWIDKPGTDKKRPLGIPTMYDRATQALVKLVLEPEWEARFEPNSYGFRPGRSCHD
+                     AVEAIFNAIKHKAKYVLDADIAKCFDRINHRELLRKLNTFPTLKRQINAWLKSGVMDG
+                     KELFPTSEGTPQGGVISPLLANIALHGMEERIKQVADTLPTPRGHSKRGNRESLSLIR
+                     YADDFVILHEDLTVVQRCKEVISEWLNNIGLELKTSKTRLAHTLIKHEEQDAGFNFLG
+                     FYIRQYPVGKYNTGCNTHGKPLGFKTYIKPSKEKVKVHYDRITEVIEQHKAAPQAALI
+                     THLNPIIRGWANYYSTVVSGETFSELGHKIYQKLKSWGLNRHPNKSGKWIANKYWQTI
+                     GGDNWVFATRQSGKTPLRLLKHSETPIVRHVKVKGDASPYDGNLVYWSSRMGKHPEIP
+                     KGVATLLKQQKGKCTYCGLYFTEQSVMEIDHIIPKSQGGKNEMRNIQLLHRHCHDKKT
+                     ASDDSSGTKFGCNSAKPKPVKSGNRDTHEKSLITEEPDEVKVSRPVLKTSGSREGIA"
+     gene            complement(<3662..3788)
+                     /locus_tag="A3776_RS23755"
+                     /pseudo
+     CDS             complement(<3662..3788)
+                     /locus_tag="A3776_RS23755"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:NP_681178.1"
+                     /note="frameshifted; incomplete; partial in the middle of
+                     a contig; missing C-terminus; Derived by automated
+                     computational analysis using gene prediction method:
+                     Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="helix-turn-helix domain-containing protein"
+ORIGIN      
+        1 aattcattta tacagcgcgg ggtaggtttt tacacaacat acgcagttgg ttatgcgcta
+       61 gactttccta tctggtatgt aagtctaggt tgacatactc acgcccggta gaacggggcg
+      121 tgattcttga cagttcacag taacttgcta ccgaagtagt ctgagagtca ctccctgtcc
+      181 gtttaaggtc gtgccgttcg cgtagcgtgc cgaaggcatg ccccatgccg accatttcta
+      241 tatttctaga tgcgttttca tccctttcct gctcagtacc gcaacttaaa cagagtattg
+      301 agcgaactct aaggtcaatt ttaccccaac gaaaaccaca gcatgaacat acttgacttg
+      361 ttggttgcca tctatctatt actcgaaaat cacgattaaa cttttctgat ttagcttcac
+      421 aaaggtttct aaactctcgc catccctgca aactaattac cctagatagt ctacggtttt
+      481 taaccattcc tgatacattc aagtcttcca agacaattac ttggttatcg ctaactattt
+      541 tggttgacaa cttgtgcaaa aaatcttttc tagtatcagt aatttggtta tgtagtttag
+      601 caattttaac gcgagtatta tttctccttt ttgaatcttt ttgttgcctt gctaatttcc
+      661 tctgtagctt acgaatttta cggtcagatt ttgagtagtc tggacttaaa gatttttctc
+      721 cattactcat gactgcaaat atttttagac ccaaatcaat acctatgctt tggtttttaa
+      781 caacagtatt attaggttcg acttctacaa caaagctaag aaaatagcgg ttagcacaat
+      841 ctttaataac cgtgactgaa ctaggctcag atggccactc tcttgaccaa attggtttta
+      901 ttatcccaat tttagccaaa taaacttctc cagtttttac agaaaaacct gctttggtaa
+      961 actctgctga ttgtgagttg gttttcttct taaatctagg aacaccaacc tttttaccct
+     1021 ttctcttgcc cttaagggaa ttgaaaaagt ttttgtaagc tacatctaag tgtctaagag
+     1081 actgttgtag tggcactgaa gaaacatcag atagccactt tctttcgtca gtctttttag
+     1141 attgggtaag cattgctgag agtttgttgt accctggcaa tttttcagat tgcttacaga
+     1201 tagctaaagc atgttaaact aagcgattcc ctcacgagaa ccgctcgtct tcaaaaccgg
+     1261 acgtgagact ttcacctcat ccggctcctc agtaataagg ctcttttcat gagtatctct
+     1321 gttacccgat ttgacgggct taggcttggc actattgcag ccaaatttgg tgccagaact
+     1381 gtcatcacta gcagtctttt tatcgtggca atgacggtga agtagctgga tatttctcat
+     1441 ttcattcttt ccaccttgcg atttgggaat gatatggtca atttccatca ccgattgttc
+     1501 tgtaaagtac agtccgcagt aggtacactt acctttctgt tgcttcagaa gtgttgccac
+     1561 tcctttgggt atttccgggt gtttccccat tcttgaactc cagtaaacta ggttgccgtc
+     1621 ataaggacta gcatcgcctt taactttcac atggcggaca attggtgtct cgctatgttt
+     1681 tagtaaccgc aacggggttt tccctgactg cctggttgcg aatacccagt tatcaccacc
+     1741 tatggtttgc cagtatttat tggctatcca ttttcccgat ttgtttgggt ggcggtttag
+     1801 tccccagctt tttagttttt ggtatatttt gtgacctagt tcggagaatg tttctccact
+     1861 aaccacagtg ctgtaatagt tagcccaccc tctgataatg gggttcaaat gggttatgag
+     1921 tgccgcttgg ggggctgctt tatgctgttc tattacctcg gtgatgcggt cgtaatgtac
+     1981 cttgactttt tccttgctgg gtttgatgta tgtcttgaat ccaagtggtt tcccgtgggt
+     2041 attacaaccc gtgttgtatt ttcctactgg gtactgcctg atgtaaaatc ccaggaagtt
+     2101 aaaccctgcg tcttgctcct catgcttaat taatgtgtga gcaagacgtg ttttacttgt
+     2161 tttcagttca agtcctatgt tattcaacca ctcggagatg acctctttac atctctggac
+     2221 aacggttaag tcttcatgca gtatcacgaa gtcatcggcg tatcgaatta agcttaagga
+     2281 ttcgcgatta cctcgcttgc tatgtcctct gggggttggt agtgtatctg ctacctgctt
+     2341 tatccgttct tccatcccgt gaagggcaat gttagccagt aggggagaaa tgacccctcc
+     2401 ttgtggcgta ccctcagatg tggggaacaa ctcttttccg tccatcactc ccgatttgag
+     2461 ccaagcattt atctggcgtt taagtgtcgg aaatgtattc aattttctta gtagttccct
+     2521 gtggttgatg cggtcgaagc atttggcaat atcggcatct aacacatatt tggctttatg
+     2581 ctttattgcg ttgaatattg cctcgacagc atcatgacat gaacgtcctg gtcggaagcc
+     2641 ataagagtta ggttcaaatc ttgcttccca ctccggctca agcactaatt taaccaatgc
+     2701 ctgagtagct ctatcgtaca tcgtgggaat tccaagtgga cgttttttgt ctgttcctgg
+     2761 tttgtctatc catacccttc gggtgggttt ggatttcccc tttagctcaa gatttttcac
+     2821 cagttttagc ctttggatgg gcgagagttt tttaactccg tctactccgg ctgtacattt
+     2881 gccctggtta tcttgcgtca cgcgacgtac cgccaacatt cttgccgacc aagacctcat
+     2941 caatgtcttt tggagtctgc gaactgcctt caaatcacca cgactagagg cttggaatat
+     3001 tctcttttgc agcttgtaaa ccctacgttc cagcttgcgc cagtctgttt ggctccattc
+     3061 caccgtctga ttgttcagcg tattagacat atttactgct actcgacact attccttcct
+     3121 tattaccgtg agtctgtcag cctatcctta ctattaccgc aaggcgtttg cttctgactc
+     3181 aatcccaccc atccgcagta tccggttagc acctactcag agtattcgac ctctctgaga
+     3241 gcttacggag ggttacttcg ttccgagtga ccatactatg agtctttaga gttccactat
+     3301 ccaccgggtt tatttagaga tgctgttggt cgaggaacga tacgccaacc tattatcctt
+     3361 tgccttttgg ctccagctaa tcagtccttt ttgctggttg tcgttgacga tggtttaaac
+     3421 gtgtcttcaa accgaagttt tactcatgga ctctctgctt gccccgcact accttggact
+     3481 aggagtgtgg aagggctttt aatcccgctt tacggattga tggctagtcg ctaccgtagg
+     3541 gaatatgctt tcacctggca tctacagggg agggatttac accctcatgg tcactcagtt
+     3601 gtcaaggttc tgtttcggga ttattcccta atttaccttg ctgctaatcc cccaaaaccc
+     3661 ttacaggatt tggtttatag caaacgaatc gcaccattcc agacaacccg aacacatcca
+     3721 aacaactgag ctaaactccg ttgttgttgg tctgttgggt agaatctata ctgataccta
+     3781 gctttcataa atatatatct attgttgtgt at
+//

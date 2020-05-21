@@ -1,0 +1,962 @@
+# Data report
+#   The sequence info section contains information only on the selected sequences
+#   The Assembly info and stats are for the full genome assembly
+
+# Organism info
+species_name: Arthrospira maxima CS-328
+strain: CS-328
+tax_id: 513049
+
+# Assembly information
+#   A RefSeq assembly (GCF) represents an NCBI-derived copy of a user-submitted
+#   GenBank assembly (GCA). The RefSeq assembly (GCF) and annotation may not
+#   be identical to the GenBank assembly (GCA) and annotation. RefSeq
+#   assemblies (GCF) always have annotation while only a subset of GenBank
+#   assemblies (GCA) have annotation.
+assembly_info:
+  assembly_level: Contig
+  assembly_name: ASM17355v1
+  assembly_type: haploid
+  bioproject: PRJNA224116
+  submission_date: '2008-10-15'
+  GenBank_assm_acc: GCA_000173555.1
+  submitter: US DOE Joint Genome Institute (JGI-PGF)
+  RefSeq_category: na
+  RefSeq_assm_acc: GCF_000173555.1
+
+# Assembly stats
+assembly_stats:
+  total_sequence_length: 6003314
+  total_ungapped_length: 6003314
+  number_of_contigs: 129
+  contig_n50: 92573
+  contig_l50: 19
+  number_of_scaffolds: 129
+  scaffold_n50: 92573
+  scaffold_l50: 19
+  number_of_component_sequences: 129
+
+# Annotation info
+#   NCBI GFF3 description https://ftp.ncbi.nlm.nih.gov/genomes/README_GFF3.txt
+annotation_info:
+  name: From INSDC submitter
+  source: US DOE Joint Genome Institute (JGI-PGF)
+  release_date: Oct 15, 2008
+  stats:
+    gene_counts:
+      total: 5613
+      protein_coding: 4869
+      non_coding: 45
+      pseudogene: 699
+
+# WGS project
+wgs_info:
+  wgs_project_accession: ABYK01
+  master_wgs_url: https://www.ncbi.nlm.nih.gov/nuccore/ABYK00000000.1
+  wgs_contigs_url: https://www.ncbi.nlm.nih.gov/Traces/wgs/ABYK01
+
+# Sequence information
+sequence_info:
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000001.1
+  assembly_unit: Primary Assembly
+  length: 324197
+  GenBank_accession: ABYK01000001.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000002.1
+  assembly_unit: Primary Assembly
+  length: 245221
+  GenBank_accession: ABYK01000002.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000003.1
+  assembly_unit: Primary Assembly
+  length: 233769
+  GenBank_accession: ABYK01000003.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000004.1
+  assembly_unit: Primary Assembly
+  length: 194379
+  GenBank_accession: ABYK01000004.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000005.1
+  assembly_unit: Primary Assembly
+  length: 194062
+  GenBank_accession: ABYK01000005.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000006.1
+  assembly_unit: Primary Assembly
+  length: 187502
+  GenBank_accession: ABYK01000006.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000007.1
+  assembly_unit: Primary Assembly
+  length: 169987
+  GenBank_accession: ABYK01000007.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000008.1
+  assembly_unit: Primary Assembly
+  length: 156370
+  GenBank_accession: ABYK01000008.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000009.1
+  assembly_unit: Primary Assembly
+  length: 152771
+  GenBank_accession: ABYK01000009.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000010.1
+  assembly_unit: Primary Assembly
+  length: 148220
+  GenBank_accession: ABYK01000010.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000011.1
+  assembly_unit: Primary Assembly
+  length: 147072
+  GenBank_accession: ABYK01000011.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000012.1
+  assembly_unit: Primary Assembly
+  length: 140954
+  GenBank_accession: ABYK01000012.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000013.1
+  assembly_unit: Primary Assembly
+  length: 135138
+  GenBank_accession: ABYK01000013.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000014.1
+  assembly_unit: Primary Assembly
+  length: 126630
+  GenBank_accession: ABYK01000014.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000015.1
+  assembly_unit: Primary Assembly
+  length: 113839
+  GenBank_accession: ABYK01000015.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000016.1
+  assembly_unit: Primary Assembly
+  length: 102162
+  GenBank_accession: ABYK01000016.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000017.1
+  assembly_unit: Primary Assembly
+  length: 98640
+  GenBank_accession: ABYK01000017.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000018.1
+  assembly_unit: Primary Assembly
+  length: 93767
+  GenBank_accession: ABYK01000018.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000019.1
+  assembly_unit: Primary Assembly
+  length: 92573
+  GenBank_accession: ABYK01000019.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000020.1
+  assembly_unit: Primary Assembly
+  length: 92543
+  GenBank_accession: ABYK01000020.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000021.1
+  assembly_unit: Primary Assembly
+  length: 88534
+  GenBank_accession: ABYK01000021.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000022.1
+  assembly_unit: Primary Assembly
+  length: 87901
+  GenBank_accession: ABYK01000022.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000023.1
+  assembly_unit: Primary Assembly
+  length: 83505
+  GenBank_accession: ABYK01000023.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000024.1
+  assembly_unit: Primary Assembly
+  length: 81391
+  GenBank_accession: ABYK01000024.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000025.1
+  assembly_unit: Primary Assembly
+  length: 79505
+  GenBank_accession: ABYK01000025.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000026.1
+  assembly_unit: Primary Assembly
+  length: 79039
+  GenBank_accession: ABYK01000026.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000027.1
+  assembly_unit: Primary Assembly
+  length: 77061
+  GenBank_accession: ABYK01000027.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000028.1
+  assembly_unit: Primary Assembly
+  length: 70934
+  GenBank_accession: ABYK01000028.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000029.1
+  assembly_unit: Primary Assembly
+  length: 68980
+  GenBank_accession: ABYK01000029.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000030.1
+  assembly_unit: Primary Assembly
+  length: 67373
+  GenBank_accession: ABYK01000030.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000031.1
+  assembly_unit: Primary Assembly
+  length: 66887
+  GenBank_accession: ABYK01000031.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000032.1
+  assembly_unit: Primary Assembly
+  length: 64325
+  GenBank_accession: ABYK01000032.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000033.1
+  assembly_unit: Primary Assembly
+  length: 60271
+  GenBank_accession: ABYK01000033.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000034.1
+  assembly_unit: Primary Assembly
+  length: 59098
+  GenBank_accession: ABYK01000034.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000035.1
+  assembly_unit: Primary Assembly
+  length: 58057
+  GenBank_accession: ABYK01000035.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000036.1
+  assembly_unit: Primary Assembly
+  length: 54195
+  GenBank_accession: ABYK01000036.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000037.1
+  assembly_unit: Primary Assembly
+  length: 51285
+  GenBank_accession: ABYK01000037.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000038.1
+  assembly_unit: Primary Assembly
+  length: 50426
+  GenBank_accession: ABYK01000038.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000039.1
+  assembly_unit: Primary Assembly
+  length: 47684
+  GenBank_accession: ABYK01000039.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000040.1
+  assembly_unit: Primary Assembly
+  length: 47050
+  GenBank_accession: ABYK01000040.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000041.1
+  assembly_unit: Primary Assembly
+  length: 46875
+  GenBank_accession: ABYK01000041.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000042.1
+  assembly_unit: Primary Assembly
+  length: 45781
+  GenBank_accession: ABYK01000042.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000043.1
+  assembly_unit: Primary Assembly
+  length: 44830
+  GenBank_accession: ABYK01000043.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000044.1
+  assembly_unit: Primary Assembly
+  length: 42730
+  GenBank_accession: ABYK01000044.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000045.1
+  assembly_unit: Primary Assembly
+  length: 41778
+  GenBank_accession: ABYK01000045.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000046.1
+  assembly_unit: Primary Assembly
+  length: 41019
+  GenBank_accession: ABYK01000046.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000047.1
+  assembly_unit: Primary Assembly
+  length: 39443
+  GenBank_accession: ABYK01000047.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000048.1
+  assembly_unit: Primary Assembly
+  length: 39385
+  GenBank_accession: ABYK01000048.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000049.1
+  assembly_unit: Primary Assembly
+  length: 38308
+  GenBank_accession: ABYK01000049.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000050.1
+  assembly_unit: Primary Assembly
+  length: 36750
+  GenBank_accession: ABYK01000050.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000051.1
+  assembly_unit: Primary Assembly
+  length: 36670
+  GenBank_accession: ABYK01000051.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000052.1
+  assembly_unit: Primary Assembly
+  length: 35756
+  GenBank_accession: ABYK01000052.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000053.1
+  assembly_unit: Primary Assembly
+  length: 34988
+  GenBank_accession: ABYK01000053.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000054.1
+  assembly_unit: Primary Assembly
+  length: 33291
+  GenBank_accession: ABYK01000054.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000055.1
+  assembly_unit: Primary Assembly
+  length: 32549
+  GenBank_accession: ABYK01000055.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000056.1
+  assembly_unit: Primary Assembly
+  length: 32166
+  GenBank_accession: ABYK01000056.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000057.1
+  assembly_unit: Primary Assembly
+  length: 31933
+  GenBank_accession: ABYK01000057.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000058.1
+  assembly_unit: Primary Assembly
+  length: 30991
+  GenBank_accession: ABYK01000058.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000059.1
+  assembly_unit: Primary Assembly
+  length: 30448
+  GenBank_accession: ABYK01000059.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000060.1
+  assembly_unit: Primary Assembly
+  length: 29664
+  GenBank_accession: ABYK01000060.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000061.1
+  assembly_unit: Primary Assembly
+  length: 28279
+  GenBank_accession: ABYK01000061.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000062.1
+  assembly_unit: Primary Assembly
+  length: 28030
+  GenBank_accession: ABYK01000062.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000063.1
+  assembly_unit: Primary Assembly
+  length: 27663
+  GenBank_accession: ABYK01000063.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000064.1
+  assembly_unit: Primary Assembly
+  length: 27634
+  GenBank_accession: ABYK01000064.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000065.1
+  assembly_unit: Primary Assembly
+  length: 27220
+  GenBank_accession: ABYK01000065.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000066.1
+  assembly_unit: Primary Assembly
+  length: 26298
+  GenBank_accession: ABYK01000066.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000067.1
+  assembly_unit: Primary Assembly
+  length: 26099
+  GenBank_accession: ABYK01000067.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000068.1
+  assembly_unit: Primary Assembly
+  length: 24944
+  GenBank_accession: ABYK01000068.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000069.1
+  assembly_unit: Primary Assembly
+  length: 21785
+  GenBank_accession: ABYK01000069.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000070.1
+  assembly_unit: Primary Assembly
+  length: 19933
+  GenBank_accession: ABYK01000070.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000071.1
+  assembly_unit: Primary Assembly
+  length: 19699
+  GenBank_accession: ABYK01000071.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000072.1
+  assembly_unit: Primary Assembly
+  length: 19218
+  GenBank_accession: ABYK01000072.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000073.1
+  assembly_unit: Primary Assembly
+  length: 18133
+  GenBank_accession: ABYK01000073.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000074.1
+  assembly_unit: Primary Assembly
+  length: 18022
+  GenBank_accession: ABYK01000074.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000075.1
+  assembly_unit: Primary Assembly
+  length: 16671
+  GenBank_accession: ABYK01000075.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000076.1
+  assembly_unit: Primary Assembly
+  length: 16332
+  GenBank_accession: ABYK01000076.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000077.1
+  assembly_unit: Primary Assembly
+  length: 16311
+  GenBank_accession: ABYK01000077.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000078.1
+  assembly_unit: Primary Assembly
+  length: 16069
+  GenBank_accession: ABYK01000078.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000079.1
+  assembly_unit: Primary Assembly
+  length: 15511
+  GenBank_accession: ABYK01000079.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000080.1
+  assembly_unit: Primary Assembly
+  length: 15203
+  GenBank_accession: ABYK01000080.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000081.1
+  assembly_unit: Primary Assembly
+  length: 15077
+  GenBank_accession: ABYK01000081.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000082.1
+  assembly_unit: Primary Assembly
+  length: 14879
+  GenBank_accession: ABYK01000082.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000083.1
+  assembly_unit: Primary Assembly
+  length: 14810
+  GenBank_accession: ABYK01000083.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000084.1
+  assembly_unit: Primary Assembly
+  length: 14421
+  GenBank_accession: ABYK01000084.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000085.1
+  assembly_unit: Primary Assembly
+  length: 14214
+  GenBank_accession: ABYK01000085.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000086.1
+  assembly_unit: Primary Assembly
+  length: 13899
+  GenBank_accession: ABYK01000086.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000087.1
+  assembly_unit: Primary Assembly
+  length: 13853
+  GenBank_accession: ABYK01000087.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000088.1
+  assembly_unit: Primary Assembly
+  length: 13387
+  GenBank_accession: ABYK01000088.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000089.1
+  assembly_unit: Primary Assembly
+  length: 13173
+  GenBank_accession: ABYK01000089.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000090.1
+  assembly_unit: Primary Assembly
+  length: 12899
+  GenBank_accession: ABYK01000090.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000091.1
+  assembly_unit: Primary Assembly
+  length: 11272
+  GenBank_accession: ABYK01000091.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000092.1
+  assembly_unit: Primary Assembly
+  length: 10736
+  GenBank_accession: ABYK01000092.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000093.1
+  assembly_unit: Primary Assembly
+  length: 10529
+  GenBank_accession: ABYK01000093.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000094.1
+  assembly_unit: Primary Assembly
+  length: 10435
+  GenBank_accession: ABYK01000094.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000095.1
+  assembly_unit: Primary Assembly
+  length: 10122
+  GenBank_accession: ABYK01000095.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000096.1
+  assembly_unit: Primary Assembly
+  length: 10092
+  GenBank_accession: ABYK01000096.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000097.1
+  assembly_unit: Primary Assembly
+  length: 9920
+  GenBank_accession: ABYK01000097.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000098.1
+  assembly_unit: Primary Assembly
+  length: 7544
+  GenBank_accession: ABYK01000098.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000099.1
+  assembly_unit: Primary Assembly
+  length: 7531
+  GenBank_accession: ABYK01000099.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000100.1
+  assembly_unit: Primary Assembly
+  length: 7411
+  GenBank_accession: ABYK01000100.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000101.1
+  assembly_unit: Primary Assembly
+  length: 7381
+  GenBank_accession: ABYK01000101.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000102.1
+  assembly_unit: Primary Assembly
+  length: 6781
+  GenBank_accession: ABYK01000102.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000103.1
+  assembly_unit: Primary Assembly
+  length: 4990
+  GenBank_accession: ABYK01000103.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000104.1
+  assembly_unit: Primary Assembly
+  length: 4569
+  GenBank_accession: ABYK01000104.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000105.1
+  assembly_unit: Primary Assembly
+  length: 4477
+  GenBank_accession: ABYK01000105.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000106.1
+  assembly_unit: Primary Assembly
+  length: 4142
+  GenBank_accession: ABYK01000106.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000107.1
+  assembly_unit: Primary Assembly
+  length: 4035
+  GenBank_accession: ABYK01000107.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000108.1
+  assembly_unit: Primary Assembly
+  length: 3934
+  GenBank_accession: ABYK01000108.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000109.1
+  assembly_unit: Primary Assembly
+  length: 3914
+  GenBank_accession: ABYK01000109.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000110.1
+  assembly_unit: Primary Assembly
+  length: 3684
+  GenBank_accession: ABYK01000110.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000111.1
+  assembly_unit: Primary Assembly
+  length: 3466
+  GenBank_accession: ABYK01000111.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000112.1
+  assembly_unit: Primary Assembly
+  length: 3329
+  GenBank_accession: ABYK01000112.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000113.1
+  assembly_unit: Primary Assembly
+  length: 3277
+  GenBank_accession: ABYK01000113.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000114.1
+  assembly_unit: Primary Assembly
+  length: 3275
+  GenBank_accession: ABYK01000114.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000115.1
+  assembly_unit: Primary Assembly
+  length: 3215
+  GenBank_accession: ABYK01000115.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000116.1
+  assembly_unit: Primary Assembly
+  length: 3120
+  GenBank_accession: ABYK01000116.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000117.1
+  assembly_unit: Primary Assembly
+  length: 2988
+  GenBank_accession: ABYK01000117.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000118.1
+  assembly_unit: Primary Assembly
+  length: 2905
+  GenBank_accession: ABYK01000118.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000119.1
+  assembly_unit: Primary Assembly
+  length: 2685
+  GenBank_accession: ABYK01000119.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000120.1
+  assembly_unit: Primary Assembly
+  length: 2681
+  GenBank_accession: ABYK01000120.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000121.1
+  assembly_unit: Primary Assembly
+  length: 2593
+  GenBank_accession: ABYK01000121.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000122.1
+  assembly_unit: Primary Assembly
+  length: 2587
+  GenBank_accession: ABYK01000122.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000123.1
+  assembly_unit: Primary Assembly
+  length: 2585
+  GenBank_accession: ABYK01000123.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000124.1
+  assembly_unit: Primary Assembly
+  length: 2289
+  GenBank_accession: ABYK01000124.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000125.1
+  assembly_unit: Primary Assembly
+  length: 2179
+  GenBank_accession: ABYK01000125.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000126.1
+  assembly_unit: Primary Assembly
+  length: 2146
+  GenBank_accession: ABYK01000126.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000127.1
+  assembly_unit: Primary Assembly
+  length: 2090
+  GenBank_accession: ABYK01000127.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000128.1
+  assembly_unit: Primary Assembly
+  length: 2060
+  GenBank_accession: ABYK01000128.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ABYK01000129.1
+  assembly_unit: Primary Assembly
+  length: 2027
+  GenBank_accession: ABYK01000129.1

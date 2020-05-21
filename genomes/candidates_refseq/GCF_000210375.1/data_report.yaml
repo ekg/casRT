@@ -1,0 +1,61 @@
+# Data report
+#   The sequence info section contains information only on the selected sequences
+#   The Assembly info and stats are for the full genome assembly
+
+# Organism info
+species_name: Arthrospira platensis NIES-39
+strain: NIES-39
+tax_id: 696747
+
+# Assembly information
+#   A RefSeq assembly (GCF) represents an NCBI-derived copy of a user-submitted
+#   GenBank assembly (GCA). The RefSeq assembly (GCF) and annotation may not
+#   be identical to the GenBank assembly (GCA) and annotation. RefSeq
+#   assemblies (GCF) always have annotation while only a subset of GenBank
+#   assemblies (GCA) have annotation.
+assembly_info:
+  assembly_level: Chromosome
+  assembly_name: ASM21037v1
+  assembly_type: haploid
+  bioproject: PRJNA224116
+  submission_date: '2010-03-25'
+  GenBank_assm_acc: GCA_000210375.1
+  submitter: National Institute of Technology and Evaluation
+  RefSeq_category: representative genome
+  RefSeq_assm_acc: GCF_000210375.1
+
+# Assembly stats
+assembly_stats:
+  total_number_of_chromosomes: 1
+  total_sequence_length: 6788435
+  total_ungapped_length: 6692865
+  number_of_contigs: 18
+  contig_n50: 619347
+  contig_l50: 5
+  number_of_scaffolds: 1
+  scaffold_n50: 6788435
+  scaffold_l50: 1
+  number_of_component_sequences: 1
+
+# Annotation info
+#   NCBI GFF3 description https://ftp.ncbi.nlm.nih.gov/genomes/README_GFF3.txt
+annotation_info:
+  name: From INSDC submitter
+  source: National Institute of Technology and Evaluation
+  release_date: Mar 25, 2010
+  stats:
+    gene_counts:
+      total: 6579
+      protein_coding: 5805
+      non_coding: 50
+      pseudogene: 724
+
+# Sequence information
+sequence_info:
+- chr_name: ANONYMOUS
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NC_016640.1
+  assembly_unit: Primary Assembly
+  length: 6788435
+  GenBank_accession: AP011615.1

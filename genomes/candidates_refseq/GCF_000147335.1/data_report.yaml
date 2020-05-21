@@ -1,0 +1,103 @@
+# Data report
+#   The sequence info section contains information only on the selected sequences
+#   The Assembly info and stats are for the full genome assembly
+
+# Organism info
+species_name: Gloeothece verrucosa PCC 7822
+strain: PCC 7822
+tax_id: 497965
+
+# Assembly information
+#   A RefSeq assembly (GCF) represents an NCBI-derived copy of a user-submitted
+#   GenBank assembly (GCA). The RefSeq assembly (GCF) and annotation may not
+#   be identical to the GenBank assembly (GCA) and annotation. RefSeq
+#   assemblies (GCF) always have annotation while only a subset of GenBank
+#   assemblies (GCA) have annotation.
+assembly_info:
+  assembly_level: Complete Genome
+  assembly_name: ASM14733v1
+  assembly_type: haploid
+  bioproject: PRJNA224116
+  submission_date: '2010-09-15'
+  GenBank_assm_acc: GCA_000147335.1
+  submitter: US DOE Joint Genome Institute (JGI-PGF)
+  RefSeq_category: representative genome
+  RefSeq_assm_acc: GCF_000147335.1
+
+# Assembly stats
+assembly_stats:
+  total_number_of_chromosomes: 7
+  total_sequence_length: 7841948
+  total_ungapped_length: 7841948
+  number_of_contigs: 7
+  contig_n50: 6091620
+  contig_l50: 1
+  number_of_scaffolds: 7
+  scaffold_n50: 6091620
+  scaffold_l50: 1
+  number_of_component_sequences: 7
+
+# Annotation info
+#   NCBI GFF3 description https://ftp.ncbi.nlm.nih.gov/genomes/README_GFF3.txt
+annotation_info:
+  name: From INSDC submitter
+  source: US DOE Joint Genome Institute (JGI-PGF)
+  release_date: Sep 15, 2010
+  stats:
+    gene_counts:
+      total: 6964
+      protein_coding: 6586
+      non_coding: 63
+      pseudogene: 315
+
+# Sequence information
+sequence_info:
+- chr_name: ANONYMOUS
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NC_014501.1
+  assembly_unit: Primary Assembly
+  length: 6091620
+  GenBank_accession: CP002198.1
+- chr_name: Cy782201
+  sort_order: 2
+  assigned_molecule_location_type: Plasmid
+  RefSeq_accession: NC_014533.1
+  assembly_unit: Primary Assembly
+  length: 879545
+  GenBank_accession: CP002199.1
+- chr_name: Cy782202
+  sort_order: 3
+  assigned_molecule_location_type: Plasmid
+  RefSeq_accession: NC_014534.1
+  assembly_unit: Primary Assembly
+  length: 473846
+  GenBank_accession: CP002200.1
+- chr_name: Cy782203
+  sort_order: 4
+  assigned_molecule_location_type: Plasmid
+  RefSeq_accession: NC_014502.1
+  assembly_unit: Primary Assembly
+  length: 291993
+  GenBank_accession: CP002201.1
+- chr_name: Cy782204
+  sort_order: 5
+  assigned_molecule_location_type: Plasmid
+  RefSeq_accession: NC_014503.1
+  assembly_unit: Primary Assembly
+  length: 47550
+  GenBank_accession: CP002202.1
+- chr_name: Cy782205
+  sort_order: 6
+  assigned_molecule_location_type: Plasmid
+  RefSeq_accession: NC_014504.1
+  assembly_unit: Primary Assembly
+  length: 43617
+  GenBank_accession: CP002203.1
+- chr_name: Cy782206
+  sort_order: 7
+  assigned_molecule_location_type: Plasmid
+  RefSeq_accession: NC_014535.1
+  assembly_unit: Primary Assembly
+  length: 13777
+  GenBank_accession: CP002204.1

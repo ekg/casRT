@@ -1,0 +1,238 @@
+{
+  "assemblies": [
+    {
+      "accession": "GCF_000147335.1",
+      "files": [
+        {
+          "filePath": "GCF_000147335.1/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_000147335.1/GCF_000147335.1_ASM14733v1_genomic.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_000176895.2",
+      "files": [
+        {
+          "filePath": "GCF_000176895.2/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_000176895.2/GCF_000176895.2_ASM17689v2_genomic.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_000178855.1",
+      "files": [
+        {
+          "filePath": "GCF_000178855.1/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_000178855.1/GCF_000178855.1_ASM17885v1_genomic.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_000210375.1",
+      "files": [
+        {
+          "filePath": "GCF_000210375.1/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_000210375.1/GCF_000210375.1_ASM21037v1_genomic.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_000211815.1",
+      "files": [
+        {
+          "filePath": "GCF_000211815.1/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_000211815.1/unplaced.scaf.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_000307915.1",
+      "files": [
+        {
+          "filePath": "GCF_000307915.1/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_000307915.1/chr.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_000317475.1",
+      "files": [
+        {
+          "filePath": "GCF_000317475.1/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_000317475.1/GCF_000317475.1_ASM31747v1_genomic.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_000317635.1",
+      "files": [
+        {
+          "filePath": "GCF_000317635.1/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_000317635.1/GCF_000317635.1_ASM31763v1_genomic.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_000828075.3",
+      "files": [
+        {
+          "filePath": "GCF_000828075.3/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_000828075.3/GCF_000828075.3_ASM82807v3_genomic.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_000973065.1",
+      "files": [
+        {
+          "filePath": "GCF_000973065.1/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_000973065.1/GCF_000973065.1_ASM97306v1_genomic.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_001264245.1",
+      "files": [
+        {
+          "filePath": "GCF_001264245.1/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_001264245.1/GCF_001264245.1_ASM126424v1_genomic.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_001277295.1",
+      "files": [
+        {
+          "filePath": "GCF_001277295.1/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_001277295.1/GCF_001277295.1_ASM127729v1_genomic.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_001767235.1",
+      "files": [
+        {
+          "filePath": "GCF_001767235.1/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_001767235.1/GCF_001767235.1_ASM176723v1_genomic.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_001854205.1",
+      "files": [
+        {
+          "filePath": "GCF_001854205.1/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_001854205.1/GCF_001854205.1_ASM185420v1_genomic.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_001942475.1",
+      "files": [
+        {
+          "filePath": "GCF_001942475.1/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_001942475.1/GCF_001942475.1_ASM194247v1_genomic.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_001942495.1",
+      "files": [
+        {
+          "filePath": "GCF_001942495.1/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_001942495.1/GCF_001942495.1_ASM194249v1_genomic.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_002215215.1",
+      "files": [
+        {
+          "filePath": "GCF_002215215.1/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_002215215.1/GCF_002215215.1_ASM221521v1_genomic.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    },
+    {
+      "accession": "GCF_007904085.1",
+      "files": [
+        {
+          "filePath": "GCF_007904085.1/data_report.yaml",
+          "fileType": "DATA_REPORT"
+        },
+        {
+          "filePath": "GCF_007904085.1/GCF_007904085.1_ASM790408v1_genomic.fna",
+          "fileType": "FASTA"
+        }
+      ]
+    }
+  ]
+}

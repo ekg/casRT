@@ -1,0 +1,205 @@
+LOCUS       NZ_CP018632             3971 bp    DNA     linear   CON 07-MAY-2020
+DEFINITION  Granulosicoccus antarcticus IMCC3135 chromosome, complete genome.
+ACCESSION   NZ_CP018632 REGION: 7080872..7084842
+VERSION     NZ_CP018632.1  GI:1214912220
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN06112367
+            Assembly: GCF_002215215.1
+KEYWORDS    RefSeq.
+SOURCE      Granulosicoccus antarcticus IMCC3135
+  ORGANISM  Granulosicoccus antarcticus IMCC3135
+            Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales;
+            Granulosicoccaceae; Granulosicoccus.
+REFERENCE   1  (bases 1 to 3971)
+  AUTHORS   Kang,I., Lee,K. and Cho,J.-C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-DEC-2016) Department of Biological Sciences, Inha
+            University, Inharo 100, Namgu, Incheon 22212, Korea, Republic of
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            CP018632.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: SMRT Analysis (RS_HGAP_Assembly.2) v.
+                                     2.3.0
+            Genome Coverage       :: 59x
+            Sequencing Technology :: PacBio
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 05/07/2020 07:28:30
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.11
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 6,731
+            CDSs (total)                      :: 6,678
+            Genes (coding)                    :: 6,556
+            CDSs (with protein)               :: 6,556
+            Genes (RNA)                       :: 53
+            rRNAs                             :: 3, 3, 3 (5S, 16S, 23S)
+            complete rRNAs                    :: 3, 3, 3 (5S, 16S, 23S)
+            tRNAs                             :: 40
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 122
+            CDSs (without protein)            :: 122
+            Pseudo Genes (ambiguous residues) :: 0 of 122
+            Pseudo Genes (frameshifted)       :: 42 of 122
+            Pseudo Genes (incomplete)         :: 83 of 122
+            Pseudo Genes (internal stop)      :: 17 of 122
+            Pseudo Genes (multiple problems)  :: 16 of 122
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3971
+                     /organism="Granulosicoccus antarcticus IMCC3135"
+                     /mol_type="genomic DNA"
+                     /strain="IMCC3135"
+                     /isolation_source="seawater"
+                     /culture_collection="IMCC:3135"
+                     /type_material="type strain of Granulosicoccus
+                     antarcticus"
+                     /db_xref="taxon:1192854"
+                     /country="Antarctica: King George Island"
+                     /lat_lon="62.233 S 58.783 W"
+                     /collection_date="Dec-2005"
+     gene            complement(<1..3)
+                     /locus_tag="IMCC3135_RS30755"
+                     /old_locus_tag="IMCC3135_31125"
+     CDS             complement(<1..3)
+                     /locus_tag="IMCC3135_RS30755"
+                     /old_locus_tag="IMCC3135_31125"
+                     /inference="COORDINATES: protein
+                     motif:HMM:NF012790.1,HMM:NF021357.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="chromate resistance protein"
+                     /protein_id="WP_088921074.1"
+                     /db_xref="GI:1214911068"
+                     /translation="MDKYEMHPVGASQYSVLNQYQKCPVAIMQVITRRLILRFLVLVL
+                     LLFTVPINFGWARSTFQTTDGQGPDKWASVWLIRTFINPLPVSLVENPTAVSGVTTFD
+                     MPGASYNRTGTATTYSALMQSYNISDQIAVKLGDIIHDIEINAWNPNQEVYSQLVETA
+                     FRQMQLDIGRNKVTQSCYFEFFNRVASGLAAQTLSIDTGIQTLQPRKGCSTVVSREKK
+                     SMEDSAKVPEMDLSEVLQAIARREEIVFLDTRERREYREGHIPGAINMTLRSLDSDSA
+                     QLFSRADRVIAYCVKDFRGYEAARKLRILGVDAVIMKPYGIKGWHTAGLPVAGAMAMT
+                     EYEAMEQLLRIAVKKSSVQ"
+     gene            complement(<625..1782)
+                     /locus_tag="IMCC3135_RS30760"
+                     /old_locus_tag="IMCC3135_31130"
+                     /pseudo
+     CDS             complement(<625..1782)
+                     /locus_tag="IMCC3135_RS30760"
+                     /old_locus_tag="IMCC3135_31130"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_010089710.1"
+                     /note="incomplete; partial in the middle of a contig;
+                     missing C-terminus; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase"
+     gene            complement(2014..3384)
+                     /gene="ltrA"
+                     /locus_tag="IMCC3135_RS30765"
+                     /old_locus_tag="IMCC3135_31135"
+     CDS             complement(2014..3384)
+                     /gene="ltrA"
+                     /locus_tag="IMCC3135_RS30765"
+                     /old_locus_tag="IMCC3135_31135"
+                     /EC_number="2.7.7.49"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_001520043.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="group II intron reverse transcriptase/maturase"
+                     /protein_id="WP_088919225.1"
+                     /db_xref="GI:1214909219"
+                     /translation="MTLDKAKHQKLGRSRRSERRTGEARKFPARGEAVSVPQRTESLG
+                     RENLLEQALSRENMVEAWKRVKANKGSAGVDGLSITQTIEYLQTQWPVIRDELLRGSY
+                     RPSAVRRVEIPKPGGGSRELGIPTVIDRLIQQALLQVLQPLLDPTFSEFSYGFRPGRS
+                     AHDAVLHAQQCVQQGYQVVVDLDLEKFFDRVNHDVLMDRLSKRIDDKAVLRLIRRFLR
+                     AGVMINGVLVERLEGTVQGSPLSPLLANVLLDEVDQALERRGHKFARYADDCNVYVRS
+                     QRAGERVLRSLRKLYAKLHLRVNEAKTAVGPVFGRKFLGYCLRRWSGNTVKIAVSPSA
+                     IVKFKQRIRQITRRVGGRSLVQVAVELRSFIPGWKAYFHLAQTPKIFRDLDGWIRRRL
+                     RAIQLKHWRRGRTAYDALRRLGASQELAKLIACSSKRCWHNSLSGLHLILSVKYYDSL
+                     GVPRLS"
+ORIGIN      
+        1 caatactttt gcacagatct tttaacagcc tcattcaatg aggaccagtg tcaatcagcc
+       61 taattccaca cccctagctg aatgaaaaaa tggcatgaca caaactggat actagtagtc
+      121 caaccggaag atattttcat gttcagagcc tcagtgtgcc ttcccgacaa gacgcctcga
+      181 cgaaggcgta ccggggtacg tcaaggagag gcaacgcaga cggcgaggca cactgcggct
+      241 cccttcgggc gagccagaca gccgcgctgc ctgcgttgtc cttgctcgac gtaccccggt
+      301 acgctttcgc aatggcgtct tgtcatcacg gctgtctggc tcgctgaaca tgaaaatatc
+      361 ttccggttgg actactagta attgaagtaa gcgacaaacc aaaccttact ggatctacgc
+      421 aacttcgtgt gggtcattta ctgcgctcaa tagttgacgt cctcccctcc ctgaagaaaa
+      481 aggggattcc tacggcgttc aagcacatgc ctgaatcgct tcgacggaag gccgccccgt
+      541 gggttcctgc ttcactgggg ctgccttaac tgcatgttcg tgcaattcag gtctaacgtc
+      601 ccctccaccg gaatgccgga ccaaggccat cacggcgtgt cccgccgcta cgatattctt
+      661 tgccgcatta acatcggcgt tctctgcatg cccacaagag acacagcaga agctctcttg
+      721 aattttgcgg ttctcttgcg ctatatggcc acagcctgag cattgctgac tggtgtactg
+      781 agccggcacc acgatcaaat caccacccgc ccacttgagt ttgtagccca actgtcgacg
+      841 gaattcaccc caaccttgat cgagaattgc tcgattgaga cccgatttgg ccttgacgtt
+      901 ttttcctgga gcttgtcggg tgccggaagc cgaacgagac atattgctga ccttcaggcc
+      961 ttcgatacac accaccgcgt gattttgtgc ggggccgccc aggcaaatga ggtgtgattt
+     1021 ctgatgtagg tagtcggctc ggacattggt gattcgaata tacaggcggg caatttttgc
+     1081 tttctgtttt ttccaattac gggaatactt gcaccgacga gccagcgatc gctgtgcgtg
+     1141 tgccaattgt cgttgaagtt gtgcaaaact gttctttggc aaatgaatga cgccgtcgct
+     1201 ttgtgcggca aaaatagcaa tgcccaagtc gagaccaatc gctgttgtgg atgggtgtag
+     1261 aggagtatca acctgttgcg cagtttgaat tgaaaagaac catttaccgc ctcgctcact
+     1321 gacggtgata ttgcgtagcg tgccgatgac attacggctg tttcggtagc gcatccagcc
+     1381 taacttaggt agaaaaatac gattattggt ctgatcaagc ttgaactgtt tgggctcggg
+     1441 gaagcgaaag ctattcccac ggcctttctt tttgtacgag gggaaagcag cgcgtttgga
+     1501 aaaaaagttc tgataggccc gatcaagatc tttcagcgat tgctgcaacg tttgagcggg
+     1561 tgcgagttga agccacagtg tgtctcgatc tttacgccag gttgtcaggc tcttgcacat
+     1621 ctggacatag ctgatgtact tcagttcggc cttatggttc tcttgctgaa gtgccaatgc
+     1681 cttgttgtag acaaaccggg aacagcctgc aaactgccac agctggcggg tttgttcacc
+     1741 attggggcgt agctcgaact tgaaggcttg tagacgttcc atggactgaa taatacactg
+     1801 gaccgataga gagtatgcca caaataccca ttaaacactg tatttataaa cagctgttag
+     1861 agggtgtatt attactatcg aatcaggaaa atcttcgagc tagacgaaaa agaggctccg
+     1921 cctctagcga tcgggatagg ggccgaccga agtcgggccc ctcccacacc acccggcatg
+     1981 cgggtccgca ccgggcggtt cgagaagttg aggtcatgag agacgaggta caccgaggct
+     2041 atcgtagtac tttaccgata gaataaggtg caatcccgaa aggctgttgt gccaacaacg
+     2101 tttgctagag caagcgatga gcttagccaa ctcctgcgag gcaccgagac gacgtaaagc
+     2161 gtcatacgcc gtacggccgc gtcgccagtg cttgagctgg atagcccgca atcggcgtcg
+     2221 tatccagcca tccagatcac ggaagatttt cggcgtttgt gccagatgaa agtaagcctt
+     2281 ccatccggga atgaaactcc gaagttctac cgcaacttgg acaaggctgc gaccaccgac
+     2341 gcgacgtgtg atctgccgga tgcgctgctt gaacttgacg attgccgagg gcgataccgc
+     2401 gatcttgacc gtgttcccac tccaccgccg taagcagtag cccagaaatt tacgaccaaa
+     2461 cacgggcccg actgcagtct ttgcctcgtt cacccgaagg tgcagttttg catacagctt
+     2521 ccgaagagag cgcagtaccc gttcccccgc ccgttgacta cgaacataca cattgcagtc
+     2581 atcggcgtat cgggcaaact tgtgtccgcg cctctccaga gcctgatcca cttcgtccaa
+     2641 cagcacatta gccagtaacg gtgaaagagg ggagccttgt acggttccct ccaagcgttc
+     2701 caccaatacg ccgttgatca tgacgccagc tcgaagaaat cgtcgaatca accgaagaac
+     2761 ggccttatcg tcgattcgct tactcagccg gtccatgaga acgtcgtgat tgaccctgtc
+     2821 gaaaaatttc tcaagatcca aatcaaccac cacctgatag ccttgttgca cacactgctg
+     2881 tgcatggagc acagcgtcat gagcacttcg acccgggcga aagccgtagc tgaattccga
+     2941 aaacgtcggg tcaagcaggg gttgcagtac ttgcaacagt gcctgctgga tcaggcgatc
+     3001 aatgacggtg ggtatcccca attccctgga gcctccaccc ggtttcggaa tttccacgcg
+     3061 tcgcacggcc gatggccgat aactaccgcg cagcaattca tcccggatca ctggccactg
+     3121 ggtttgaaga tattcaatcg tttgagtgat tgaaagaccg tctacgcccg cactaccttt
+     3181 attggctttg acgcgtttcc acgcctccac catgttctct cgcgagagcg cctgctcaag
+     3241 cagattctcc cgccccaagc tttcggttcg ttgaggcacc gacaccgctt caccgcgtgc
+     3301 aggaaacttt cgggcttcac ccgttcgtct ctcactgcgc ctcgatctcc cgagtttctg
+     3361 gtgctttgct ttgtcgagcg tcatcgtctt ctagctctcc ttctcgttta gcccttcatc
+     3421 gcatgatgac gactactatg gcctctgctg acttctcact ccgaccagac gatcgtcgcc
+     3481 ctttcaggca caaggtgaga tctccccggg taagactgca atccttcccc acacaaccgc
+     3541 cgaatctaca ttatctccct ttgaccacaa gagcttcgcg atgataggcc cgctcgccct
+     3601 ggttgataac gcctcaatat tcggttcttg ttcatcggct cgtggtttcg ctagacactt
+     3661 cctccccacg cttggtcgcc cttgcgcagt tgtgcttcac ttcggtcgct atggtcagct
+     3721 tccgggagga ctttcacctc caagattgca cccatgccgg gcgcacctat ccatccccgc
+     3781 cctgaaggac gaggctttcc gcgcgttggg gtaaacgctt atttagcagg tagtatttcg
+     3841 gcaaatatcg gaggtctgga aagctgctca ggtgagcttc cagcatgaga aattccacct
+     3901 caattcggtc gccctgcctc tttccaggat tcactgccat gtccgcattg aagggcagga
+     3961 tccgaagatt g
+//

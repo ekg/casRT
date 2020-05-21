@@ -1,0 +1,219 @@
+LOCUS       NZ_CP018632             3433 bp    DNA     linear   CON 07-MAY-2020
+DEFINITION  Granulosicoccus antarcticus IMCC3135 chromosome, complete genome.
+ACCESSION   NZ_CP018632 REGION: 4626263..4629695
+VERSION     NZ_CP018632.1  GI:1214912220
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN06112367
+            Assembly: GCF_002215215.1
+KEYWORDS    RefSeq.
+SOURCE      Granulosicoccus antarcticus IMCC3135
+  ORGANISM  Granulosicoccus antarcticus IMCC3135
+            Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales;
+            Granulosicoccaceae; Granulosicoccus.
+REFERENCE   1  (bases 1 to 3433)
+  AUTHORS   Kang,I., Lee,K. and Cho,J.-C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-DEC-2016) Department of Biological Sciences, Inha
+            University, Inharo 100, Namgu, Incheon 22212, Korea, Republic of
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            CP018632.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: SMRT Analysis (RS_HGAP_Assembly.2) v.
+                                     2.3.0
+            Genome Coverage       :: 59x
+            Sequencing Technology :: PacBio
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 05/07/2020 07:28:30
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.11
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 6,731
+            CDSs (total)                      :: 6,678
+            Genes (coding)                    :: 6,556
+            CDSs (with protein)               :: 6,556
+            Genes (RNA)                       :: 53
+            rRNAs                             :: 3, 3, 3 (5S, 16S, 23S)
+            complete rRNAs                    :: 3, 3, 3 (5S, 16S, 23S)
+            tRNAs                             :: 40
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 122
+            CDSs (without protein)            :: 122
+            Pseudo Genes (ambiguous residues) :: 0 of 122
+            Pseudo Genes (frameshifted)       :: 42 of 122
+            Pseudo Genes (incomplete)         :: 83 of 122
+            Pseudo Genes (internal stop)      :: 17 of 122
+            Pseudo Genes (multiple problems)  :: 16 of 122
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3433
+                     /organism="Granulosicoccus antarcticus IMCC3135"
+                     /mol_type="genomic DNA"
+                     /strain="IMCC3135"
+                     /isolation_source="seawater"
+                     /culture_collection="IMCC:3135"
+                     /type_material="type strain of Granulosicoccus
+                     antarcticus"
+                     /db_xref="taxon:1192854"
+                     /country="Antarctica: King George Island"
+                     /lat_lon="62.233 S 58.783 W"
+                     /collection_date="Dec-2005"
+     gene            <1..3
+                     /locus_tag="IMCC3135_RS20070"
+                     /old_locus_tag="IMCC3135_20365"
+     CDS             <1..3
+                     /locus_tag="IMCC3135_RS20070"
+                     /old_locus_tag="IMCC3135_20365"
+                     /inference="COORDINATES: protein motif:HMM:NF024092.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="nuclear transport factor 2 family protein"
+                     /protein_id="WP_088919223.1"
+                     /db_xref="GI:1214909217"
+                     /translation="MLNTRTLLPIGLVALALVGCSDDDDNSSNTTLEPTQTERALAVL
+                     DSIASGDITDFTAFVSADNYTQHNLGFPDGRATLSEAIDSGALSGTTVENVRVFEDND
+                     IVFLHSIYGGTWNGGVPQVGFDVFRFEEGQVVEHWDNLANVEDDGDDSTQTNGTLTID
+                     TTVDTESSRTLVANTMQALFINGEWSTVTDYFDEENYQQHSVGAGTDFTGISQIAASI
+                     PEGSPFYSSMEYLYADHDFVLTMSEGFPDADTGLSDAYYDLFRVADGQIVEHWDIIQS
+                     IPDESTWANLTSSPP"
+     gene            complement(26..1264)
+                     /locus_tag="IMCC3135_RS20075"
+                     /old_locus_tag="IMCC3135_20370"
+     CDS             complement(26..1264)
+                     /locus_tag="IMCC3135_RS20075"
+                     /old_locus_tag="IMCC3135_20370"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_001458895.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase"
+                     /protein_id="WP_088919224.1"
+                     /db_xref="GI:1214909218"
+                     /translation="MERLQAFKFELRPNGEQTRQLWQFAGSSRFVYNKALALQQENHK
+                     AELKYISYAQMCKNLTIWRKDKDTLWLQLAPAQALQQSLKDLDRAYQNFFAKRAAFPK
+                     YKKKGRGNSFRFPEPKQFKLDQANNRIFLPKLGWMRYRNSRNVIGTLRNITVSERGGK
+                     WFFSVQTAQQVETPLHPSTTAIGLDLGITVFAAQSDGVIHLPKNSFAQLRRQLAHAQR
+                     ALARQCKYSRNWKKQKAKIARLYIRIANVRADYLHQKSHLISQNHAVVCIEDLKVSNM
+                     SRSASGTRQAPGKSVKAKSGLNRAILDQGWGEFRRQLSYKLKWVGGDLIVVPAQYTSQ
+                     QCSGCGHVAQENRKIQESFCCVSCGHAENADVNAAKNIVAAGHAVMACGGDVRPELHE
+                     HAIEAAPVKQEPTEVIQACA"
+     gene            complement(1496..2866)
+                     /gene="ltrA"
+                     /locus_tag="IMCC3135_RS20080"
+                     /old_locus_tag="IMCC3135_20375"
+     CDS             complement(1496..2866)
+                     /gene="ltrA"
+                     /locus_tag="IMCC3135_RS20080"
+                     /old_locus_tag="IMCC3135_20375"
+                     /EC_number="2.7.7.49"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_001520043.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="group II intron reverse transcriptase/maturase"
+                     /protein_id="WP_088919225.1"
+                     /db_xref="GI:1214909219"
+                     /translation="MTLDKAKHQKLGRSRRSERRTGEARKFPARGEAVSVPQRTESLG
+                     RENLLEQALSRENMVEAWKRVKANKGSAGVDGLSITQTIEYLQTQWPVIRDELLRGSY
+                     RPSAVRRVEIPKPGGGSRELGIPTVIDRLIQQALLQVLQPLLDPTFSEFSYGFRPGRS
+                     AHDAVLHAQQCVQQGYQVVVDLDLEKFFDRVNHDVLMDRLSKRIDDKAVLRLIRRFLR
+                     AGVMINGVLVERLEGTVQGSPLSPLLANVLLDEVDQALERRGHKFARYADDCNVYVRS
+                     QRAGERVLRSLRKLYAKLHLRVNEAKTAVGPVFGRKFLGYCLRRWSGNTVKIAVSPSA
+                     IVKFKQRIRQITRRVGGRSLVQVAVELRSFIPGWKAYFHLAQTPKIFRDLDGWIRRRL
+                     RAIQLKHWRRGRTAYDALRRLGASQELAKLIACSSKRCWHNSLSGLHLILSVKYYDSL
+                     GVPRLS"
+     gene            3422..>3433
+                     /locus_tag="IMCC3135_RS20090"
+                     /old_locus_tag="IMCC3135_20385"
+     CDS             3422..>3433
+                     /locus_tag="IMCC3135_RS20090"
+                     /old_locus_tag="IMCC3135_20385"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_088919226.1"
+                     /db_xref="GI:1214909220"
+                     /translation="MTHKFALAATVALLVSCATTVAQAQELCAPDIDFKSAVGHDQAP
+                     SSLATLNSAFKSASKNDQNDLVFVYSKVTSDTGVSAVVDLFRVRDNILVEHWDVVQQV
+                     PADEEIFA"
+ORIGIN      
+        1 tgaataaagg ggattcctac ggcgttcaag cacatgcctg aatcacttcg gtgggttcct
+       61 gcttcactgg ggctgcctca attgcatgtt cgtgcaattc aggtctgacg tcccctccac
+      121 aggccatcac ggcgtgtccc gccgctacga tattctttgc cgcattgaca tcggcattct
+      181 ctgcatgccc acaagacaca cagcagaagc tctcttgaat tttgcggttc tcttgcgcta
+      241 catggccaca gcctgagcat tgctgactgg tgtactgagc cggcaccaca atcaaatcac
+      301 cacccaccca tttgagcttg tagctcagct gtcgacggaa ttcaccccag ccttgatcga
+      361 gaattgctcg attgagaccc gatttcgcct tgacgctttt tcctggagct tgtcgggtgc
+      421 cagaagccga acgagacata ttgctgacct tcaggtcttc gatacacacc actgcgtggt
+      481 tttgactaat gaggtgtgat ttctgatgca ggtagtctgc tcggacattg gctattcgaa
+      541 tatacaggcg ggcgattttc gctttctgtt ttttccaatt gcgggaatac ttgcactgac
+      601 gagccagggc tcgctgtgcg tgtgccaatt gtcgtcgaag ttgtgcaaaa ctgttcttcg
+      661 gcaaatgaat gacaccgtcg ctttgtgctg caaaaacggt gatgcccaag tcgagaccaa
+      721 tcgctgttgt ggatgggtgt agaggagtct caacctgttg tgcagtctgg acagaaaaaa
+      781 accacttacc acctcgctca ctgacggtga tattgcgtag cgtgccgatg acattacggc
+      841 tgtttcggta gcgcatccag cctaacttag gtagaaaaat acgattgttg gcctgatcaa
+      901 gcttgaactg tttgggttct ggaaagcgaa agctattacc acggcctttc tttttgtact
+      961 tagggaaagc agcgcgtttg gcaaagaaat tctgataggc ccgatcaaga tctttgagcg
+     1021 attgctgcaa cgcttgagca ggtgctagtt gaagccacag cgtgtcttta tctttacgcc
+     1081 agattgtcag atttttgcac atctgggcat agctgatgta cttgagttcg gccttatggt
+     1141 tctcttgctg aagtgccaat gccttgttgt agacgaaccg ggaactacct gcaaactgcc
+     1201 acagttggcg ggtttgttca ccattggggc gtagctcgaa tttgaaggct tgtagacgtt
+     1261 ccatgaactg aataatacac tggaccgata gagagtatgc cacagacatc cattgaatac
+     1321 tgtttttata aacagctatc cgagaatgtg ttatcactat cgaatcaagg aaatctttga
+     1381 gctggacgag aaagaggctt cgcctctagc gatcgggata ggggccgacc gaagtcgggc
+     1441 ccctcccaca ccacccggca tgcgggtccg caccgggcgg ttcgagaagt tgaggtcatg
+     1501 agagacgagg tacaccgagg ctatcgtagt actttaccga tagaataagg tgcaatcccg
+     1561 aaaggctgtt gtgccaacaa cgtttgctag agcaagcgat gagcttagcc aactcctgcg
+     1621 aggcaccgag acgacgtaaa gcgtcatacg ccgtacggcc gcgtcgccag tgcttgagct
+     1681 ggatagcccg caatcggcgt cgtatccagc catccagatc acggaagatt ttcggcgttt
+     1741 gtgccagatg aaagtaagcc ttccatccgg gaatgaaact ccgaagttct accgcaactt
+     1801 ggacaaggct gcgaccaccg acgcgacgtg tgatctgccg gatgcgctgc ttgaacttga
+     1861 cgattgccga gggcgatacc gcgatcttga ccgtgttccc actccaccgc cgtaagcagt
+     1921 agcccagaaa tttacgacca aacacgggcc cgactgcagt ctttgcctcg ttcacccgaa
+     1981 ggtgcagttt tgcatacagc ttccgaagag agcgcagtac ccgttccccc gcccgttgac
+     2041 tacgaacata cacattgcag tcatcggcgt atcgggcaaa cttgtgtccg cgcctctcca
+     2101 gagcctgatc cacttcgtcc aacagcacat tagccagtaa cggtgaaaga ggggagcctt
+     2161 gtacggttcc ctccaagcgt tccaccaata cgccgttgat catgacgcca gctcgaagaa
+     2221 atcgtcgaat caaccgaaga acggccttat cgtcgattcg cttactcagc cggtccatga
+     2281 gaacgtcgtg attgaccctg tcgaaaaatt tctcaagatc caaatcaacc accacctgat
+     2341 agccttgttg cacacactgc tgtgcatgga gcacagcgtc atgagcactt cgacccgggc
+     2401 gaaagccgta gctgaattcc gaaaacgtcg ggtcaagcag gggttgcagt acttgcaaca
+     2461 gtgcctgctg gatcaggcga tcaatgacgg tgggtatccc caattccctg gagcctccac
+     2521 ccggtttcgg aatttccacg cgtcgcacgg ccgatggccg ataactaccg cgcagcaatt
+     2581 catcccggat cactggccac tgggtttgaa gatattcaat cgtttgagtg attgaaagac
+     2641 cgtctacgcc cgcactacct ttattggctt tgacgcgttt ccacgcctcc accatgttct
+     2701 ctcgcgagag cgcctgctca agcagattct cccgccccaa gctttcggtt cgttgaggca
+     2761 ccgacaccgc ttcaccgcgt gcaggaaact ttcgggcttc acccgttcgt ctctcactgc
+     2821 gcctcgatct cccgagtttc tggtgctttg ctttgtcgag cgtcatcgtc ttctagctct
+     2881 ccttctcgtt tagcccttca tcgcatgatg acgactacta tggcctctgc tgacttctca
+     2941 ctccgaccag acgatcgtcg ccctttcagg cacaaggtga gatctccccg ggtaagactg
+     3001 caatccttcc ccacacaacc gccgaatcta cattatctcc ctttgaccac aagagcttcg
+     3061 cgatgatagg cccgctcgcc ctggttgata acgcctcaat attcggttct tgttcatcgg
+     3121 ctcgtggttt cgctagacac ttcctcccca cgcttggtcg cccttgcgca gttgtgcttc
+     3181 acttcggtcg ctatggtcag cttccgggag gactttcacc tccaagattg cacccatgcc
+     3241 gggcgcacct atccatcccc gccctgaagg acggggcttt ccgcgcgttg aggtaaatca
+     3301 agtttgataa tcgtgtcagg gcagatgacg actgcctgtc gtctggcctg acgctggttt
+     3361 cagagcacta ctgacatttt ccaatgcgaa agcctttccc atgttgggag actaaaacac
+     3421 tatgacacat aaa
+//

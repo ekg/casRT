@@ -1,0 +1,130 @@
+# Data report
+#   The sequence info section contains information only on the selected sequences
+#   The Assembly info and stats are for the full genome assembly
+
+# Organism info
+species_name: Ktedonobacter racemifer DSM 44963
+strain: SOSP1-21
+tax_id: 485913
+
+# Assembly information
+#   A RefSeq assembly (GCF) represents an NCBI-derived copy of a user-submitted
+#   GenBank assembly (GCA). The RefSeq assembly (GCF) and annotation may not
+#   be identical to the GenBank assembly (GCA) and annotation. RefSeq
+#   assemblies (GCF) always have annotation while only a subset of GenBank
+#   assemblies (GCA) have annotation.
+assembly_info:
+  assembly_level: Scaffold
+  assembly_name: ASM17885v1
+  assembly_type: haploid
+  bioproject: PRJNA224116
+  submission_date: '2010-06-04'
+  GenBank_assm_acc: GCA_000178855.1
+  submitter: US DOE Joint Genome Institute (JGI-PGF)
+  RefSeq_category: representative genome
+  RefSeq_assm_acc: GCF_000178855.1
+
+# Assembly stats
+assembly_stats:
+  total_sequence_length: 13661586
+  total_ungapped_length: 13661541
+  number_of_contigs: 12
+  contig_n50: 2281316
+  contig_l50: 3
+  number_of_scaffolds: 10
+  scaffold_n50: 2766182
+  scaffold_l50: 3
+  number_of_component_sequences: 10
+
+# Annotation info
+#   NCBI GFF3 description https://ftp.ncbi.nlm.nih.gov/genomes/README_GFF3.txt
+annotation_info:
+  name: From INSDC submitter
+  source: US DOE Joint Genome Institute (JGI-PGF)
+  release_date: Jun 04, 2010
+  stats:
+    gene_counts:
+      total: 11931
+      protein_coding: 10873
+      non_coding: 88
+      pseudogene: 969
+      other: 1
+
+# WGS project
+wgs_info:
+  wgs_project_accession: ADVG01
+  master_wgs_url: https://www.ncbi.nlm.nih.gov/nuccore/ADVG00000000.1
+  wgs_contigs_url: https://www.ncbi.nlm.nih.gov/Traces/wgs/ADVG01
+
+# Sequence information
+sequence_info:
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ADVG01000001.1
+  assembly_unit: Primary Assembly
+  length: 3837106
+  GenBank_accession: ADVG01000001.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ADVG01000002.1
+  assembly_unit: Primary Assembly
+  length: 2916502
+  GenBank_accession: ADVG01000002.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ADVG01000003.1
+  assembly_unit: Primary Assembly
+  length: 2766182
+  GenBank_accession: ADVG01000003.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ADVG01000004.1
+  assembly_unit: Primary Assembly
+  length: 2713222
+  GenBank_accession: ADVG01000004.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ADVG01000005.1
+  assembly_unit: Primary Assembly
+  length: 1302518
+  GenBank_accession: ADVG01000005.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ADVG01000006.1
+  assembly_unit: Primary Assembly
+  length: 64728
+  GenBank_accession: ADVG01000006.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ADVG01000007.1
+  assembly_unit: Primary Assembly
+  length: 33301
+  GenBank_accession: ADVG01000007.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ADVG01000008.1
+  assembly_unit: Primary Assembly
+  length: 17409
+  GenBank_accession: ADVG01000008.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ADVG01000009.1
+  assembly_unit: Primary Assembly
+  length: 9039
+  GenBank_accession: ADVG01000009.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_ADVG01000010.1
+  assembly_unit: Primary Assembly
+  length: 1579
+  GenBank_accession: ADVG01000010.1

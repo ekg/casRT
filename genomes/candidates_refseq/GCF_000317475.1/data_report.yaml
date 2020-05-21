@@ -1,0 +1,96 @@
+# Data report
+#   The sequence info section contains information only on the selected sequences
+#   The Assembly info and stats are for the full genome assembly
+
+# Organism info
+species_name: Oscillatoria nigro-viridis PCC 7112
+strain: PCC 7112
+tax_id: 179408
+
+# Assembly information
+#   A RefSeq assembly (GCF) represents an NCBI-derived copy of a user-submitted
+#   GenBank assembly (GCA). The RefSeq assembly (GCF) and annotation may not
+#   be identical to the GenBank assembly (GCA) and annotation. RefSeq
+#   assemblies (GCF) always have annotation while only a subset of GenBank
+#   assemblies (GCA) have annotation.
+assembly_info:
+  assembly_level: Complete Genome
+  assembly_name: ASM31747v1
+  assembly_type: haploid
+  bioproject: PRJNA224116
+  submission_date: '2012-12-06'
+  GenBank_assm_acc: GCA_000317475.1
+  submitter: JGI
+  RefSeq_category: representative genome
+  RefSeq_assm_acc: GCF_000317475.1
+
+# Assembly stats
+assembly_stats:
+  total_number_of_chromosomes: 6
+  total_sequence_length: 8272254
+  total_ungapped_length: 8272254
+  number_of_contigs: 6
+  contig_n50: 7479014
+  contig_l50: 1
+  number_of_scaffolds: 6
+  scaffold_n50: 7479014
+  scaffold_l50: 1
+  number_of_component_sequences: 6
+
+# Annotation info
+#   NCBI GFF3 description https://ftp.ncbi.nlm.nih.gov/genomes/README_GFF3.txt
+annotation_info:
+  name: From INSDC submitter
+  source: JGI
+  release_date: Dec 06, 2012
+  stats:
+    gene_counts:
+      total: 6896
+      protein_coding: 6200
+      non_coding: 85
+      pseudogene: 611
+
+# Sequence information
+sequence_info:
+- chr_name: ANONYMOUS
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NC_019729.1
+  assembly_unit: Primary Assembly
+  length: 7479014
+  GenBank_accession: CP003614.1
+- chr_name: pOSC7112.01
+  sort_order: 2
+  assigned_molecule_location_type: Plasmid
+  RefSeq_accession: NC_019763.1
+  assembly_unit: Primary Assembly
+  length: 300164
+  GenBank_accession: CP003615.1
+- chr_name: pOSC7112.02
+  sort_order: 3
+  assigned_molecule_location_type: Plasmid
+  RefSeq_accession: NC_019730.1
+  assembly_unit: Primary Assembly
+  length: 260268
+  GenBank_accession: CP003616.1
+- chr_name: pOSC7112.03
+  sort_order: 4
+  assigned_molecule_location_type: Plasmid
+  RefSeq_accession: NC_019731.1
+  assembly_unit: Primary Assembly
+  length: 150927
+  GenBank_accession: CP003617.1
+- chr_name: pOSC7112.04
+  sort_order: 5
+  assigned_molecule_location_type: Plasmid
+  RefSeq_accession: NC_019764.1
+  assembly_unit: Primary Assembly
+  length: 74236
+  GenBank_accession: CP003618.1
+- chr_name: pOSC7112.05
+  sort_order: 6
+  assigned_molecule_location_type: Plasmid
+  RefSeq_accession: NC_019732.1
+  assembly_unit: Primary Assembly
+  length: 7645
+  GenBank_accession: CP003619.1

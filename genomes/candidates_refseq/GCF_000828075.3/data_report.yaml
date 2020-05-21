@@ -1,0 +1,486 @@
+# Data report
+#   The sequence info section contains information only on the selected sequences
+#   The Assembly info and stats are for the full genome assembly
+
+# Organism info
+species_name: Tolypothrix campylonemoides VB511288
+strain: VB511288
+tax_id: 1245935
+
+# Assembly information
+#   A RefSeq assembly (GCF) represents an NCBI-derived copy of a user-submitted
+#   GenBank assembly (GCA). The RefSeq assembly (GCF) and annotation may not
+#   be identical to the GenBank assembly (GCA) and annotation. RefSeq
+#   assemblies (GCF) always have annotation while only a subset of GenBank
+#   assemblies (GCA) have annotation.
+assembly_info:
+  assembly_level: Scaffold
+  assembly_name: ASM82807v3
+  assembly_type: haploid
+  bioproject: PRJNA224116
+  submission_date: '2019-10-25'
+  GenBank_assm_acc: GCA_000828075.3
+  submitter: Indian Institute Of Chemical biology
+  RefSeq_category: representative genome
+  RefSeq_assm_acc: GCF_000828075.3
+
+# Assembly stats
+assembly_stats:
+  total_sequence_length: 9468441
+  total_ungapped_length: 9387858
+  number_of_contigs: 165
+  contig_n50: 148962
+  contig_l50: 19
+  number_of_scaffolds: 61
+  scaffold_n50: 1097626
+  scaffold_l50: 4
+  number_of_component_sequences: 61
+
+# Annotation info
+#   NCBI GFF3 description https://ftp.ncbi.nlm.nih.gov/genomes/README_GFF3.txt
+annotation_info:
+  name: From INSDC submitter
+  source: Indian Institute Of Chemical biology
+  release_date: Oct 25, 2019
+  stats:
+    gene_counts:
+      total: 8160
+      protein_coding: 7496
+      non_coding: 84
+      pseudogene: 580
+
+# WGS project
+wgs_info:
+  wgs_project_accession: JXCB02
+  master_wgs_url: https://www.ncbi.nlm.nih.gov/nuccore/JXCB00000000.2
+  wgs_contigs_url: https://www.ncbi.nlm.nih.gov/Traces/wgs/JXCB02
+
+# Sequence information
+sequence_info:
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000001.1
+  assembly_unit: Primary Assembly
+  length: 1728859
+  GenBank_accession: JXCB02000001.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000002.1
+  assembly_unit: Primary Assembly
+  length: 1701383
+  GenBank_accession: JXCB02000002.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000003.1
+  assembly_unit: Primary Assembly
+  length: 109637
+  GenBank_accession: JXCB02000003.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000004.1
+  assembly_unit: Primary Assembly
+  length: 12503
+  GenBank_accession: JXCB02000004.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000005.1
+  assembly_unit: Primary Assembly
+  length: 12131
+  GenBank_accession: JXCB02000005.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000006.1
+  assembly_unit: Primary Assembly
+  length: 96308
+  GenBank_accession: JXCB02000006.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000007.1
+  assembly_unit: Primary Assembly
+  length: 11563
+  GenBank_accession: JXCB02000007.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000008.1
+  assembly_unit: Primary Assembly
+  length: 11214
+  GenBank_accession: JXCB02000008.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000009.1
+  assembly_unit: Primary Assembly
+  length: 73269
+  GenBank_accession: JXCB02000009.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000010.1
+  assembly_unit: Primary Assembly
+  length: 11210
+  GenBank_accession: JXCB02000010.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000011.1
+  assembly_unit: Primary Assembly
+  length: 10788
+  GenBank_accession: JXCB02000011.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000012.1
+  assembly_unit: Primary Assembly
+  length: 10604
+  GenBank_accession: JXCB02000012.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000013.1
+  assembly_unit: Primary Assembly
+  length: 51614
+  GenBank_accession: JXCB02000013.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000014.1
+  assembly_unit: Primary Assembly
+  length: 10655
+  GenBank_accession: JXCB02000014.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000015.1
+  assembly_unit: Primary Assembly
+  length: 10491
+  GenBank_accession: JXCB02000015.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000016.1
+  assembly_unit: Primary Assembly
+  length: 10555
+  GenBank_accession: JXCB02000016.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000017.1
+  assembly_unit: Primary Assembly
+  length: 10475
+  GenBank_accession: JXCB02000017.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000018.1
+  assembly_unit: Primary Assembly
+  length: 10389
+  GenBank_accession: JXCB02000018.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000019.1
+  assembly_unit: Primary Assembly
+  length: 45799
+  GenBank_accession: JXCB02000019.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000020.1
+  assembly_unit: Primary Assembly
+  length: 43572
+  GenBank_accession: JXCB02000020.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000021.1
+  assembly_unit: Primary Assembly
+  length: 33905
+  GenBank_accession: JXCB02000021.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000022.1
+  assembly_unit: Primary Assembly
+  length: 31076
+  GenBank_accession: JXCB02000022.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000023.1
+  assembly_unit: Primary Assembly
+  length: 1301449
+  GenBank_accession: JXCB02000023.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000024.1
+  assembly_unit: Primary Assembly
+  length: 29798
+  GenBank_accession: JXCB02000024.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000025.1
+  assembly_unit: Primary Assembly
+  length: 28693
+  GenBank_accession: JXCB02000025.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000026.1
+  assembly_unit: Primary Assembly
+  length: 25154
+  GenBank_accession: JXCB02000026.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000027.1
+  assembly_unit: Primary Assembly
+  length: 1097626
+  GenBank_accession: JXCB02000027.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000028.1
+  assembly_unit: Primary Assembly
+  length: 22507
+  GenBank_accession: JXCB02000028.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000029.1
+  assembly_unit: Primary Assembly
+  length: 21506
+  GenBank_accession: JXCB02000029.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000030.1
+  assembly_unit: Primary Assembly
+  length: 21266
+  GenBank_accession: JXCB02000030.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000031.1
+  assembly_unit: Primary Assembly
+  length: 20548
+  GenBank_accession: JXCB02000031.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000032.1
+  assembly_unit: Primary Assembly
+  length: 20412
+  GenBank_accession: JXCB02000032.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000033.1
+  assembly_unit: Primary Assembly
+  length: 850800
+  GenBank_accession: JXCB02000033.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000034.1
+  assembly_unit: Primary Assembly
+  length: 19310
+  GenBank_accession: JXCB02000034.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000035.1
+  assembly_unit: Primary Assembly
+  length: 19023
+  GenBank_accession: JXCB02000035.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000036.1
+  assembly_unit: Primary Assembly
+  length: 18853
+  GenBank_accession: JXCB02000036.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000037.1
+  assembly_unit: Primary Assembly
+  length: 18757
+  GenBank_accession: JXCB02000037.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000038.1
+  assembly_unit: Primary Assembly
+  length: 18596
+  GenBank_accession: JXCB02000038.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000039.1
+  assembly_unit: Primary Assembly
+  length: 667439
+  GenBank_accession: JXCB02000039.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000040.1
+  assembly_unit: Primary Assembly
+  length: 18427
+  GenBank_accession: JXCB02000040.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000041.1
+  assembly_unit: Primary Assembly
+  length: 18128
+  GenBank_accession: JXCB02000041.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000042.1
+  assembly_unit: Primary Assembly
+  length: 17697
+  GenBank_accession: JXCB02000042.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000043.1
+  assembly_unit: Primary Assembly
+  length: 16788
+  GenBank_accession: JXCB02000043.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000044.1
+  assembly_unit: Primary Assembly
+  length: 297094
+  GenBank_accession: JXCB02000044.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000045.1
+  assembly_unit: Primary Assembly
+  length: 16518
+  GenBank_accession: JXCB02000045.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000046.1
+  assembly_unit: Primary Assembly
+  length: 16508
+  GenBank_accession: JXCB02000046.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000047.1
+  assembly_unit: Primary Assembly
+  length: 16388
+  GenBank_accession: JXCB02000047.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000048.1
+  assembly_unit: Primary Assembly
+  length: 263526
+  GenBank_accession: JXCB02000048.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000049.1
+  assembly_unit: Primary Assembly
+  length: 15350
+  GenBank_accession: JXCB02000049.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000050.1
+  assembly_unit: Primary Assembly
+  length: 15046
+  GenBank_accession: JXCB02000050.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000051.1
+  assembly_unit: Primary Assembly
+  length: 14956
+  GenBank_accession: JXCB02000051.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000052.1
+  assembly_unit: Primary Assembly
+  length: 14840
+  GenBank_accession: JXCB02000052.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000053.1
+  assembly_unit: Primary Assembly
+  length: 237118
+  GenBank_accession: JXCB02000053.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000054.1
+  assembly_unit: Primary Assembly
+  length: 14408
+  GenBank_accession: JXCB02000054.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000055.1
+  assembly_unit: Primary Assembly
+  length: 14123
+  GenBank_accession: JXCB02000055.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000056.1
+  assembly_unit: Primary Assembly
+  length: 13976
+  GenBank_accession: JXCB02000056.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000057.1
+  assembly_unit: Primary Assembly
+  length: 13727
+  GenBank_accession: JXCB02000057.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000058.1
+  assembly_unit: Primary Assembly
+  length: 143715
+  GenBank_accession: JXCB02000058.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000059.1
+  assembly_unit: Primary Assembly
+  length: 13102
+  GenBank_accession: JXCB02000059.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000060.1
+  assembly_unit: Primary Assembly
+  length: 13008
+  GenBank_accession: JXCB02000060.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_JXCB02000061.1
+  assembly_unit: Primary Assembly
+  length: 14261
+  GenBank_accession: JXCB02000061.1

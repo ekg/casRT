@@ -1,0 +1,199 @@
+LOCUS       NZ_CP017599             4370 bp    DNA     linear   CON 12-APR-2020
+DEFINITION  Moorea producens PAL-8-15-08-1 chromosome, complete genome.
+ACCESSION   NZ_CP017599 REGION: 5864804..5869173
+VERSION     NZ_CP017599.1  GI:1084333032
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN05826283
+            Assembly: GCF_001767235.1
+KEYWORDS    RefSeq.
+SOURCE      Moorea producens PAL-8-15-08-1
+  ORGANISM  Moorea producens PAL-8-15-08-1
+            Bacteria; Cyanobacteria; Oscillatoriophycideae; Oscillatoriales;
+            Oscillatoriaceae; Moorea.
+REFERENCE   1  (bases 1 to 4370)
+  AUTHORS   Leao,T., Castelao,G., Korobeynikov,A., Monroe,E.A., Podell,S.,
+            Glukhov,E., Allen,E.E., Gerwick,W.H. and Gerwick,L.
+  TITLE     Comparative genomics uncovers the prolific and distinctive
+            metabolic potential of the cyanobacterial genus Moorea
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 114 (12), 3198-3203 (2017)
+   PUBMED   28265051
+REFERENCE   2  (bases 1 to 4370)
+  AUTHORS   Leao,T., Castelao,G., Korobeynikov,A., Monroe,E.A., Podell,S.,
+            Glukhov,E., Allen,E., Gerwick,W.H. and Gerwick,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-OCT-2016) Scripps Institution of Oceanography, UCSD,
+            9500 Gilman Dr, La Jolla, CA 92093, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            CP017599.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            Bacteria and source DNA available from Gerwick Lab Culture
+            Collection, UCSD, SIO.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: 2016
+            Assembly Method        :: SPAdes v. 3.5
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 98.0x
+            Sequencing Technology  :: PacBio; Illumina MiSeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 04/12/2020 15:46:41
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.11
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 8,089
+            CDSs (total)                      :: 8,018
+            Genes (coding)                    :: 7,469
+            CDSs (with protein)               :: 7,469
+            Genes (RNA)                       :: 71
+            rRNAs                             :: 2, 2, 2 (5S, 16S, 23S)
+            complete rRNAs                    :: 2, 2, 2 (5S, 16S, 23S)
+            tRNAs                             :: 61
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 549
+            CDSs (without protein)            :: 549
+            Pseudo Genes (ambiguous residues) :: 0 of 549
+            Pseudo Genes (frameshifted)       :: 165 of 549
+            Pseudo Genes (incomplete)         :: 351 of 549
+            Pseudo Genes (internal stop)      :: 138 of 549
+            Pseudo Genes (multiple problems)  :: 96 of 549
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..4370
+                     /organism="Moorea producens PAL-8-15-08-1"
+                     /mol_type="genomic DNA"
+                     /strain="PAL-8-15-08-1"
+                     /isolation_source="shallow tropical waters, normally from
+                     coral reef substrate"
+                     /db_xref="taxon:1458985"
+                     /country="Pacific Ocean: Palmyra Atoll"
+                     /collection_date="15-Aug-2008"
+                     /note="also called PAL 15AUG08-1"
+     gene            complement(492..1823)
+                     /locus_tag="BJP34_RS21490"
+                     /old_locus_tag="BJP34_21490"
+                     /pseudo
+     CDS             complement(492..1823)
+                     /locus_tag="BJP34_RS21490"
+                     /old_locus_tag="BJP34_21490"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008188511.1"
+                     /note="frameshifted; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase"
+     gene            complement(2131..3816)
+                     /gene="ltrA"
+                     /locus_tag="BJP34_RS21495"
+                     /old_locus_tag="BJP34_21495"
+     CDS             complement(2131..3816)
+                     /gene="ltrA"
+                     /locus_tag="BJP34_RS21495"
+                     /old_locus_tag="BJP34_21495"
+                     /EC_number="2.7.7.49"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008182183.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="group II intron reverse transcriptase/maturase"
+                     /protein_id="WP_070391293.1"
+                     /db_xref="GI:1084327234"
+                     /translation="MNKSKTQGFAPQSEWRRVNWRKLEMTVFKLQKRIYRASSRGDVS
+                     VVRKLQKTLMKSWSAKMIAVRRVTQENKGKKTAGIDGFKALTNRQRLALVASLKVSKK
+                     AQPTRRVWIPKPGRSEKRPLGIPTMYDRALQALAKQALEPEWEEKFEPNSYGFRPGRS
+                     CHDAIEAIFNFINKKPKWVLDADIAKCFDKINHDALLTKLNTYPSMRRLIKSWLKAGV
+                     MDKGIFSHTNEGTPQGGVISPLLANIALHGMEQEVWNYANSIKGKKTYYKKGLALIRY
+                     ADDFVILHPDQKVVEEYQEVINTWLQDMGLELKPSKTQITHTFDGFDFLGFNIRQYKT
+                     GKNHSKRGFKTIIKPSKEKVLEHYGQLSQVINRHKAAPQKALISQLKPIIRGWCNYYS
+                     SVCSKETFSKLGNLVWNKLRRWGYRRHPNKSRTWVTKKYWGTIGEDNWVFMTNGNNYL
+                     PKHAKTEIVRHIKVQETRSPYDGDLIYWSTRMRKHPEMTTQKGRLLERQEGKCAHCGL
+                     TFRDGDLLEKHHIIPRALGGNDHDKNLELLHLHCHDAKHGTKVNSSKLDENPF"
+ORIGIN      
+        1 tacgcctttt tttgaaatta ttagtttttg tggtgtttaa ctagtagcaa atatcctctc
+       61 caaaatctag actaagtata gaataattaa tggtaaattg ttactattgt tagtagttaa
+      121 tggttacagt aattaagcat aaatcgggtt ttttaatata attactggat ttcaaccttt
+      181 gatttataac cagtttgact ccgtgggtgg aacgggcatc ttgcccgttt tatttccaga
+      241 ctggcggtct caacagtggc gaaaaggtaa aaaatgaggg ctcgcccgtc ttctgtgcgc
+      301 accctacgca ctactgataa tgaggtgcat tgatgacata gcactttctg acccctcatc
+      361 ctactaatac cactattacc catcattccc ctattcttga cctcctcact accaagatca
+      421 agacttatcg gtcagggata aggctgagat gggaatcctc aaactgctat cgtgactact
+      481 cctacatcaa atcaaagatt atgatgtagg cttctcagat ttacaaatga gatttgctga
+      541 tcctcggcgg agccgacgct tcgcgaacga tatcttgtat cgatttacca cagccattca
+      601 gcggcagtcc aaccgccatt aatgcacgat tcaaaatgtt gataccactg ttccagtcac
+      661 ggtcaatcga aacaccacaa ctggaacaat gatgaacgcg ctcacttaaa cttttcaagg
+      721 gccctagatc cacaattgaa gcactcaata cttgtccgac gggggtcaac tttctggagt
+      781 aacaaaccgc gtttgaccgc tactgcttgt aagatttcca gaaatgcccc ccacgccgca
+      841 tcatgaggtg cgacccgtgg cgaatttaat tcgccaacgg aaagcgcacc taatattgat
+      901 ttggccagtt ttgttctggc aagtcctttg atgtttaaat cttcatgagc ataatggtcg
+      961 taattactac ataaccaatg agcaacttga taatgaaatt cctttcggca acgggttaaa
+     1021 tgaaggtgca ataaagccac ttgattctta gctttttccc agttttgaga acccttaaca
+     1081 cgacgggaca aaacccgttg ggcttttgct aacttgtctt gagcctttcg gtaaaactga
+     1141 ggaattgcaa tagcctcacc atctgatgtg gttaaaaatt tttctaaacc cacatcaata
+     1201 ccaacagacg atttaactga atctacagca agaaactcag ggagagtatc atctttcatt
+     1261 gaaatgcaac aataccaacc gtctgctttt ttaacgatag tgcattgttt gagactgaaa
+     1321 ccgtccggta tgggtctgtg cattaccaca ggtctctcac caatccgact cagcttaagc
+     1381 actcgatctt ttagatgtgc tcccgctctg gaattgttaa cccgtgggaa tacaaaagat
+     1441 cgcaagtcac cagttttctt aaaccgtggt cgtccccctc gttgaccatt aacatcaggt
+     1501 tttcgccatc tatcccatgc tttattaagc cgttgtaggt taacctgctg agtttctgtg
+     1561 tagatttgtt tgtactcagg gaacaactgc ttagtttctt taagggcggc ttgctgggtg
+     1621 tagtagttga caggttccgg aatttcacca atcggctcac tcacaagact gcaacggtca
+     1681 atcggggttc tagtccgctt gagccagtca agccgttgcc ctagagcata gttccagtga
+     1741 cgacgcaaca attcaagcca tctctccatg atggctatct gttcgtcact aggcttgatt
+     1801 cgatagcagt aagttaacag cataatgtta ttgtactact tgcgatctgt tgagaaccaa
+     1861 gataccccgt cgggcaattc ccctcccgcg tgcgtcaaag attataacgg gagacccctt
+     1921 gcccgtttag ttggaatgtg ttaacttgtg caacatttaa cctgtacaaa cctactcatc
+     1981 agcaggaata acctgtatag caccaggtaa aaacctggtg gttgattaaa ctaagccggt
+     2041 gagtcgcccc accgactcgt cttcagaacc ggacatgaca ctttcgcatc atccggctcc
+     2101 tcatcatagg aaccatttac attggtacct ctagaacgga ttctcatcta actttgaaga
+     2161 gttgactttg gtaccgtgtt tggcgtcgtg acaatggagg tgaagtaact ctagattttt
+     2221 gtcatggtcg ttacctccta gagcgcgtgg tataatatgg tgtttttcca acaaatctcc
+     2281 atccctgaag gtaagaccac aatgggcgca tttcccttct tgccgttcta aaagccttcc
+     2341 cttctgagtg gtcatctcag gatgctttct cattctggtg ctccaataaa ttaggtctcc
+     2401 atcgtaggga ctcctggttt cttgaacttt tatgtgcctg actatttcag ttttggcatg
+     2461 ttttgggagg tagttattcc cgttggtcat gaatacccag ttatcttctc cgatggttcc
+     2521 ccaatatttc ttggttaccc aggttcttga tttgttgggg tgtctcctat atccccatct
+     2581 tcgaagtttg ttccagacta gattccctaa ttttgagaag gtttctttgc tacaaacaga
+     2641 gctgtagtag ttacaccatc ctcttataat aggtttaagt tggcttatta acgccttctg
+     2701 tggggcagct ttatgtctgt tgatgacttg ggaaagctgc ccgtaatgtt ctagaacttt
+     2761 ttctttggat ggtttgatga tggttttaaa acctcgtttt gaatggtttt tacctgtttt
+     2821 atattgacgg atgttgaatc caagaaaatc aaatccgtca aaagtgtggg taatttgggt
+     2881 tttacttggt tttagttcca accccatgtc ctgtagccat gtgttgatta cttcttgata
+     2941 ttcttctacc actttttggt ctgggtgaag gatgacgaaa tcatctgcgt atctaattag
+     3001 ggctaatcct tttttgtaat atgttttttt acccttgata gagttggcat agttccatac
+     3061 ctcttgttcc attccgtgga gggctatgtt cgccaatagt ggggatatca ccccaccttg
+     3121 aggggtgccc tcgtttgtgt gtgagaatat tcccttatcc atcacaccgg ctttaagcca
+     3181 ggacttaatt aaacgtctca tggatggata ggtattcaat tttgttagaa gtgcatcatg
+     3241 gtttattttg tcgaagcatt tggcaatgtc agcatcaaga acccatttgg gttttttgtt
+     3301 gatgaaattg aatattgctt caatggcatc atgacatgag cgtcctggtc tgaacccgta
+     3361 tgaattgggt tcaaattttt cttcccattc aggttcaaga gcctgcttgg caagtgcttg
+     3421 taatgcacgg tcgtacatag tcgggatacc taaggggcgt ttttctgacc gtccgggttt
+     3481 gggaatccat acccttctgg taggttgtgc ctttttggag accttgaggc tggctactaa
+     3541 ggcgaggcgt tgcctattgg ttaaggcttt gaacccgtct attccggcag tctttttgcc
+     3601 tttattctcc tgggtgactc gtctgaccgc aatcattttg gctgaccagg acttcatcag
+     3661 ggtcttttgg agttttctta ccacgctcac gtcaccacgg ctcgaggctc ggtatattcg
+     3721 tttttgtaac ttaaaaacgg tcatttccag ctttcgccaa ttgacccttc tccattccga
+     3781 ctgtggggcg aacccctgag ttttagactt attcattact acttacaacc ataccctttc
+     3841 ctacaacgtg agtccgtcag catatcctgg gcattacccc aggcattggc ttctgactca
+     3901 atctcgctct cctatgactt gcggttaact acctactcaa ccatcgacca tgttgagagt
+     3961 acatatgaga gttatttcgt tcctgataac cattctgtgg acttttaggg tggtactctt
+     4021 caccaggaat attctttggg aaatcattat gaggcggcaa aacctcatag tccttattcc
+     4081 tttgactttt gtctgtagcg tatcagtcta tttcgctaca tgccttttac gatgattctg
+     4141 atgtaccttt ctctcgtacc catgagtcct ttgcctgtta ctaactttgc ttagactagc
+     4201 tctgcttcac tattcgaccc ttgcatcaat tcatgagttt gttatgttca taaatcaggg
+     4261 taaggctgtc actcggattt cacgagggat ggattttcac catcatggtt atcaagttgt
+     4321 catggttcag tttcccgacc aagcggttag tcccccaaac ccttaatagg
+//

@@ -1,0 +1,4903 @@
+# Data report
+#   The sequence info section contains information only on the selected sequences
+#   The Assembly info and stats are for the full genome assembly
+
+# Organism info
+species_name: Limnospira indica PCC 8005
+strain: PCC 8005
+tax_id: 376219
+
+# Assembly information
+#   A RefSeq assembly (GCF) represents an NCBI-derived copy of a user-submitted
+#   GenBank assembly (GCA). The RefSeq assembly (GCF) and annotation may not
+#   be identical to the GenBank assembly (GCA) and annotation. RefSeq
+#   assemblies (GCF) always have annotation while only a subset of GenBank
+#   assemblies (GCA) have annotation.
+assembly_info:
+  assembly_level: Scaffold
+  assembly_name: ASM17689v2
+  assembly_type: haploid
+  bioproject: PRJNA224116
+  submission_date: '2012-02-14'
+  GenBank_assm_acc: GCA_000176895.2
+  submitter: SCK-CEN, Belgian Nuclear Research Center/Genoscope
+  RefSeq_category: na
+  RefSeq_assm_acc: GCF_000176895.2
+
+# Assembly stats
+assembly_stats:
+  total_sequence_length: 6166364
+  total_ungapped_length: 6166194
+  number_of_contigs: 698
+  contig_n50: 55028
+  contig_l50: 35
+  number_of_scaffolds: 692
+  scaffold_n50: 55028
+  scaffold_l50: 35
+  number_of_component_sequences: 692
+
+# Annotation info
+#   NCBI GFF3 description https://ftp.ncbi.nlm.nih.gov/genomes/README_GFF3.txt
+annotation_info:
+  name: From INSDC submitter
+  source: SCK-CEN, Belgian Nuclear Research Center/Genoscope
+  release_date: Feb 14, 2012
+  stats:
+    gene_counts:
+      total: 6003
+      protein_coding: 5207
+      non_coding: 50
+      pseudogene: 746
+
+# WGS project
+wgs_info:
+  wgs_project_accession: CAFN01
+  master_wgs_url: https://www.ncbi.nlm.nih.gov/nuccore/CAFN00000000.1
+  wgs_contigs_url: https://www.ncbi.nlm.nih.gov/Traces/wgs/CAFN01
+
+# Sequence information
+sequence_info:
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000001.1
+  assembly_unit: Primary Assembly
+  length: 143976
+  GenBank_accession: CAFN01000001.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000002.1
+  assembly_unit: Primary Assembly
+  length: 13363
+  GenBank_accession: CAFN01000002.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000003.1
+  assembly_unit: Primary Assembly
+  length: 33055
+  GenBank_accession: CAFN01000003.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000004.1
+  assembly_unit: Primary Assembly
+  length: 10932
+  GenBank_accession: CAFN01000004.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000005.1
+  assembly_unit: Primary Assembly
+  length: 11554
+  GenBank_accession: CAFN01000005.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000006.1
+  assembly_unit: Primary Assembly
+  length: 9000
+  GenBank_accession: CAFN01000006.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000007.1
+  assembly_unit: Primary Assembly
+  length: 11886
+  GenBank_accession: CAFN01000007.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000008.1
+  assembly_unit: Primary Assembly
+  length: 59873
+  GenBank_accession: CAFN01000008.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000009.1
+  assembly_unit: Primary Assembly
+  length: 3986
+  GenBank_accession: CAFN01000009.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000010.1
+  assembly_unit: Primary Assembly
+  length: 12429
+  GenBank_accession: CAFN01000010.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000011.1
+  assembly_unit: Primary Assembly
+  length: 29039
+  GenBank_accession: CAFN01000011.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000012.1
+  assembly_unit: Primary Assembly
+  length: 27085
+  GenBank_accession: CAFN01000012.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000013.1
+  assembly_unit: Primary Assembly
+  length: 5636
+  GenBank_accession: CAFN01000013.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000014.1
+  assembly_unit: Primary Assembly
+  length: 34511
+  GenBank_accession: CAFN01000014.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000015.1
+  assembly_unit: Primary Assembly
+  length: 29473
+  GenBank_accession: CAFN01000015.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000016.1
+  assembly_unit: Primary Assembly
+  length: 5819
+  GenBank_accession: CAFN01000016.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000017.1
+  assembly_unit: Primary Assembly
+  length: 172295
+  GenBank_accession: CAFN01000017.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000018.1
+  assembly_unit: Primary Assembly
+  length: 43494
+  GenBank_accession: CAFN01000018.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000019.1
+  assembly_unit: Primary Assembly
+  length: 8126
+  GenBank_accession: CAFN01000019.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000020.1
+  assembly_unit: Primary Assembly
+  length: 27636
+  GenBank_accession: CAFN01000020.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000021.1
+  assembly_unit: Primary Assembly
+  length: 40938
+  GenBank_accession: CAFN01000021.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000022.1
+  assembly_unit: Primary Assembly
+  length: 29585
+  GenBank_accession: CAFN01000022.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000023.1
+  assembly_unit: Primary Assembly
+  length: 11349
+  GenBank_accession: CAFN01000023.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000024.1
+  assembly_unit: Primary Assembly
+  length: 51492
+  GenBank_accession: CAFN01000024.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000025.1
+  assembly_unit: Primary Assembly
+  length: 8834
+  GenBank_accession: CAFN01000025.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000026.1
+  assembly_unit: Primary Assembly
+  length: 18514
+  GenBank_accession: CAFN01000026.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000027.1
+  assembly_unit: Primary Assembly
+  length: 13113
+  GenBank_accession: CAFN01000027.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000028.1
+  assembly_unit: Primary Assembly
+  length: 2498
+  GenBank_accession: CAFN01000028.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000029.1
+  assembly_unit: Primary Assembly
+  length: 19571
+  GenBank_accession: CAFN01000029.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000030.1
+  assembly_unit: Primary Assembly
+  length: 10640
+  GenBank_accession: CAFN01000030.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000031.1
+  assembly_unit: Primary Assembly
+  length: 12308
+  GenBank_accession: CAFN01000031.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000032.1
+  assembly_unit: Primary Assembly
+  length: 16375
+  GenBank_accession: CAFN01000032.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000033.1
+  assembly_unit: Primary Assembly
+  length: 15766
+  GenBank_accession: CAFN01000033.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000034.1
+  assembly_unit: Primary Assembly
+  length: 3868
+  GenBank_accession: CAFN01000034.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000035.1
+  assembly_unit: Primary Assembly
+  length: 53100
+  GenBank_accession: CAFN01000035.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000036.1
+  assembly_unit: Primary Assembly
+  length: 53153
+  GenBank_accession: CAFN01000036.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000037.1
+  assembly_unit: Primary Assembly
+  length: 30308
+  GenBank_accession: CAFN01000037.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000038.1
+  assembly_unit: Primary Assembly
+  length: 39696
+  GenBank_accession: CAFN01000038.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000039.1
+  assembly_unit: Primary Assembly
+  length: 3381
+  GenBank_accession: CAFN01000039.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000040.1
+  assembly_unit: Primary Assembly
+  length: 3435
+  GenBank_accession: CAFN01000040.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000041.1
+  assembly_unit: Primary Assembly
+  length: 3885
+  GenBank_accession: CAFN01000041.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000042.1
+  assembly_unit: Primary Assembly
+  length: 19285
+  GenBank_accession: CAFN01000042.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000043.1
+  assembly_unit: Primary Assembly
+  length: 4508
+  GenBank_accession: CAFN01000043.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000044.1
+  assembly_unit: Primary Assembly
+  length: 57995
+  GenBank_accession: CAFN01000044.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000045.1
+  assembly_unit: Primary Assembly
+  length: 7305
+  GenBank_accession: CAFN01000045.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000046.1
+  assembly_unit: Primary Assembly
+  length: 6903
+  GenBank_accession: CAFN01000046.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000047.1
+  assembly_unit: Primary Assembly
+  length: 126399
+  GenBank_accession: CAFN01000047.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000048.1
+  assembly_unit: Primary Assembly
+  length: 29154
+  GenBank_accession: CAFN01000048.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000049.1
+  assembly_unit: Primary Assembly
+  length: 100492
+  GenBank_accession: CAFN01000049.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000050.1
+  assembly_unit: Primary Assembly
+  length: 69648
+  GenBank_accession: CAFN01000050.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000051.1
+  assembly_unit: Primary Assembly
+  length: 78162
+  GenBank_accession: CAFN01000051.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000052.1
+  assembly_unit: Primary Assembly
+  length: 96140
+  GenBank_accession: CAFN01000052.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000053.1
+  assembly_unit: Primary Assembly
+  length: 12022
+  GenBank_accession: CAFN01000053.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000054.1
+  assembly_unit: Primary Assembly
+  length: 34294
+  GenBank_accession: CAFN01000054.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000055.1
+  assembly_unit: Primary Assembly
+  length: 7081
+  GenBank_accession: CAFN01000055.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000056.1
+  assembly_unit: Primary Assembly
+  length: 73949
+  GenBank_accession: CAFN01000056.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000057.1
+  assembly_unit: Primary Assembly
+  length: 110046
+  GenBank_accession: CAFN01000057.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000058.1
+  assembly_unit: Primary Assembly
+  length: 30498
+  GenBank_accession: CAFN01000058.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000059.1
+  assembly_unit: Primary Assembly
+  length: 86694
+  GenBank_accession: CAFN01000059.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000060.1
+  assembly_unit: Primary Assembly
+  length: 38811
+  GenBank_accession: CAFN01000060.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000061.1
+  assembly_unit: Primary Assembly
+  length: 119247
+  GenBank_accession: CAFN01000061.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000062.1
+  assembly_unit: Primary Assembly
+  length: 79768
+  GenBank_accession: CAFN01000062.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000063.1
+  assembly_unit: Primary Assembly
+  length: 85515
+  GenBank_accession: CAFN01000063.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000064.1
+  assembly_unit: Primary Assembly
+  length: 8560
+  GenBank_accession: CAFN01000064.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000065.1
+  assembly_unit: Primary Assembly
+  length: 46917
+  GenBank_accession: CAFN01000065.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000066.1
+  assembly_unit: Primary Assembly
+  length: 8002
+  GenBank_accession: CAFN01000066.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000067.1
+  assembly_unit: Primary Assembly
+  length: 3834
+  GenBank_accession: CAFN01000067.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000068.1
+  assembly_unit: Primary Assembly
+  length: 34968
+  GenBank_accession: CAFN01000068.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000069.1
+  assembly_unit: Primary Assembly
+  length: 3189
+  GenBank_accession: CAFN01000069.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000070.1
+  assembly_unit: Primary Assembly
+  length: 38703
+  GenBank_accession: CAFN01000070.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000071.1
+  assembly_unit: Primary Assembly
+  length: 94703
+  GenBank_accession: CAFN01000071.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000072.1
+  assembly_unit: Primary Assembly
+  length: 1319
+  GenBank_accession: CAFN01000072.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000073.1
+  assembly_unit: Primary Assembly
+  length: 1513
+  GenBank_accession: CAFN01000073.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000074.1
+  assembly_unit: Primary Assembly
+  length: 1445
+  GenBank_accession: CAFN01000074.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000075.1
+  assembly_unit: Primary Assembly
+  length: 2725
+  GenBank_accession: CAFN01000075.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000076.1
+  assembly_unit: Primary Assembly
+  length: 3959
+  GenBank_accession: CAFN01000076.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000077.1
+  assembly_unit: Primary Assembly
+  length: 2346
+  GenBank_accession: CAFN01000077.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000078.1
+  assembly_unit: Primary Assembly
+  length: 1727
+  GenBank_accession: CAFN01000078.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000079.1
+  assembly_unit: Primary Assembly
+  length: 7918
+  GenBank_accession: CAFN01000079.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000080.1
+  assembly_unit: Primary Assembly
+  length: 2213
+  GenBank_accession: CAFN01000080.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000081.1
+  assembly_unit: Primary Assembly
+  length: 1354
+  GenBank_accession: CAFN01000081.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000082.1
+  assembly_unit: Primary Assembly
+  length: 1376
+  GenBank_accession: CAFN01000082.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000083.1
+  assembly_unit: Primary Assembly
+  length: 2647
+  GenBank_accession: CAFN01000083.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000084.1
+  assembly_unit: Primary Assembly
+  length: 505
+  GenBank_accession: CAFN01000084.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000085.1
+  assembly_unit: Primary Assembly
+  length: 3909
+  GenBank_accession: CAFN01000085.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000086.1
+  assembly_unit: Primary Assembly
+  length: 575
+  GenBank_accession: CAFN01000086.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000087.1
+  assembly_unit: Primary Assembly
+  length: 514
+  GenBank_accession: CAFN01000087.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000088.1
+  assembly_unit: Primary Assembly
+  length: 1297
+  GenBank_accession: CAFN01000088.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000089.1
+  assembly_unit: Primary Assembly
+  length: 1342
+  GenBank_accession: CAFN01000089.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000090.1
+  assembly_unit: Primary Assembly
+  length: 3768
+  GenBank_accession: CAFN01000090.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000091.1
+  assembly_unit: Primary Assembly
+  length: 1101
+  GenBank_accession: CAFN01000091.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000092.1
+  assembly_unit: Primary Assembly
+  length: 3957
+  GenBank_accession: CAFN01000092.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000093.1
+  assembly_unit: Primary Assembly
+  length: 694
+  GenBank_accession: CAFN01000093.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000094.1
+  assembly_unit: Primary Assembly
+  length: 2012
+  GenBank_accession: CAFN01000094.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000095.1
+  assembly_unit: Primary Assembly
+  length: 1674
+  GenBank_accession: CAFN01000095.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000096.1
+  assembly_unit: Primary Assembly
+  length: 1589
+  GenBank_accession: CAFN01000096.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000097.1
+  assembly_unit: Primary Assembly
+  length: 2804
+  GenBank_accession: CAFN01000097.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000098.1
+  assembly_unit: Primary Assembly
+  length: 3000
+  GenBank_accession: CAFN01000098.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000099.1
+  assembly_unit: Primary Assembly
+  length: 3027
+  GenBank_accession: CAFN01000099.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000100.1
+  assembly_unit: Primary Assembly
+  length: 3273
+  GenBank_accession: CAFN01000100.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000101.1
+  assembly_unit: Primary Assembly
+  length: 13060
+  GenBank_accession: CAFN01000101.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000102.1
+  assembly_unit: Primary Assembly
+  length: 697
+  GenBank_accession: CAFN01000102.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000103.1
+  assembly_unit: Primary Assembly
+  length: 1538
+  GenBank_accession: CAFN01000103.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000104.1
+  assembly_unit: Primary Assembly
+  length: 1006
+  GenBank_accession: CAFN01000104.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000105.1
+  assembly_unit: Primary Assembly
+  length: 2262
+  GenBank_accession: CAFN01000105.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000106.1
+  assembly_unit: Primary Assembly
+  length: 1842
+  GenBank_accession: CAFN01000106.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000107.1
+  assembly_unit: Primary Assembly
+  length: 1266
+  GenBank_accession: CAFN01000107.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000108.1
+  assembly_unit: Primary Assembly
+  length: 875
+  GenBank_accession: CAFN01000108.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000109.1
+  assembly_unit: Primary Assembly
+  length: 619
+  GenBank_accession: CAFN01000109.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000110.1
+  assembly_unit: Primary Assembly
+  length: 577
+  GenBank_accession: CAFN01000110.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000111.1
+  assembly_unit: Primary Assembly
+  length: 1063
+  GenBank_accession: CAFN01000111.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000112.1
+  assembly_unit: Primary Assembly
+  length: 32500
+  GenBank_accession: CAFN01000112.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000113.1
+  assembly_unit: Primary Assembly
+  length: 61844
+  GenBank_accession: CAFN01000113.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000114.1
+  assembly_unit: Primary Assembly
+  length: 2938
+  GenBank_accession: CAFN01000114.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000115.1
+  assembly_unit: Primary Assembly
+  length: 792
+  GenBank_accession: CAFN01000115.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000116.1
+  assembly_unit: Primary Assembly
+  length: 1868
+  GenBank_accession: CAFN01000116.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000117.1
+  assembly_unit: Primary Assembly
+  length: 2715
+  GenBank_accession: CAFN01000117.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000118.1
+  assembly_unit: Primary Assembly
+  length: 583
+  GenBank_accession: CAFN01000118.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000119.1
+  assembly_unit: Primary Assembly
+  length: 717
+  GenBank_accession: CAFN01000119.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000120.1
+  assembly_unit: Primary Assembly
+  length: 1429
+  GenBank_accession: CAFN01000120.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000121.1
+  assembly_unit: Primary Assembly
+  length: 1635
+  GenBank_accession: CAFN01000121.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000122.1
+  assembly_unit: Primary Assembly
+  length: 2451
+  GenBank_accession: CAFN01000122.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000123.1
+  assembly_unit: Primary Assembly
+  length: 876
+  GenBank_accession: CAFN01000123.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000124.1
+  assembly_unit: Primary Assembly
+  length: 46593
+  GenBank_accession: CAFN01000124.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000125.1
+  assembly_unit: Primary Assembly
+  length: 1479
+  GenBank_accession: CAFN01000125.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000126.1
+  assembly_unit: Primary Assembly
+  length: 1248
+  GenBank_accession: CAFN01000126.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000127.1
+  assembly_unit: Primary Assembly
+  length: 4867
+  GenBank_accession: CAFN01000127.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000128.1
+  assembly_unit: Primary Assembly
+  length: 4232
+  GenBank_accession: CAFN01000128.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000129.1
+  assembly_unit: Primary Assembly
+  length: 2234
+  GenBank_accession: CAFN01000129.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000130.1
+  assembly_unit: Primary Assembly
+  length: 1102
+  GenBank_accession: CAFN01000130.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000131.1
+  assembly_unit: Primary Assembly
+  length: 1004
+  GenBank_accession: CAFN01000131.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000132.1
+  assembly_unit: Primary Assembly
+  length: 1713
+  GenBank_accession: CAFN01000132.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000133.1
+  assembly_unit: Primary Assembly
+  length: 789
+  GenBank_accession: CAFN01000133.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000134.1
+  assembly_unit: Primary Assembly
+  length: 909
+  GenBank_accession: CAFN01000134.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000135.1
+  assembly_unit: Primary Assembly
+  length: 23020
+  GenBank_accession: CAFN01000135.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000136.1
+  assembly_unit: Primary Assembly
+  length: 612
+  GenBank_accession: CAFN01000136.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000137.1
+  assembly_unit: Primary Assembly
+  length: 2145
+  GenBank_accession: CAFN01000137.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000138.1
+  assembly_unit: Primary Assembly
+  length: 1712
+  GenBank_accession: CAFN01000138.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000139.1
+  assembly_unit: Primary Assembly
+  length: 621
+  GenBank_accession: CAFN01000139.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000140.1
+  assembly_unit: Primary Assembly
+  length: 1645
+  GenBank_accession: CAFN01000140.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000141.1
+  assembly_unit: Primary Assembly
+  length: 855
+  GenBank_accession: CAFN01000141.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000142.1
+  assembly_unit: Primary Assembly
+  length: 637
+  GenBank_accession: CAFN01000142.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000143.1
+  assembly_unit: Primary Assembly
+  length: 621
+  GenBank_accession: CAFN01000143.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000144.1
+  assembly_unit: Primary Assembly
+  length: 524
+  GenBank_accession: CAFN01000144.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000145.1
+  assembly_unit: Primary Assembly
+  length: 565
+  GenBank_accession: CAFN01000145.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000146.1
+  assembly_unit: Primary Assembly
+  length: 19748
+  GenBank_accession: CAFN01000146.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000147.1
+  assembly_unit: Primary Assembly
+  length: 2769
+  GenBank_accession: CAFN01000147.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000148.1
+  assembly_unit: Primary Assembly
+  length: 2470
+  GenBank_accession: CAFN01000148.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000149.1
+  assembly_unit: Primary Assembly
+  length: 993
+  GenBank_accession: CAFN01000149.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000150.1
+  assembly_unit: Primary Assembly
+  length: 1475
+  GenBank_accession: CAFN01000150.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000151.1
+  assembly_unit: Primary Assembly
+  length: 1025
+  GenBank_accession: CAFN01000151.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000152.1
+  assembly_unit: Primary Assembly
+  length: 1478
+  GenBank_accession: CAFN01000152.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000153.1
+  assembly_unit: Primary Assembly
+  length: 582
+  GenBank_accession: CAFN01000153.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000154.1
+  assembly_unit: Primary Assembly
+  length: 3017
+  GenBank_accession: CAFN01000154.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000155.1
+  assembly_unit: Primary Assembly
+  length: 946
+  GenBank_accession: CAFN01000155.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000156.1
+  assembly_unit: Primary Assembly
+  length: 702
+  GenBank_accession: CAFN01000156.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000157.1
+  assembly_unit: Primary Assembly
+  length: 81364
+  GenBank_accession: CAFN01000157.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000158.1
+  assembly_unit: Primary Assembly
+  length: 1779
+  GenBank_accession: CAFN01000158.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000159.1
+  assembly_unit: Primary Assembly
+  length: 1141
+  GenBank_accession: CAFN01000159.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000160.1
+  assembly_unit: Primary Assembly
+  length: 1186
+  GenBank_accession: CAFN01000160.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000161.1
+  assembly_unit: Primary Assembly
+  length: 3474
+  GenBank_accession: CAFN01000161.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000162.1
+  assembly_unit: Primary Assembly
+  length: 926
+  GenBank_accession: CAFN01000162.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000163.1
+  assembly_unit: Primary Assembly
+  length: 889
+  GenBank_accession: CAFN01000163.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000164.1
+  assembly_unit: Primary Assembly
+  length: 884
+  GenBank_accession: CAFN01000164.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000165.1
+  assembly_unit: Primary Assembly
+  length: 1366
+  GenBank_accession: CAFN01000165.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000166.1
+  assembly_unit: Primary Assembly
+  length: 1676
+  GenBank_accession: CAFN01000166.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000167.1
+  assembly_unit: Primary Assembly
+  length: 664
+  GenBank_accession: CAFN01000167.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000168.1
+  assembly_unit: Primary Assembly
+  length: 29689
+  GenBank_accession: CAFN01000168.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000169.1
+  assembly_unit: Primary Assembly
+  length: 560
+  GenBank_accession: CAFN01000169.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000170.1
+  assembly_unit: Primary Assembly
+  length: 2858
+  GenBank_accession: CAFN01000170.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000171.1
+  assembly_unit: Primary Assembly
+  length: 3629
+  GenBank_accession: CAFN01000171.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000172.1
+  assembly_unit: Primary Assembly
+  length: 1367
+  GenBank_accession: CAFN01000172.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000173.1
+  assembly_unit: Primary Assembly
+  length: 2890
+  GenBank_accession: CAFN01000173.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000174.1
+  assembly_unit: Primary Assembly
+  length: 1330
+  GenBank_accession: CAFN01000174.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000175.1
+  assembly_unit: Primary Assembly
+  length: 5679
+  GenBank_accession: CAFN01000175.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000176.1
+  assembly_unit: Primary Assembly
+  length: 944
+  GenBank_accession: CAFN01000176.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000177.1
+  assembly_unit: Primary Assembly
+  length: 791
+  GenBank_accession: CAFN01000177.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000178.1
+  assembly_unit: Primary Assembly
+  length: 529
+  GenBank_accession: CAFN01000178.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000179.1
+  assembly_unit: Primary Assembly
+  length: 22992
+  GenBank_accession: CAFN01000179.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000180.1
+  assembly_unit: Primary Assembly
+  length: 2337
+  GenBank_accession: CAFN01000180.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000181.1
+  assembly_unit: Primary Assembly
+  length: 1800
+  GenBank_accession: CAFN01000181.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000182.1
+  assembly_unit: Primary Assembly
+  length: 1612
+  GenBank_accession: CAFN01000182.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000183.1
+  assembly_unit: Primary Assembly
+  length: 4122
+  GenBank_accession: CAFN01000183.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000184.1
+  assembly_unit: Primary Assembly
+  length: 744
+  GenBank_accession: CAFN01000184.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000185.1
+  assembly_unit: Primary Assembly
+  length: 758
+  GenBank_accession: CAFN01000185.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000186.1
+  assembly_unit: Primary Assembly
+  length: 1606
+  GenBank_accession: CAFN01000186.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000187.1
+  assembly_unit: Primary Assembly
+  length: 970
+  GenBank_accession: CAFN01000187.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000188.1
+  assembly_unit: Primary Assembly
+  length: 2024
+  GenBank_accession: CAFN01000188.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000189.1
+  assembly_unit: Primary Assembly
+  length: 584
+  GenBank_accession: CAFN01000189.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000190.1
+  assembly_unit: Primary Assembly
+  length: 4203
+  GenBank_accession: CAFN01000190.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000191.1
+  assembly_unit: Primary Assembly
+  length: 1784
+  GenBank_accession: CAFN01000191.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000192.1
+  assembly_unit: Primary Assembly
+  length: 3262
+  GenBank_accession: CAFN01000192.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000193.1
+  assembly_unit: Primary Assembly
+  length: 754
+  GenBank_accession: CAFN01000193.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000194.1
+  assembly_unit: Primary Assembly
+  length: 936
+  GenBank_accession: CAFN01000194.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000195.1
+  assembly_unit: Primary Assembly
+  length: 2658
+  GenBank_accession: CAFN01000195.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000196.1
+  assembly_unit: Primary Assembly
+  length: 1398
+  GenBank_accession: CAFN01000196.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000197.1
+  assembly_unit: Primary Assembly
+  length: 960
+  GenBank_accession: CAFN01000197.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000198.1
+  assembly_unit: Primary Assembly
+  length: 1219
+  GenBank_accession: CAFN01000198.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000199.1
+  assembly_unit: Primary Assembly
+  length: 3305
+  GenBank_accession: CAFN01000199.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000200.1
+  assembly_unit: Primary Assembly
+  length: 2265
+  GenBank_accession: CAFN01000200.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000201.1
+  assembly_unit: Primary Assembly
+  length: 4634
+  GenBank_accession: CAFN01000201.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000202.1
+  assembly_unit: Primary Assembly
+  length: 1055
+  GenBank_accession: CAFN01000202.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000203.1
+  assembly_unit: Primary Assembly
+  length: 600
+  GenBank_accession: CAFN01000203.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000204.1
+  assembly_unit: Primary Assembly
+  length: 1248
+  GenBank_accession: CAFN01000204.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000205.1
+  assembly_unit: Primary Assembly
+  length: 914
+  GenBank_accession: CAFN01000205.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000206.1
+  assembly_unit: Primary Assembly
+  length: 1637
+  GenBank_accession: CAFN01000206.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000207.1
+  assembly_unit: Primary Assembly
+  length: 1232
+  GenBank_accession: CAFN01000207.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000208.1
+  assembly_unit: Primary Assembly
+  length: 1270
+  GenBank_accession: CAFN01000208.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000209.1
+  assembly_unit: Primary Assembly
+  length: 1233
+  GenBank_accession: CAFN01000209.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000210.1
+  assembly_unit: Primary Assembly
+  length: 3731
+  GenBank_accession: CAFN01000210.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000211.1
+  assembly_unit: Primary Assembly
+  length: 596
+  GenBank_accession: CAFN01000211.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000212.1
+  assembly_unit: Primary Assembly
+  length: 8958
+  GenBank_accession: CAFN01000212.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000213.1
+  assembly_unit: Primary Assembly
+  length: 1024
+  GenBank_accession: CAFN01000213.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000214.1
+  assembly_unit: Primary Assembly
+  length: 1067
+  GenBank_accession: CAFN01000214.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000215.1
+  assembly_unit: Primary Assembly
+  length: 1536
+  GenBank_accession: CAFN01000215.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000216.1
+  assembly_unit: Primary Assembly
+  length: 530
+  GenBank_accession: CAFN01000216.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000217.1
+  assembly_unit: Primary Assembly
+  length: 3714
+  GenBank_accession: CAFN01000217.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000218.1
+  assembly_unit: Primary Assembly
+  length: 1121
+  GenBank_accession: CAFN01000218.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000219.1
+  assembly_unit: Primary Assembly
+  length: 1084
+  GenBank_accession: CAFN01000219.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000220.1
+  assembly_unit: Primary Assembly
+  length: 1789
+  GenBank_accession: CAFN01000220.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000221.1
+  assembly_unit: Primary Assembly
+  length: 576
+  GenBank_accession: CAFN01000221.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000222.1
+  assembly_unit: Primary Assembly
+  length: 589
+  GenBank_accession: CAFN01000222.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000223.1
+  assembly_unit: Primary Assembly
+  length: 5632
+  GenBank_accession: CAFN01000223.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000224.1
+  assembly_unit: Primary Assembly
+  length: 41492
+  GenBank_accession: CAFN01000224.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000225.1
+  assembly_unit: Primary Assembly
+  length: 2590
+  GenBank_accession: CAFN01000225.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000226.1
+  assembly_unit: Primary Assembly
+  length: 2452
+  GenBank_accession: CAFN01000226.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000227.1
+  assembly_unit: Primary Assembly
+  length: 745
+  GenBank_accession: CAFN01000227.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000228.1
+  assembly_unit: Primary Assembly
+  length: 2140
+  GenBank_accession: CAFN01000228.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000229.1
+  assembly_unit: Primary Assembly
+  length: 1193
+  GenBank_accession: CAFN01000229.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000230.1
+  assembly_unit: Primary Assembly
+  length: 1626
+  GenBank_accession: CAFN01000230.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000231.1
+  assembly_unit: Primary Assembly
+  length: 2999
+  GenBank_accession: CAFN01000231.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000232.1
+  assembly_unit: Primary Assembly
+  length: 502
+  GenBank_accession: CAFN01000232.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000233.1
+  assembly_unit: Primary Assembly
+  length: 968
+  GenBank_accession: CAFN01000233.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000234.1
+  assembly_unit: Primary Assembly
+  length: 621
+  GenBank_accession: CAFN01000234.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000235.1
+  assembly_unit: Primary Assembly
+  length: 79929
+  GenBank_accession: CAFN01000235.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000236.1
+  assembly_unit: Primary Assembly
+  length: 646
+  GenBank_accession: CAFN01000236.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000237.1
+  assembly_unit: Primary Assembly
+  length: 2729
+  GenBank_accession: CAFN01000237.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000238.1
+  assembly_unit: Primary Assembly
+  length: 1215
+  GenBank_accession: CAFN01000238.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000239.1
+  assembly_unit: Primary Assembly
+  length: 2283
+  GenBank_accession: CAFN01000239.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000240.1
+  assembly_unit: Primary Assembly
+  length: 1578
+  GenBank_accession: CAFN01000240.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000241.1
+  assembly_unit: Primary Assembly
+  length: 598
+  GenBank_accession: CAFN01000241.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000242.1
+  assembly_unit: Primary Assembly
+  length: 779
+  GenBank_accession: CAFN01000242.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000243.1
+  assembly_unit: Primary Assembly
+  length: 544
+  GenBank_accession: CAFN01000243.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000244.1
+  assembly_unit: Primary Assembly
+  length: 635
+  GenBank_accession: CAFN01000244.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000245.1
+  assembly_unit: Primary Assembly
+  length: 851
+  GenBank_accession: CAFN01000245.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000246.1
+  assembly_unit: Primary Assembly
+  length: 29762
+  GenBank_accession: CAFN01000246.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000247.1
+  assembly_unit: Primary Assembly
+  length: 2600
+  GenBank_accession: CAFN01000247.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000248.1
+  assembly_unit: Primary Assembly
+  length: 891
+  GenBank_accession: CAFN01000248.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000249.1
+  assembly_unit: Primary Assembly
+  length: 525
+  GenBank_accession: CAFN01000249.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000250.1
+  assembly_unit: Primary Assembly
+  length: 1421
+  GenBank_accession: CAFN01000250.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000251.1
+  assembly_unit: Primary Assembly
+  length: 793
+  GenBank_accession: CAFN01000251.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000252.1
+  assembly_unit: Primary Assembly
+  length: 819
+  GenBank_accession: CAFN01000252.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000253.1
+  assembly_unit: Primary Assembly
+  length: 878
+  GenBank_accession: CAFN01000253.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000254.1
+  assembly_unit: Primary Assembly
+  length: 3644
+  GenBank_accession: CAFN01000254.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000255.1
+  assembly_unit: Primary Assembly
+  length: 1366
+  GenBank_accession: CAFN01000255.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000256.1
+  assembly_unit: Primary Assembly
+  length: 3377
+  GenBank_accession: CAFN01000256.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000257.1
+  assembly_unit: Primary Assembly
+  length: 5749
+  GenBank_accession: CAFN01000257.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000258.1
+  assembly_unit: Primary Assembly
+  length: 736
+  GenBank_accession: CAFN01000258.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000259.1
+  assembly_unit: Primary Assembly
+  length: 672
+  GenBank_accession: CAFN01000259.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000260.1
+  assembly_unit: Primary Assembly
+  length: 1169
+  GenBank_accession: CAFN01000260.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000261.1
+  assembly_unit: Primary Assembly
+  length: 647
+  GenBank_accession: CAFN01000261.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000262.1
+  assembly_unit: Primary Assembly
+  length: 7269
+  GenBank_accession: CAFN01000262.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000263.1
+  assembly_unit: Primary Assembly
+  length: 1684
+  GenBank_accession: CAFN01000263.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000264.1
+  assembly_unit: Primary Assembly
+  length: 1529
+  GenBank_accession: CAFN01000264.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000265.1
+  assembly_unit: Primary Assembly
+  length: 1803
+  GenBank_accession: CAFN01000265.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000266.1
+  assembly_unit: Primary Assembly
+  length: 1156
+  GenBank_accession: CAFN01000266.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000267.1
+  assembly_unit: Primary Assembly
+  length: 1370
+  GenBank_accession: CAFN01000267.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000268.1
+  assembly_unit: Primary Assembly
+  length: 33554
+  GenBank_accession: CAFN01000268.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000269.1
+  assembly_unit: Primary Assembly
+  length: 1257
+  GenBank_accession: CAFN01000269.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000270.1
+  assembly_unit: Primary Assembly
+  length: 1383
+  GenBank_accession: CAFN01000270.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000271.1
+  assembly_unit: Primary Assembly
+  length: 1494
+  GenBank_accession: CAFN01000271.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000272.1
+  assembly_unit: Primary Assembly
+  length: 3021
+  GenBank_accession: CAFN01000272.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000273.1
+  assembly_unit: Primary Assembly
+  length: 511
+  GenBank_accession: CAFN01000273.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000274.1
+  assembly_unit: Primary Assembly
+  length: 609
+  GenBank_accession: CAFN01000274.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000275.1
+  assembly_unit: Primary Assembly
+  length: 566
+  GenBank_accession: CAFN01000275.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000276.1
+  assembly_unit: Primary Assembly
+  length: 901
+  GenBank_accession: CAFN01000276.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000277.1
+  assembly_unit: Primary Assembly
+  length: 1637
+  GenBank_accession: CAFN01000277.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000278.1
+  assembly_unit: Primary Assembly
+  length: 2215
+  GenBank_accession: CAFN01000278.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000279.1
+  assembly_unit: Primary Assembly
+  length: 11602
+  GenBank_accession: CAFN01000279.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000280.1
+  assembly_unit: Primary Assembly
+  length: 542
+  GenBank_accession: CAFN01000280.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000281.1
+  assembly_unit: Primary Assembly
+  length: 1689
+  GenBank_accession: CAFN01000281.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000282.1
+  assembly_unit: Primary Assembly
+  length: 1282
+  GenBank_accession: CAFN01000282.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000283.1
+  assembly_unit: Primary Assembly
+  length: 701
+  GenBank_accession: CAFN01000283.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000284.1
+  assembly_unit: Primary Assembly
+  length: 640
+  GenBank_accession: CAFN01000284.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000285.1
+  assembly_unit: Primary Assembly
+  length: 1850
+  GenBank_accession: CAFN01000285.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000286.1
+  assembly_unit: Primary Assembly
+  length: 3006
+  GenBank_accession: CAFN01000286.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000287.1
+  assembly_unit: Primary Assembly
+  length: 501
+  GenBank_accession: CAFN01000287.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000288.1
+  assembly_unit: Primary Assembly
+  length: 1844
+  GenBank_accession: CAFN01000288.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000289.1
+  assembly_unit: Primary Assembly
+  length: 639
+  GenBank_accession: CAFN01000289.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000290.1
+  assembly_unit: Primary Assembly
+  length: 7125
+  GenBank_accession: CAFN01000290.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000291.1
+  assembly_unit: Primary Assembly
+  length: 1996
+  GenBank_accession: CAFN01000291.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000292.1
+  assembly_unit: Primary Assembly
+  length: 629
+  GenBank_accession: CAFN01000292.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000293.1
+  assembly_unit: Primary Assembly
+  length: 605
+  GenBank_accession: CAFN01000293.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000294.1
+  assembly_unit: Primary Assembly
+  length: 2092
+  GenBank_accession: CAFN01000294.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000295.1
+  assembly_unit: Primary Assembly
+  length: 592
+  GenBank_accession: CAFN01000295.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000296.1
+  assembly_unit: Primary Assembly
+  length: 1294
+  GenBank_accession: CAFN01000296.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000297.1
+  assembly_unit: Primary Assembly
+  length: 2262
+  GenBank_accession: CAFN01000297.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000298.1
+  assembly_unit: Primary Assembly
+  length: 2101
+  GenBank_accession: CAFN01000298.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000299.1
+  assembly_unit: Primary Assembly
+  length: 502
+  GenBank_accession: CAFN01000299.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000300.1
+  assembly_unit: Primary Assembly
+  length: 768
+  GenBank_accession: CAFN01000300.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000301.1
+  assembly_unit: Primary Assembly
+  length: 54138
+  GenBank_accession: CAFN01000301.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000302.1
+  assembly_unit: Primary Assembly
+  length: 1252
+  GenBank_accession: CAFN01000302.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000303.1
+  assembly_unit: Primary Assembly
+  length: 587
+  GenBank_accession: CAFN01000303.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000304.1
+  assembly_unit: Primary Assembly
+  length: 750
+  GenBank_accession: CAFN01000304.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000305.1
+  assembly_unit: Primary Assembly
+  length: 761
+  GenBank_accession: CAFN01000305.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000306.1
+  assembly_unit: Primary Assembly
+  length: 730
+  GenBank_accession: CAFN01000306.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000307.1
+  assembly_unit: Primary Assembly
+  length: 1681
+  GenBank_accession: CAFN01000307.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000308.1
+  assembly_unit: Primary Assembly
+  length: 639
+  GenBank_accession: CAFN01000308.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000309.1
+  assembly_unit: Primary Assembly
+  length: 1326
+  GenBank_accession: CAFN01000309.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000310.1
+  assembly_unit: Primary Assembly
+  length: 4686
+  GenBank_accession: CAFN01000310.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000311.1
+  assembly_unit: Primary Assembly
+  length: 1288
+  GenBank_accession: CAFN01000311.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000312.1
+  assembly_unit: Primary Assembly
+  length: 40047
+  GenBank_accession: CAFN01000312.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000313.1
+  assembly_unit: Primary Assembly
+  length: 2175
+  GenBank_accession: CAFN01000313.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000314.1
+  assembly_unit: Primary Assembly
+  length: 757
+  GenBank_accession: CAFN01000314.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000315.1
+  assembly_unit: Primary Assembly
+  length: 526
+  GenBank_accession: CAFN01000315.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000316.1
+  assembly_unit: Primary Assembly
+  length: 1172
+  GenBank_accession: CAFN01000316.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000317.1
+  assembly_unit: Primary Assembly
+  length: 1089
+  GenBank_accession: CAFN01000317.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000318.1
+  assembly_unit: Primary Assembly
+  length: 597
+  GenBank_accession: CAFN01000318.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000319.1
+  assembly_unit: Primary Assembly
+  length: 2445
+  GenBank_accession: CAFN01000319.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000320.1
+  assembly_unit: Primary Assembly
+  length: 1416
+  GenBank_accession: CAFN01000320.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000321.1
+  assembly_unit: Primary Assembly
+  length: 592
+  GenBank_accession: CAFN01000321.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000322.1
+  assembly_unit: Primary Assembly
+  length: 639
+  GenBank_accession: CAFN01000322.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000323.1
+  assembly_unit: Primary Assembly
+  length: 17433
+  GenBank_accession: CAFN01000323.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000324.1
+  assembly_unit: Primary Assembly
+  length: 514
+  GenBank_accession: CAFN01000324.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000325.1
+  assembly_unit: Primary Assembly
+  length: 519
+  GenBank_accession: CAFN01000325.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000326.1
+  assembly_unit: Primary Assembly
+  length: 1596
+  GenBank_accession: CAFN01000326.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000327.1
+  assembly_unit: Primary Assembly
+  length: 559
+  GenBank_accession: CAFN01000327.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000328.1
+  assembly_unit: Primary Assembly
+  length: 869
+  GenBank_accession: CAFN01000328.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000329.1
+  assembly_unit: Primary Assembly
+  length: 1819
+  GenBank_accession: CAFN01000329.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000330.1
+  assembly_unit: Primary Assembly
+  length: 897
+  GenBank_accession: CAFN01000330.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000331.1
+  assembly_unit: Primary Assembly
+  length: 1139
+  GenBank_accession: CAFN01000331.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000332.1
+  assembly_unit: Primary Assembly
+  length: 1569
+  GenBank_accession: CAFN01000332.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000333.1
+  assembly_unit: Primary Assembly
+  length: 1007
+  GenBank_accession: CAFN01000333.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000334.1
+  assembly_unit: Primary Assembly
+  length: 13848
+  GenBank_accession: CAFN01000334.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000335.1
+  assembly_unit: Primary Assembly
+  length: 58434
+  GenBank_accession: CAFN01000335.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000336.1
+  assembly_unit: Primary Assembly
+  length: 3016
+  GenBank_accession: CAFN01000336.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000337.1
+  assembly_unit: Primary Assembly
+  length: 545
+  GenBank_accession: CAFN01000337.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000338.1
+  assembly_unit: Primary Assembly
+  length: 929
+  GenBank_accession: CAFN01000338.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000339.1
+  assembly_unit: Primary Assembly
+  length: 1048
+  GenBank_accession: CAFN01000339.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000340.1
+  assembly_unit: Primary Assembly
+  length: 718
+  GenBank_accession: CAFN01000340.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000341.1
+  assembly_unit: Primary Assembly
+  length: 789
+  GenBank_accession: CAFN01000341.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000342.1
+  assembly_unit: Primary Assembly
+  length: 546
+  GenBank_accession: CAFN01000342.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000343.1
+  assembly_unit: Primary Assembly
+  length: 689
+  GenBank_accession: CAFN01000343.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000344.1
+  assembly_unit: Primary Assembly
+  length: 635
+  GenBank_accession: CAFN01000344.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000345.1
+  assembly_unit: Primary Assembly
+  length: 1267
+  GenBank_accession: CAFN01000345.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000346.1
+  assembly_unit: Primary Assembly
+  length: 3695
+  GenBank_accession: CAFN01000346.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000347.1
+  assembly_unit: Primary Assembly
+  length: 1077
+  GenBank_accession: CAFN01000347.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000348.1
+  assembly_unit: Primary Assembly
+  length: 1433
+  GenBank_accession: CAFN01000348.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000349.1
+  assembly_unit: Primary Assembly
+  length: 853
+  GenBank_accession: CAFN01000349.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000350.1
+  assembly_unit: Primary Assembly
+  length: 2324
+  GenBank_accession: CAFN01000350.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000351.1
+  assembly_unit: Primary Assembly
+  length: 1278
+  GenBank_accession: CAFN01000351.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000352.1
+  assembly_unit: Primary Assembly
+  length: 1915
+  GenBank_accession: CAFN01000352.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000353.1
+  assembly_unit: Primary Assembly
+  length: 4802
+  GenBank_accession: CAFN01000353.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000354.1
+  assembly_unit: Primary Assembly
+  length: 1257
+  GenBank_accession: CAFN01000354.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000355.1
+  assembly_unit: Primary Assembly
+  length: 957
+  GenBank_accession: CAFN01000355.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000356.1
+  assembly_unit: Primary Assembly
+  length: 596
+  GenBank_accession: CAFN01000356.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000357.1
+  assembly_unit: Primary Assembly
+  length: 88358
+  GenBank_accession: CAFN01000357.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000358.1
+  assembly_unit: Primary Assembly
+  length: 2515
+  GenBank_accession: CAFN01000358.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000359.1
+  assembly_unit: Primary Assembly
+  length: 2704
+  GenBank_accession: CAFN01000359.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000360.1
+  assembly_unit: Primary Assembly
+  length: 712
+  GenBank_accession: CAFN01000360.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000361.1
+  assembly_unit: Primary Assembly
+  length: 533
+  GenBank_accession: CAFN01000361.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000362.1
+  assembly_unit: Primary Assembly
+  length: 2763
+  GenBank_accession: CAFN01000362.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000363.1
+  assembly_unit: Primary Assembly
+  length: 2192
+  GenBank_accession: CAFN01000363.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000364.1
+  assembly_unit: Primary Assembly
+  length: 766
+  GenBank_accession: CAFN01000364.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000365.1
+  assembly_unit: Primary Assembly
+  length: 1215
+  GenBank_accession: CAFN01000365.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000366.1
+  assembly_unit: Primary Assembly
+  length: 2986
+  GenBank_accession: CAFN01000366.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000367.1
+  assembly_unit: Primary Assembly
+  length: 1942
+  GenBank_accession: CAFN01000367.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000368.1
+  assembly_unit: Primary Assembly
+  length: 73687
+  GenBank_accession: CAFN01000368.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000369.1
+  assembly_unit: Primary Assembly
+  length: 992
+  GenBank_accession: CAFN01000369.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000370.1
+  assembly_unit: Primary Assembly
+  length: 1483
+  GenBank_accession: CAFN01000370.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000371.1
+  assembly_unit: Primary Assembly
+  length: 1024
+  GenBank_accession: CAFN01000371.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000372.1
+  assembly_unit: Primary Assembly
+  length: 977
+  GenBank_accession: CAFN01000372.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000373.1
+  assembly_unit: Primary Assembly
+  length: 4403
+  GenBank_accession: CAFN01000373.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000374.1
+  assembly_unit: Primary Assembly
+  length: 1190
+  GenBank_accession: CAFN01000374.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000375.1
+  assembly_unit: Primary Assembly
+  length: 657
+  GenBank_accession: CAFN01000375.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000376.1
+  assembly_unit: Primary Assembly
+  length: 982
+  GenBank_accession: CAFN01000376.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000377.1
+  assembly_unit: Primary Assembly
+  length: 662
+  GenBank_accession: CAFN01000377.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000378.1
+  assembly_unit: Primary Assembly
+  length: 583
+  GenBank_accession: CAFN01000378.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000379.1
+  assembly_unit: Primary Assembly
+  length: 5643
+  GenBank_accession: CAFN01000379.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000380.1
+  assembly_unit: Primary Assembly
+  length: 2452
+  GenBank_accession: CAFN01000380.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000381.1
+  assembly_unit: Primary Assembly
+  length: 3562
+  GenBank_accession: CAFN01000381.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000382.1
+  assembly_unit: Primary Assembly
+  length: 722
+  GenBank_accession: CAFN01000382.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000383.1
+  assembly_unit: Primary Assembly
+  length: 525
+  GenBank_accession: CAFN01000383.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000384.1
+  assembly_unit: Primary Assembly
+  length: 525
+  GenBank_accession: CAFN01000384.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000385.1
+  assembly_unit: Primary Assembly
+  length: 654
+  GenBank_accession: CAFN01000385.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000386.1
+  assembly_unit: Primary Assembly
+  length: 1583
+  GenBank_accession: CAFN01000386.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000387.1
+  assembly_unit: Primary Assembly
+  length: 642
+  GenBank_accession: CAFN01000387.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000388.1
+  assembly_unit: Primary Assembly
+  length: 2295
+  GenBank_accession: CAFN01000388.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000389.1
+  assembly_unit: Primary Assembly
+  length: 551
+  GenBank_accession: CAFN01000389.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000390.1
+  assembly_unit: Primary Assembly
+  length: 4325
+  GenBank_accession: CAFN01000390.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000391.1
+  assembly_unit: Primary Assembly
+  length: 704
+  GenBank_accession: CAFN01000391.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000392.1
+  assembly_unit: Primary Assembly
+  length: 943
+  GenBank_accession: CAFN01000392.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000393.1
+  assembly_unit: Primary Assembly
+  length: 589
+  GenBank_accession: CAFN01000393.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000394.1
+  assembly_unit: Primary Assembly
+  length: 582
+  GenBank_accession: CAFN01000394.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000395.1
+  assembly_unit: Primary Assembly
+  length: 996
+  GenBank_accession: CAFN01000395.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000396.1
+  assembly_unit: Primary Assembly
+  length: 513
+  GenBank_accession: CAFN01000396.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000397.1
+  assembly_unit: Primary Assembly
+  length: 835
+  GenBank_accession: CAFN01000397.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000398.1
+  assembly_unit: Primary Assembly
+  length: 1065
+  GenBank_accession: CAFN01000398.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000399.1
+  assembly_unit: Primary Assembly
+  length: 990
+  GenBank_accession: CAFN01000399.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000400.1
+  assembly_unit: Primary Assembly
+  length: 540
+  GenBank_accession: CAFN01000400.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000401.1
+  assembly_unit: Primary Assembly
+  length: 11015
+  GenBank_accession: CAFN01000401.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000402.1
+  assembly_unit: Primary Assembly
+  length: 528
+  GenBank_accession: CAFN01000402.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000403.1
+  assembly_unit: Primary Assembly
+  length: 550
+  GenBank_accession: CAFN01000403.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000404.1
+  assembly_unit: Primary Assembly
+  length: 947
+  GenBank_accession: CAFN01000404.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000405.1
+  assembly_unit: Primary Assembly
+  length: 1902
+  GenBank_accession: CAFN01000405.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000406.1
+  assembly_unit: Primary Assembly
+  length: 1282
+  GenBank_accession: CAFN01000406.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000407.1
+  assembly_unit: Primary Assembly
+  length: 802
+  GenBank_accession: CAFN01000407.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000408.1
+  assembly_unit: Primary Assembly
+  length: 1682
+  GenBank_accession: CAFN01000408.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000409.1
+  assembly_unit: Primary Assembly
+  length: 1323
+  GenBank_accession: CAFN01000409.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000410.1
+  assembly_unit: Primary Assembly
+  length: 3080
+  GenBank_accession: CAFN01000410.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000411.1
+  assembly_unit: Primary Assembly
+  length: 1659
+  GenBank_accession: CAFN01000411.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000412.1
+  assembly_unit: Primary Assembly
+  length: 12419
+  GenBank_accession: CAFN01000412.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000413.1
+  assembly_unit: Primary Assembly
+  length: 1307
+  GenBank_accession: CAFN01000413.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000414.1
+  assembly_unit: Primary Assembly
+  length: 1040
+  GenBank_accession: CAFN01000414.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000415.1
+  assembly_unit: Primary Assembly
+  length: 3077
+  GenBank_accession: CAFN01000415.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000416.1
+  assembly_unit: Primary Assembly
+  length: 2891
+  GenBank_accession: CAFN01000416.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000417.1
+  assembly_unit: Primary Assembly
+  length: 1089
+  GenBank_accession: CAFN01000417.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000418.1
+  assembly_unit: Primary Assembly
+  length: 1258
+  GenBank_accession: CAFN01000418.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000419.1
+  assembly_unit: Primary Assembly
+  length: 975
+  GenBank_accession: CAFN01000419.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000420.1
+  assembly_unit: Primary Assembly
+  length: 852
+  GenBank_accession: CAFN01000420.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000421.1
+  assembly_unit: Primary Assembly
+  length: 3604
+  GenBank_accession: CAFN01000421.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000422.1
+  assembly_unit: Primary Assembly
+  length: 3312
+  GenBank_accession: CAFN01000422.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000423.1
+  assembly_unit: Primary Assembly
+  length: 5585
+  GenBank_accession: CAFN01000423.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000424.1
+  assembly_unit: Primary Assembly
+  length: 1799
+  GenBank_accession: CAFN01000424.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000425.1
+  assembly_unit: Primary Assembly
+  length: 1181
+  GenBank_accession: CAFN01000425.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000426.1
+  assembly_unit: Primary Assembly
+  length: 1878
+  GenBank_accession: CAFN01000426.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000427.1
+  assembly_unit: Primary Assembly
+  length: 6681
+  GenBank_accession: CAFN01000427.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000428.1
+  assembly_unit: Primary Assembly
+  length: 1306
+  GenBank_accession: CAFN01000428.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000429.1
+  assembly_unit: Primary Assembly
+  length: 612
+  GenBank_accession: CAFN01000429.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000430.1
+  assembly_unit: Primary Assembly
+  length: 718
+  GenBank_accession: CAFN01000430.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000431.1
+  assembly_unit: Primary Assembly
+  length: 1765
+  GenBank_accession: CAFN01000431.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000432.1
+  assembly_unit: Primary Assembly
+  length: 629
+  GenBank_accession: CAFN01000432.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000433.1
+  assembly_unit: Primary Assembly
+  length: 1058
+  GenBank_accession: CAFN01000433.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000434.1
+  assembly_unit: Primary Assembly
+  length: 6454
+  GenBank_accession: CAFN01000434.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000435.1
+  assembly_unit: Primary Assembly
+  length: 1553
+  GenBank_accession: CAFN01000435.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000436.1
+  assembly_unit: Primary Assembly
+  length: 3600
+  GenBank_accession: CAFN01000436.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000437.1
+  assembly_unit: Primary Assembly
+  length: 565
+  GenBank_accession: CAFN01000437.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000438.1
+  assembly_unit: Primary Assembly
+  length: 815
+  GenBank_accession: CAFN01000438.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000439.1
+  assembly_unit: Primary Assembly
+  length: 920
+  GenBank_accession: CAFN01000439.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000440.1
+  assembly_unit: Primary Assembly
+  length: 1420
+  GenBank_accession: CAFN01000440.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000441.1
+  assembly_unit: Primary Assembly
+  length: 2617
+  GenBank_accession: CAFN01000441.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000442.1
+  assembly_unit: Primary Assembly
+  length: 971
+  GenBank_accession: CAFN01000442.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000443.1
+  assembly_unit: Primary Assembly
+  length: 816
+  GenBank_accession: CAFN01000443.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000444.1
+  assembly_unit: Primary Assembly
+  length: 2224
+  GenBank_accession: CAFN01000444.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000445.1
+  assembly_unit: Primary Assembly
+  length: 6299
+  GenBank_accession: CAFN01000445.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000446.1
+  assembly_unit: Primary Assembly
+  length: 2303
+  GenBank_accession: CAFN01000446.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000447.1
+  assembly_unit: Primary Assembly
+  length: 2274
+  GenBank_accession: CAFN01000447.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000448.1
+  assembly_unit: Primary Assembly
+  length: 584
+  GenBank_accession: CAFN01000448.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000449.1
+  assembly_unit: Primary Assembly
+  length: 740
+  GenBank_accession: CAFN01000449.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000450.1
+  assembly_unit: Primary Assembly
+  length: 926
+  GenBank_accession: CAFN01000450.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000451.1
+  assembly_unit: Primary Assembly
+  length: 1075
+  GenBank_accession: CAFN01000451.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000452.1
+  assembly_unit: Primary Assembly
+  length: 606
+  GenBank_accession: CAFN01000452.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000453.1
+  assembly_unit: Primary Assembly
+  length: 2575
+  GenBank_accession: CAFN01000453.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000454.1
+  assembly_unit: Primary Assembly
+  length: 1659
+  GenBank_accession: CAFN01000454.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000455.1
+  assembly_unit: Primary Assembly
+  length: 2907
+  GenBank_accession: CAFN01000455.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000456.1
+  assembly_unit: Primary Assembly
+  length: 655
+  GenBank_accession: CAFN01000456.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000457.1
+  assembly_unit: Primary Assembly
+  length: 1869
+  GenBank_accession: CAFN01000457.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000458.1
+  assembly_unit: Primary Assembly
+  length: 2992
+  GenBank_accession: CAFN01000458.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000459.1
+  assembly_unit: Primary Assembly
+  length: 3739
+  GenBank_accession: CAFN01000459.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000460.1
+  assembly_unit: Primary Assembly
+  length: 1341
+  GenBank_accession: CAFN01000460.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000461.1
+  assembly_unit: Primary Assembly
+  length: 597
+  GenBank_accession: CAFN01000461.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000462.1
+  assembly_unit: Primary Assembly
+  length: 1441
+  GenBank_accession: CAFN01000462.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000463.1
+  assembly_unit: Primary Assembly
+  length: 690
+  GenBank_accession: CAFN01000463.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000464.1
+  assembly_unit: Primary Assembly
+  length: 570
+  GenBank_accession: CAFN01000464.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000465.1
+  assembly_unit: Primary Assembly
+  length: 1320
+  GenBank_accession: CAFN01000465.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000466.1
+  assembly_unit: Primary Assembly
+  length: 3246
+  GenBank_accession: CAFN01000466.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000467.1
+  assembly_unit: Primary Assembly
+  length: 581
+  GenBank_accession: CAFN01000467.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000468.1
+  assembly_unit: Primary Assembly
+  length: 9620
+  GenBank_accession: CAFN01000468.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000469.1
+  assembly_unit: Primary Assembly
+  length: 629
+  GenBank_accession: CAFN01000469.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000470.1
+  assembly_unit: Primary Assembly
+  length: 623
+  GenBank_accession: CAFN01000470.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000471.1
+  assembly_unit: Primary Assembly
+  length: 1065
+  GenBank_accession: CAFN01000471.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000472.1
+  assembly_unit: Primary Assembly
+  length: 746
+  GenBank_accession: CAFN01000472.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000473.1
+  assembly_unit: Primary Assembly
+  length: 4431
+  GenBank_accession: CAFN01000473.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000474.1
+  assembly_unit: Primary Assembly
+  length: 642
+  GenBank_accession: CAFN01000474.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000475.1
+  assembly_unit: Primary Assembly
+  length: 1231
+  GenBank_accession: CAFN01000475.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000476.1
+  assembly_unit: Primary Assembly
+  length: 900
+  GenBank_accession: CAFN01000476.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000477.1
+  assembly_unit: Primary Assembly
+  length: 853
+  GenBank_accession: CAFN01000477.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000478.1
+  assembly_unit: Primary Assembly
+  length: 1042
+  GenBank_accession: CAFN01000478.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000479.1
+  assembly_unit: Primary Assembly
+  length: 10811
+  GenBank_accession: CAFN01000479.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000480.1
+  assembly_unit: Primary Assembly
+  length: 3127
+  GenBank_accession: CAFN01000480.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000481.1
+  assembly_unit: Primary Assembly
+  length: 853
+  GenBank_accession: CAFN01000481.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000482.1
+  assembly_unit: Primary Assembly
+  length: 1360
+  GenBank_accession: CAFN01000482.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000483.1
+  assembly_unit: Primary Assembly
+  length: 724
+  GenBank_accession: CAFN01000483.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000484.1
+  assembly_unit: Primary Assembly
+  length: 1477
+  GenBank_accession: CAFN01000484.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000485.1
+  assembly_unit: Primary Assembly
+  length: 500
+  GenBank_accession: CAFN01000485.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000486.1
+  assembly_unit: Primary Assembly
+  length: 1812
+  GenBank_accession: CAFN01000486.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000487.1
+  assembly_unit: Primary Assembly
+  length: 1752
+  GenBank_accession: CAFN01000487.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000488.1
+  assembly_unit: Primary Assembly
+  length: 777
+  GenBank_accession: CAFN01000488.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000489.1
+  assembly_unit: Primary Assembly
+  length: 1687
+  GenBank_accession: CAFN01000489.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000490.1
+  assembly_unit: Primary Assembly
+  length: 3009
+  GenBank_accession: CAFN01000490.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000491.1
+  assembly_unit: Primary Assembly
+  length: 1854
+  GenBank_accession: CAFN01000491.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000492.1
+  assembly_unit: Primary Assembly
+  length: 1151
+  GenBank_accession: CAFN01000492.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000493.1
+  assembly_unit: Primary Assembly
+  length: 507
+  GenBank_accession: CAFN01000493.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000494.1
+  assembly_unit: Primary Assembly
+  length: 1643
+  GenBank_accession: CAFN01000494.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000495.1
+  assembly_unit: Primary Assembly
+  length: 4610
+  GenBank_accession: CAFN01000495.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000496.1
+  assembly_unit: Primary Assembly
+  length: 705
+  GenBank_accession: CAFN01000496.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000497.1
+  assembly_unit: Primary Assembly
+  length: 1054
+  GenBank_accession: CAFN01000497.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000498.1
+  assembly_unit: Primary Assembly
+  length: 908
+  GenBank_accession: CAFN01000498.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000499.1
+  assembly_unit: Primary Assembly
+  length: 920
+  GenBank_accession: CAFN01000499.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000500.1
+  assembly_unit: Primary Assembly
+  length: 1094
+  GenBank_accession: CAFN01000500.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000501.1
+  assembly_unit: Primary Assembly
+  length: 26330
+  GenBank_accession: CAFN01000501.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000502.1
+  assembly_unit: Primary Assembly
+  length: 2276
+  GenBank_accession: CAFN01000502.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000503.1
+  assembly_unit: Primary Assembly
+  length: 2993
+  GenBank_accession: CAFN01000503.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000504.1
+  assembly_unit: Primary Assembly
+  length: 2935
+  GenBank_accession: CAFN01000504.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000505.1
+  assembly_unit: Primary Assembly
+  length: 597
+  GenBank_accession: CAFN01000505.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000506.1
+  assembly_unit: Primary Assembly
+  length: 2822
+  GenBank_accession: CAFN01000506.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000507.1
+  assembly_unit: Primary Assembly
+  length: 1299
+  GenBank_accession: CAFN01000507.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000508.1
+  assembly_unit: Primary Assembly
+  length: 1470
+  GenBank_accession: CAFN01000508.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000509.1
+  assembly_unit: Primary Assembly
+  length: 2107
+  GenBank_accession: CAFN01000509.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000510.1
+  assembly_unit: Primary Assembly
+  length: 2031
+  GenBank_accession: CAFN01000510.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000511.1
+  assembly_unit: Primary Assembly
+  length: 550
+  GenBank_accession: CAFN01000511.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000512.1
+  assembly_unit: Primary Assembly
+  length: 20446
+  GenBank_accession: CAFN01000512.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000513.1
+  assembly_unit: Primary Assembly
+  length: 2052
+  GenBank_accession: CAFN01000513.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000514.1
+  assembly_unit: Primary Assembly
+  length: 728
+  GenBank_accession: CAFN01000514.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000515.1
+  assembly_unit: Primary Assembly
+  length: 1435
+  GenBank_accession: CAFN01000515.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000516.1
+  assembly_unit: Primary Assembly
+  length: 923
+  GenBank_accession: CAFN01000516.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000517.1
+  assembly_unit: Primary Assembly
+  length: 601
+  GenBank_accession: CAFN01000517.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000518.1
+  assembly_unit: Primary Assembly
+  length: 665
+  GenBank_accession: CAFN01000518.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000519.1
+  assembly_unit: Primary Assembly
+  length: 878
+  GenBank_accession: CAFN01000519.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000520.1
+  assembly_unit: Primary Assembly
+  length: 1555
+  GenBank_accession: CAFN01000520.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000521.1
+  assembly_unit: Primary Assembly
+  length: 728
+  GenBank_accession: CAFN01000521.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000522.1
+  assembly_unit: Primary Assembly
+  length: 618
+  GenBank_accession: CAFN01000522.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000523.1
+  assembly_unit: Primary Assembly
+  length: 73445
+  GenBank_accession: CAFN01000523.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000524.1
+  assembly_unit: Primary Assembly
+  length: 869
+  GenBank_accession: CAFN01000524.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000525.1
+  assembly_unit: Primary Assembly
+  length: 528
+  GenBank_accession: CAFN01000525.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000526.1
+  assembly_unit: Primary Assembly
+  length: 1172
+  GenBank_accession: CAFN01000526.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000527.1
+  assembly_unit: Primary Assembly
+  length: 2195
+  GenBank_accession: CAFN01000527.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000528.1
+  assembly_unit: Primary Assembly
+  length: 1825
+  GenBank_accession: CAFN01000528.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000529.1
+  assembly_unit: Primary Assembly
+  length: 980
+  GenBank_accession: CAFN01000529.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000530.1
+  assembly_unit: Primary Assembly
+  length: 574
+  GenBank_accession: CAFN01000530.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000531.1
+  assembly_unit: Primary Assembly
+  length: 1543
+  GenBank_accession: CAFN01000531.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000532.1
+  assembly_unit: Primary Assembly
+  length: 627
+  GenBank_accession: CAFN01000532.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000533.1
+  assembly_unit: Primary Assembly
+  length: 638
+  GenBank_accession: CAFN01000533.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000534.1
+  assembly_unit: Primary Assembly
+  length: 55028
+  GenBank_accession: CAFN01000534.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000535.1
+  assembly_unit: Primary Assembly
+  length: 6469
+  GenBank_accession: CAFN01000535.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000536.1
+  assembly_unit: Primary Assembly
+  length: 1565
+  GenBank_accession: CAFN01000536.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000537.1
+  assembly_unit: Primary Assembly
+  length: 771
+  GenBank_accession: CAFN01000537.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000538.1
+  assembly_unit: Primary Assembly
+  length: 506
+  GenBank_accession: CAFN01000538.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000539.1
+  assembly_unit: Primary Assembly
+  length: 2204
+  GenBank_accession: CAFN01000539.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000540.1
+  assembly_unit: Primary Assembly
+  length: 1144
+  GenBank_accession: CAFN01000540.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000541.1
+  assembly_unit: Primary Assembly
+  length: 2584
+  GenBank_accession: CAFN01000541.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000542.1
+  assembly_unit: Primary Assembly
+  length: 2086
+  GenBank_accession: CAFN01000542.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000543.1
+  assembly_unit: Primary Assembly
+  length: 707
+  GenBank_accession: CAFN01000543.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000544.1
+  assembly_unit: Primary Assembly
+  length: 1124
+  GenBank_accession: CAFN01000544.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000545.1
+  assembly_unit: Primary Assembly
+  length: 37285
+  GenBank_accession: CAFN01000545.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000546.1
+  assembly_unit: Primary Assembly
+  length: 584
+  GenBank_accession: CAFN01000546.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000547.1
+  assembly_unit: Primary Assembly
+  length: 1153
+  GenBank_accession: CAFN01000547.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000548.1
+  assembly_unit: Primary Assembly
+  length: 672
+  GenBank_accession: CAFN01000548.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000549.1
+  assembly_unit: Primary Assembly
+  length: 1060
+  GenBank_accession: CAFN01000549.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000550.1
+  assembly_unit: Primary Assembly
+  length: 1692
+  GenBank_accession: CAFN01000550.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000551.1
+  assembly_unit: Primary Assembly
+  length: 728
+  GenBank_accession: CAFN01000551.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000552.1
+  assembly_unit: Primary Assembly
+  length: 1215
+  GenBank_accession: CAFN01000552.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000553.1
+  assembly_unit: Primary Assembly
+  length: 3875
+  GenBank_accession: CAFN01000553.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000554.1
+  assembly_unit: Primary Assembly
+  length: 1071
+  GenBank_accession: CAFN01000554.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000555.1
+  assembly_unit: Primary Assembly
+  length: 1113
+  GenBank_accession: CAFN01000555.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000556.1
+  assembly_unit: Primary Assembly
+  length: 6488
+  GenBank_accession: CAFN01000556.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000557.1
+  assembly_unit: Primary Assembly
+  length: 5988
+  GenBank_accession: CAFN01000557.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000558.1
+  assembly_unit: Primary Assembly
+  length: 4284
+  GenBank_accession: CAFN01000558.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000559.1
+  assembly_unit: Primary Assembly
+  length: 818
+  GenBank_accession: CAFN01000559.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000560.1
+  assembly_unit: Primary Assembly
+  length: 1458
+  GenBank_accession: CAFN01000560.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000561.1
+  assembly_unit: Primary Assembly
+  length: 3464
+  GenBank_accession: CAFN01000561.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000562.1
+  assembly_unit: Primary Assembly
+  length: 700
+  GenBank_accession: CAFN01000562.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000563.1
+  assembly_unit: Primary Assembly
+  length: 1438
+  GenBank_accession: CAFN01000563.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000564.1
+  assembly_unit: Primary Assembly
+  length: 1409
+  GenBank_accession: CAFN01000564.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000565.1
+  assembly_unit: Primary Assembly
+  length: 652
+  GenBank_accession: CAFN01000565.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000566.1
+  assembly_unit: Primary Assembly
+  length: 2414
+  GenBank_accession: CAFN01000566.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000567.1
+  assembly_unit: Primary Assembly
+  length: 1907
+  GenBank_accession: CAFN01000567.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000568.1
+  assembly_unit: Primary Assembly
+  length: 10497
+  GenBank_accession: CAFN01000568.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000569.1
+  assembly_unit: Primary Assembly
+  length: 1770
+  GenBank_accession: CAFN01000569.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000570.1
+  assembly_unit: Primary Assembly
+  length: 515
+  GenBank_accession: CAFN01000570.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000571.1
+  assembly_unit: Primary Assembly
+  length: 1441
+  GenBank_accession: CAFN01000571.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000572.1
+  assembly_unit: Primary Assembly
+  length: 514
+  GenBank_accession: CAFN01000572.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000573.1
+  assembly_unit: Primary Assembly
+  length: 924
+  GenBank_accession: CAFN01000573.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000574.1
+  assembly_unit: Primary Assembly
+  length: 524
+  GenBank_accession: CAFN01000574.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000575.1
+  assembly_unit: Primary Assembly
+  length: 869
+  GenBank_accession: CAFN01000575.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000576.1
+  assembly_unit: Primary Assembly
+  length: 1452
+  GenBank_accession: CAFN01000576.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000577.1
+  assembly_unit: Primary Assembly
+  length: 799
+  GenBank_accession: CAFN01000577.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000578.1
+  assembly_unit: Primary Assembly
+  length: 1748
+  GenBank_accession: CAFN01000578.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000579.1
+  assembly_unit: Primary Assembly
+  length: 22014
+  GenBank_accession: CAFN01000579.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000580.1
+  assembly_unit: Primary Assembly
+  length: 514
+  GenBank_accession: CAFN01000580.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000581.1
+  assembly_unit: Primary Assembly
+  length: 1947
+  GenBank_accession: CAFN01000581.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000582.1
+  assembly_unit: Primary Assembly
+  length: 873
+  GenBank_accession: CAFN01000582.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000583.1
+  assembly_unit: Primary Assembly
+  length: 1152
+  GenBank_accession: CAFN01000583.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000584.1
+  assembly_unit: Primary Assembly
+  length: 748
+  GenBank_accession: CAFN01000584.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000585.1
+  assembly_unit: Primary Assembly
+  length: 2781
+  GenBank_accession: CAFN01000585.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000586.1
+  assembly_unit: Primary Assembly
+  length: 636
+  GenBank_accession: CAFN01000586.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000587.1
+  assembly_unit: Primary Assembly
+  length: 819
+  GenBank_accession: CAFN01000587.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000588.1
+  assembly_unit: Primary Assembly
+  length: 1005
+  GenBank_accession: CAFN01000588.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000589.1
+  assembly_unit: Primary Assembly
+  length: 1145
+  GenBank_accession: CAFN01000589.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000590.1
+  assembly_unit: Primary Assembly
+  length: 92963
+  GenBank_accession: CAFN01000590.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000591.1
+  assembly_unit: Primary Assembly
+  length: 914
+  GenBank_accession: CAFN01000591.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000592.1
+  assembly_unit: Primary Assembly
+  length: 1496
+  GenBank_accession: CAFN01000592.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000593.1
+  assembly_unit: Primary Assembly
+  length: 551
+  GenBank_accession: CAFN01000593.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000594.1
+  assembly_unit: Primary Assembly
+  length: 3152
+  GenBank_accession: CAFN01000594.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000595.1
+  assembly_unit: Primary Assembly
+  length: 801
+  GenBank_accession: CAFN01000595.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000596.1
+  assembly_unit: Primary Assembly
+  length: 712
+  GenBank_accession: CAFN01000596.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000597.1
+  assembly_unit: Primary Assembly
+  length: 581
+  GenBank_accession: CAFN01000597.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000598.1
+  assembly_unit: Primary Assembly
+  length: 1874
+  GenBank_accession: CAFN01000598.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000599.1
+  assembly_unit: Primary Assembly
+  length: 765
+  GenBank_accession: CAFN01000599.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000600.1
+  assembly_unit: Primary Assembly
+  length: 1183
+  GenBank_accession: CAFN01000600.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000601.1
+  assembly_unit: Primary Assembly
+  length: 24377
+  GenBank_accession: CAFN01000601.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000602.1
+  assembly_unit: Primary Assembly
+  length: 663
+  GenBank_accession: CAFN01000602.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000603.1
+  assembly_unit: Primary Assembly
+  length: 712
+  GenBank_accession: CAFN01000603.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000604.1
+  assembly_unit: Primary Assembly
+  length: 1512
+  GenBank_accession: CAFN01000604.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000605.1
+  assembly_unit: Primary Assembly
+  length: 1630
+  GenBank_accession: CAFN01000605.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000606.1
+  assembly_unit: Primary Assembly
+  length: 1029
+  GenBank_accession: CAFN01000606.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000607.1
+  assembly_unit: Primary Assembly
+  length: 919
+  GenBank_accession: CAFN01000607.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000608.1
+  assembly_unit: Primary Assembly
+  length: 957
+  GenBank_accession: CAFN01000608.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000609.1
+  assembly_unit: Primary Assembly
+  length: 2205
+  GenBank_accession: CAFN01000609.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000610.1
+  assembly_unit: Primary Assembly
+  length: 1036
+  GenBank_accession: CAFN01000610.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000611.1
+  assembly_unit: Primary Assembly
+  length: 711
+  GenBank_accession: CAFN01000611.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000612.1
+  assembly_unit: Primary Assembly
+  length: 7160
+  GenBank_accession: CAFN01000612.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000613.1
+  assembly_unit: Primary Assembly
+  length: 1618
+  GenBank_accession: CAFN01000613.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000614.1
+  assembly_unit: Primary Assembly
+  length: 724
+  GenBank_accession: CAFN01000614.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000615.1
+  assembly_unit: Primary Assembly
+  length: 751
+  GenBank_accession: CAFN01000615.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000616.1
+  assembly_unit: Primary Assembly
+  length: 3398
+  GenBank_accession: CAFN01000616.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000617.1
+  assembly_unit: Primary Assembly
+  length: 1666
+  GenBank_accession: CAFN01000617.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000618.1
+  assembly_unit: Primary Assembly
+  length: 626
+  GenBank_accession: CAFN01000618.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000619.1
+  assembly_unit: Primary Assembly
+  length: 550
+  GenBank_accession: CAFN01000619.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000620.1
+  assembly_unit: Primary Assembly
+  length: 5034
+  GenBank_accession: CAFN01000620.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000621.1
+  assembly_unit: Primary Assembly
+  length: 568
+  GenBank_accession: CAFN01000621.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000622.1
+  assembly_unit: Primary Assembly
+  length: 1023
+  GenBank_accession: CAFN01000622.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000623.1
+  assembly_unit: Primary Assembly
+  length: 66240
+  GenBank_accession: CAFN01000623.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000624.1
+  assembly_unit: Primary Assembly
+  length: 2526
+  GenBank_accession: CAFN01000624.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000625.1
+  assembly_unit: Primary Assembly
+  length: 699
+  GenBank_accession: CAFN01000625.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000626.1
+  assembly_unit: Primary Assembly
+  length: 1190
+  GenBank_accession: CAFN01000626.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000627.1
+  assembly_unit: Primary Assembly
+  length: 663
+  GenBank_accession: CAFN01000627.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000628.1
+  assembly_unit: Primary Assembly
+  length: 1188
+  GenBank_accession: CAFN01000628.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000629.1
+  assembly_unit: Primary Assembly
+  length: 835
+  GenBank_accession: CAFN01000629.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000630.1
+  assembly_unit: Primary Assembly
+  length: 684
+  GenBank_accession: CAFN01000630.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000631.1
+  assembly_unit: Primary Assembly
+  length: 1011
+  GenBank_accession: CAFN01000631.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000632.1
+  assembly_unit: Primary Assembly
+  length: 2098
+  GenBank_accession: CAFN01000632.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000633.1
+  assembly_unit: Primary Assembly
+  length: 2176
+  GenBank_accession: CAFN01000633.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000634.1
+  assembly_unit: Primary Assembly
+  length: 5019
+  GenBank_accession: CAFN01000634.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000635.1
+  assembly_unit: Primary Assembly
+  length: 1038
+  GenBank_accession: CAFN01000635.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000636.1
+  assembly_unit: Primary Assembly
+  length: 923
+  GenBank_accession: CAFN01000636.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000637.1
+  assembly_unit: Primary Assembly
+  length: 512
+  GenBank_accession: CAFN01000637.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000638.1
+  assembly_unit: Primary Assembly
+  length: 667
+  GenBank_accession: CAFN01000638.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000639.1
+  assembly_unit: Primary Assembly
+  length: 2208
+  GenBank_accession: CAFN01000639.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000640.1
+  assembly_unit: Primary Assembly
+  length: 1085
+  GenBank_accession: CAFN01000640.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000641.1
+  assembly_unit: Primary Assembly
+  length: 1043
+  GenBank_accession: CAFN01000641.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000642.1
+  assembly_unit: Primary Assembly
+  length: 600
+  GenBank_accession: CAFN01000642.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000643.1
+  assembly_unit: Primary Assembly
+  length: 871
+  GenBank_accession: CAFN01000643.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000644.1
+  assembly_unit: Primary Assembly
+  length: 1133
+  GenBank_accession: CAFN01000644.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000645.1
+  assembly_unit: Primary Assembly
+  length: 45904
+  GenBank_accession: CAFN01000645.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000646.1
+  assembly_unit: Primary Assembly
+  length: 1223
+  GenBank_accession: CAFN01000646.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000647.1
+  assembly_unit: Primary Assembly
+  length: 1492
+  GenBank_accession: CAFN01000647.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000648.1
+  assembly_unit: Primary Assembly
+  length: 997
+  GenBank_accession: CAFN01000648.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000649.1
+  assembly_unit: Primary Assembly
+  length: 707
+  GenBank_accession: CAFN01000649.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000650.1
+  assembly_unit: Primary Assembly
+  length: 1386
+  GenBank_accession: CAFN01000650.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000651.1
+  assembly_unit: Primary Assembly
+  length: 1260
+  GenBank_accession: CAFN01000651.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000652.1
+  assembly_unit: Primary Assembly
+  length: 545
+  GenBank_accession: CAFN01000652.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000653.1
+  assembly_unit: Primary Assembly
+  length: 1663
+  GenBank_accession: CAFN01000653.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000654.1
+  assembly_unit: Primary Assembly
+  length: 710
+  GenBank_accession: CAFN01000654.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000655.1
+  assembly_unit: Primary Assembly
+  length: 1089
+  GenBank_accession: CAFN01000655.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000656.1
+  assembly_unit: Primary Assembly
+  length: 127863
+  GenBank_accession: CAFN01000656.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000657.1
+  assembly_unit: Primary Assembly
+  length: 1550
+  GenBank_accession: CAFN01000657.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000658.1
+  assembly_unit: Primary Assembly
+  length: 899
+  GenBank_accession: CAFN01000658.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000659.1
+  assembly_unit: Primary Assembly
+  length: 518
+  GenBank_accession: CAFN01000659.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000660.1
+  assembly_unit: Primary Assembly
+  length: 12373
+  GenBank_accession: CAFN01000660.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000661.1
+  assembly_unit: Primary Assembly
+  length: 8555
+  GenBank_accession: CAFN01000661.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000662.1
+  assembly_unit: Primary Assembly
+  length: 5836
+  GenBank_accession: CAFN01000662.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000663.1
+  assembly_unit: Primary Assembly
+  length: 17759
+  GenBank_accession: CAFN01000663.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000664.1
+  assembly_unit: Primary Assembly
+  length: 54726
+  GenBank_accession: CAFN01000664.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000665.1
+  assembly_unit: Primary Assembly
+  length: 81942
+  GenBank_accession: CAFN01000665.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000666.1
+  assembly_unit: Primary Assembly
+  length: 49031
+  GenBank_accession: CAFN01000666.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000667.1
+  assembly_unit: Primary Assembly
+  length: 57273
+  GenBank_accession: CAFN01000667.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000668.1
+  assembly_unit: Primary Assembly
+  length: 23528
+  GenBank_accession: CAFN01000668.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000669.1
+  assembly_unit: Primary Assembly
+  length: 4294
+  GenBank_accession: CAFN01000669.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000670.1
+  assembly_unit: Primary Assembly
+  length: 65934
+  GenBank_accession: CAFN01000670.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000671.1
+  assembly_unit: Primary Assembly
+  length: 5409
+  GenBank_accession: CAFN01000671.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000672.1
+  assembly_unit: Primary Assembly
+  length: 10110
+  GenBank_accession: CAFN01000672.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000673.1
+  assembly_unit: Primary Assembly
+  length: 104495
+  GenBank_accession: CAFN01000673.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000674.1
+  assembly_unit: Primary Assembly
+  length: 4795
+  GenBank_accession: CAFN01000674.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000675.1
+  assembly_unit: Primary Assembly
+  length: 29223
+  GenBank_accession: CAFN01000675.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000676.1
+  assembly_unit: Primary Assembly
+  length: 162395
+  GenBank_accession: CAFN01000676.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000677.1
+  assembly_unit: Primary Assembly
+  length: 57732
+  GenBank_accession: CAFN01000677.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000678.1
+  assembly_unit: Primary Assembly
+  length: 23131
+  GenBank_accession: CAFN01000678.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000679.1
+  assembly_unit: Primary Assembly
+  length: 60780
+  GenBank_accession: CAFN01000679.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000680.1
+  assembly_unit: Primary Assembly
+  length: 5526
+  GenBank_accession: CAFN01000680.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000681.1
+  assembly_unit: Primary Assembly
+  length: 18073
+  GenBank_accession: CAFN01000681.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000682.1
+  assembly_unit: Primary Assembly
+  length: 9975
+  GenBank_accession: CAFN01000682.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000683.1
+  assembly_unit: Primary Assembly
+  length: 19071
+  GenBank_accession: CAFN01000683.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000684.1
+  assembly_unit: Primary Assembly
+  length: 23751
+  GenBank_accession: CAFN01000684.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000685.1
+  assembly_unit: Primary Assembly
+  length: 19063
+  GenBank_accession: CAFN01000685.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000686.1
+  assembly_unit: Primary Assembly
+  length: 112876
+  GenBank_accession: CAFN01000686.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000687.1
+  assembly_unit: Primary Assembly
+  length: 11876
+  GenBank_accession: CAFN01000687.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000688.1
+  assembly_unit: Primary Assembly
+  length: 6385
+  GenBank_accession: CAFN01000688.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000689.1
+  assembly_unit: Primary Assembly
+  length: 32903
+  GenBank_accession: CAFN01000689.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000690.1
+  assembly_unit: Primary Assembly
+  length: 5788
+  GenBank_accession: CAFN01000690.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000691.1
+  assembly_unit: Primary Assembly
+  length: 7665
+  GenBank_accession: CAFN01000691.1
+- chr_name: Un
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CAFN01000692.1
+  assembly_unit: Primary Assembly
+  length: 9043
+  GenBank_accession: CAFN01000692.1

@@ -1,0 +1,67 @@
+# Data report
+#   The sequence info section contains information only on the selected sequences
+#   The Assembly info and stats are for the full genome assembly
+
+# Organism info
+species_name: Arthrospira platensis C1
+strain: C1
+tax_id: 459495
+
+# Assembly information
+#   A RefSeq assembly (GCF) represents an NCBI-derived copy of a user-submitted
+#   GenBank assembly (GCA). The RefSeq assembly (GCF) and annotation may not
+#   be identical to the GenBank assembly (GCA) and annotation. RefSeq
+#   assemblies (GCF) always have annotation while only a subset of GenBank
+#   assemblies (GCA) have annotation.
+assembly_info:
+  assembly_level: Chromosome
+  assembly_name: ASM30791v1
+  assembly_type: haploid
+  bioproject: PRJNA224116
+  submission_date: '2012-10-31'
+  GenBank_assm_acc: GCA_000307915.1
+  submitter: King Mongkut's University of Technology Thonburi, Thailand
+  RefSeq_category: na
+  RefSeq_assm_acc: GCF_000307915.1
+
+# Assembly stats
+assembly_stats:
+  total_number_of_chromosomes: 1
+  total_sequence_length: 6089210
+  total_ungapped_length: 5934248
+  number_of_contigs: 63
+  contig_n50: 206210
+  contig_l50: 8
+  number_of_scaffolds: 1
+  scaffold_n50: 6089210
+  scaffold_l50: 1
+  number_of_component_sequences: 63
+
+# Annotation info
+#   NCBI GFF3 description https://ftp.ncbi.nlm.nih.gov/genomes/README_GFF3.txt
+annotation_info:
+  name: From INSDC submitter
+  source: King Mongkut's University of Technology Thonburi, Thailand
+  release_date: Oct 31, 2012
+  stats:
+    gene_counts:
+      total: 5521
+      protein_coding: 4845
+      non_coding: 49
+      pseudogene: 627
+
+# WGS project
+wgs_info:
+  wgs_project_accession: AFXD01
+  master_wgs_url: https://www.ncbi.nlm.nih.gov/nuccore/AFXD00000000.1
+  wgs_contigs_url: https://www.ncbi.nlm.nih.gov/Traces/wgs/AFXD01
+
+# Sequence information
+sequence_info:
+- chr_name: ANONYMOUS
+  sort_order: 1
+  assigned_molecule_location_type: Chromosome
+  RefSeq_accession: NZ_CM001632.1
+  assembly_unit: Primary Assembly
+  length: 6089210
+  GenBank_accession: CM001632.1

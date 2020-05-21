@@ -1,0 +1,225 @@
+LOCUS       NZ_CP017599             3814 bp    DNA     linear   CON 12-APR-2020
+DEFINITION  Moorea producens PAL-8-15-08-1 chromosome, complete genome.
+ACCESSION   NZ_CP017599 REGION: 506611..510424
+VERSION     NZ_CP017599.1  GI:1084333032
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN05826283
+            Assembly: GCF_001767235.1
+KEYWORDS    RefSeq.
+SOURCE      Moorea producens PAL-8-15-08-1
+  ORGANISM  Moorea producens PAL-8-15-08-1
+            Bacteria; Cyanobacteria; Oscillatoriophycideae; Oscillatoriales;
+            Oscillatoriaceae; Moorea.
+REFERENCE   1  (bases 1 to 3814)
+  AUTHORS   Leao,T., Castelao,G., Korobeynikov,A., Monroe,E.A., Podell,S.,
+            Glukhov,E., Allen,E.E., Gerwick,W.H. and Gerwick,L.
+  TITLE     Comparative genomics uncovers the prolific and distinctive
+            metabolic potential of the cyanobacterial genus Moorea
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 114 (12), 3198-3203 (2017)
+   PUBMED   28265051
+REFERENCE   2  (bases 1 to 3814)
+  AUTHORS   Leao,T., Castelao,G., Korobeynikov,A., Monroe,E.A., Podell,S.,
+            Glukhov,E., Allen,E., Gerwick,W.H. and Gerwick,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-OCT-2016) Scripps Institution of Oceanography, UCSD,
+            9500 Gilman Dr, La Jolla, CA 92093, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            CP017599.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            Bacteria and source DNA available from Gerwick Lab Culture
+            Collection, UCSD, SIO.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: 2016
+            Assembly Method        :: SPAdes v. 3.5
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 98.0x
+            Sequencing Technology  :: PacBio; Illumina MiSeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 04/12/2020 15:46:41
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.11
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 8,089
+            CDSs (total)                      :: 8,018
+            Genes (coding)                    :: 7,469
+            CDSs (with protein)               :: 7,469
+            Genes (RNA)                       :: 71
+            rRNAs                             :: 2, 2, 2 (5S, 16S, 23S)
+            complete rRNAs                    :: 2, 2, 2 (5S, 16S, 23S)
+            tRNAs                             :: 61
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 549
+            CDSs (without protein)            :: 549
+            Pseudo Genes (ambiguous residues) :: 0 of 549
+            Pseudo Genes (frameshifted)       :: 165 of 549
+            Pseudo Genes (incomplete)         :: 351 of 549
+            Pseudo Genes (internal stop)      :: 138 of 549
+            Pseudo Genes (multiple problems)  :: 96 of 549
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3814
+                     /organism="Moorea producens PAL-8-15-08-1"
+                     /mol_type="genomic DNA"
+                     /strain="PAL-8-15-08-1"
+                     /isolation_source="shallow tropical waters, normally from
+                     coral reef substrate"
+                     /db_xref="taxon:1458985"
+                     /country="Pacific Ocean: Palmyra Atoll"
+                     /collection_date="15-Aug-2008"
+                     /note="also called PAL 15AUG08-1"
+     gene            174..>392
+                     /locus_tag="BJP34_RS02085"
+                     /old_locus_tag="BJP34_02085"
+                     /pseudo
+     CDS             174..>392
+                     /locus_tag="BJP34_RS02085"
+                     /old_locus_tag="BJP34_02085"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008185416.1"
+                     /note="incomplete; partial in the middle of a contig;
+                     missing C-terminus; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase"
+     gene            980..2671
+                     /gene="ltrA"
+                     /locus_tag="BJP34_RS02090"
+                     /old_locus_tag="BJP34_02090"
+     CDS             980..2671
+                     /gene="ltrA"
+                     /locus_tag="BJP34_RS02090"
+                     /old_locus_tag="BJP34_02090"
+                     /EC_number="2.7.7.49"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008182183.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="group II intron reverse transcriptase/maturase"
+                     /protein_id="WP_070390905.1"
+                     /db_xref="GI:1084326846"
+                     /translation="MNKSKTRGFTPQSEWKNVNWRKLEMTVFKLQKRIYRASHRGDVR
+                     VVRKLQKTLMNSWSAKMIAVRRVTQENKGKKTAGIDGKKALNNKQRLALVANLNTQKK
+                     AKPTRRVWIPKSGSREKRPLGIPTIHDRALQALTKQALEPEWEAKFEPNSYGFRPGRS
+                     CHDAVEAIFSNICHKPKWVLDADIAKCFDKINHEALLTKVNTFPSLRRLIKSWLKAGV
+                     MEKDTLTPTNEGTPQGGVISPLLANIALHGMEERIKQYAETLKIKRRSKKQKRQGISL
+                     IRYADDFVIIHENQGVIEECRTILENWLNDIGLELKPSKTRISYTMNGFDFLGFNIRQ
+                     YKVGKNQSKQGFKTIIKPSKKKVLEHYEQLSNVIDRHRAAPQEALINHLKPIIRGWCN
+                     YYRSVCSKETFNKLGHMLWNKLQRWGYRRHPNKSKSWVINKYWGTIEEDNWMFMTDRN
+                     HLPKHVKTEIVRHKKVQEARSTYDGDLIYWNTRMQKHPEMTSQKGRLLKRQKGVCTHC
+                     GLTFRDGDVMEKHHIIPRSLGGNDTDKNLELLHLHCHDAKHRKKIELNELDRNPF"
+     gene            <2812..3780
+                     /locus_tag="BJP34_RS02095"
+                     /old_locus_tag="BJP34_02095"
+                     /pseudo
+     CDS             <2812..3780
+                     /locus_tag="BJP34_RS02095"
+                     /old_locus_tag="BJP34_02095"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008179885.1"
+                     /note="incomplete; partial in the middle of a contig;
+                     missing N-terminus; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase"
+     gene            complement(3811..>3814)
+                     /locus_tag="BJP34_RS02100"
+                     /old_locus_tag="BJP34_02100"
+     CDS             complement(3811..>3814)
+                     /locus_tag="BJP34_RS02100"
+                     /old_locus_tag="BJP34_02100"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=3
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_070390906.1"
+                     /db_xref="GI:1084326847"
+                     /translation="MAGLFKGKKKSKGFYMELDESETSTPEQPAVEQKPEPAKAEATA
+                     ETAPVEAPLASDAKSARQAKKEELAKAKAEAKAKKKAEAEAKNKAATPEPTPVAALNS
+                     AAALVAKGQPETTFATKYVPMIMPRRRPGPSMNKFMDMAAQMQQPR"
+ORIGIN      
+        1 ggcgcaagcc taagcgttta gatatggggt tagccttacc cctcacataa acgaactgag
+       61 caacgcgaat ccttttggga aaaactttca attcaatcag gaactttgga tggatttaaa
+      121 attgtagtct acaatagaaa gcagatatac aaaaaaagga ggtgattaaa agagtgcttg
+      181 taatggagtt caaggccgta actaataaag cccaaaaagt agcaatagac gaggcgatcc
+      241 ggacatcacg atttgtccga aacaaagtat tacgctactg gatggacaat aaaggagtcg
+      301 gcaagaaaga gctttaccgt tacaacactg atttaagagc tgagttcaag tttgtcgagg
+      361 atttaaacag tcatgcttgt caagggtctg ttggtgcgat tcgttagcta gaaaccttat
+      421 cctgatgaac aggatttggg ggattagctg cttgggttaa gaacccaaga caacttgata
+      481 atcatgatgg tgaaatacca tcccccgaag aatccgggtg acaaccttac cctgatgaac
+      541 aggaataaca aacctgccaa tcgatgcaag ggtcgaacgt caaaatatcc ttaacctgaa
+      601 agatagattg ataggtaaaa gaactcaagg gtacgagagg aagatacgtc agaatcatcg
+      661 taagcttgga atggcgaaat taaggattga tacgccatag acaaaagtca aaggaaaata
+      721 cggagtaatg ggttcaacag tccattattg attctccaat aaatttcccg gtgaatagta
+      781 tcgccctaaa agttcataga atggttatca ggaacgaagt aattccatag gttctctcaa
+      841 taaaggtcga tttattgagt aggtagttag ccgcatggcc tatgtgaaaa ggatagagtc
+      901 aaaagccaaa gtccatatgt aatgtatggg atatgctgac agactcacgt tataggaaga
+      961 gatatggttg cgagtagcaa tgaataagtc caaaactcgg gggttcaccc cacagtcgga
+     1021 atggaagaac gtcaactggc gaaagctgga aatgaccgta ttcaagttgc aaaaacgaat
+     1081 atatcgagcc tctcatcgtg gtgatgtccg cgtggtaaga aagctgcaaa agactctgat
+     1141 gaattcctgg tcagccaaga tgatagcggt tagacgggta acccaggaga acaaaggtaa
+     1201 aaagactgcc ggaatagacg ggaaaaaagc tttaaataat aagcaaagac tcgccttagt
+     1261 agccaacctg aatactcaaa agaaggcaaa acctaccaga agggtatgga ttcccaaatc
+     1321 tggaagtagg gaaaaacgcc cattaggtat cccgactata cacgaccgtg ctctacaagc
+     1381 tttaaccaaa caggcattag aacccgaatg ggaagccaag tttgagccta actcatatgg
+     1441 tttcagacca ggacgctcat gtcacgatgc cgtcgaagca atattcagca atatatgcca
+     1501 taaacccaaa tgggtattag acgcagatat tgccaaatgt tttgacaaaa taaatcatga
+     1561 agcgcttcta actaaagtga acacttttcc atcattaaga aggttaataa aatcctggct
+     1621 taaagctgga gtaatggaaa aggatacact cactcccacc aacgaaggga caccgcaagg
+     1681 aggagtgata tcacccctgc tcgctaacat tgccctccat ggcatggaag aacgaatcaa
+     1741 acaatatgcc gaaacattaa agataaaaag gagaagtaaa aaacagaaac ggcaaggaat
+     1801 aagtttgatt agatacgcag acgacttcgt catcatccat gaaaatcagg gagtaataga
+     1861 agaatgcaga acgattctag aaaattggct gaatgatata gggttggaat taaaaccaag
+     1921 taaaacaaga atttcctata ctatgaacgg gtttgacttc ctaggattca acatccgtca
+     1981 atataaagta ggaaaaaatc agtctaaaca aggatttaaa accatcatca aaccatcaaa
+     2041 gaaaaaagtt ttagaacatt atgagcagct ctcaaacgtc atagaccgtc acagagctgc
+     2101 tccccaggag gctttgataa accacctaaa acctattata aggggatggt gtaactacta
+     2161 cagaagtgta tgtagtaaag aaacctttaa taaacttggg cacatgttat ggaacaaact
+     2221 acaacgatgg ggatacagga gacacccaaa taaatcaaaa tcctgggtaa tcaacaaata
+     2281 ctggggaacc atagaggaag acaactggat gttcatgacc gacaggaatc accttcctaa
+     2341 acatgtcaaa actgaaatag tcagacataa aaaggtacaa gaagccagaa gcacctacga
+     2401 tggggactta atatattgga ataccagaat gcagaaacac cctgaaatga ccagtcaaaa
+     2461 gggaaggctt ttgaaaaggc aaaaaggggt atgtactcat tgtggtctta ccttcagaga
+     2521 tggagatgta atggaaaagc atcacataat accgcgctct ctcggtggaa acgacacgga
+     2581 taaaaatctt gaattactcc acctacattg tcacgatgca aaacacagaa agaaaatcga
+     2641 actcaatgag ttggatagaa atccgttcta agaggagcct ctgtcatgga cttaaagtac
+     2701 tataatgagg agccgtatga tgcgaaagtg tcacgtacgg ttttgaagac aagtcagggg
+     2761 aggcgactcc tcggcttagt tcaacaaaac gtagagcgag caattcatag cttttatgat
+     2821 aactgtaaaa agaaaattcc tgggaagaaa ggcttcccta gattcaagaa atcttctcgc
+     2881 tcggtggaat acaagactag tggatggaag ttatgtccag acaaaaagtc agtcaacttt
+     2941 accgacaaga aaggaattgg gaagctcaag ctcaaaggaa cgtgggactt atggcgtttt
+     3001 gatgtaaaac taattaaaag ggttcgcata gtaagtcggg cggatggata ctatgttcag
+     3061 ttctgtgtaa aagtagataa ttctgaaact gttgagacaa caggtaagat tattggtcta
+     3121 gacgttggac taaaagattt ctatactgat tccaatggat atagggaacc atcacctcgg
+     3181 ttttatcgaa aaggcgaaaa gcgtctaaag ttctatcaac gtcgggtttc ccggaaaaag
+     3241 aaaggctcag ccaaccgtaa gaaggctatt aataaactag gcaagacaca ccttaagata
+     3301 agtaggcaac gtaaagaaca cgccaagaga ctggcacgtt gcgtagtccg atctaacgat
+     3361 ctggtagcct atgaagactt aagggttaaa aacttagtca agaatcactg tcttgccaaa
+     3421 tctattaatg atgcaggttg gtaccaattc aggaattggt tggaatactt tggtactaag
+     3481 tttggcaagg taactgttgc agttaatcct gcctatactt cacaaaattg ctccaattgt
+     3541 ggcgaagagg tcaaaaaatc tttgtccact agaacccata tttgtcaatg tggttgttcg
+     3601 ttagatcgag accacaacgc tgcaatcaac atactgaata gagccttaag tacggtgggg
+     3661 cacaccggaa cttggactat tattagtccg aacgctgggg gagatcgggc ctctactgtt
+     3721 cttggtcaaa accaggttca gcaagctggg tcgttgaacc aagaatcccc tggcttatag
+     3781 ccatggggag tgtcaattat aactaatcta ttaa
+//

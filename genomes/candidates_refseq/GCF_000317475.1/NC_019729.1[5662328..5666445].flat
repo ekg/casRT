@@ -1,0 +1,262 @@
+LOCUS       NC_019729               4118 bp    DNA     linear   CON 25-SEP-2019
+DEFINITION  Oscillatoria nigro-viridis PCC 7112, complete sequence.
+ACCESSION   NC_019729 REGION: 5662328..5666445
+VERSION     NC_019729.1  GI:428315182
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN02261335
+            Assembly: GCF_000317475.1
+KEYWORDS    GSC:MIGS:2.1; RefSeq.
+SOURCE      Oscillatoria nigro-viridis PCC 7112
+  ORGANISM  Oscillatoria nigro-viridis PCC 7112
+            Bacteria; Cyanobacteria; Oscillatoriophycideae; Oscillatoriales;
+            Oscillatoriaceae; Oscillatoria.
+REFERENCE   1  (bases 1 to 4118)
+  AUTHORS   Gugger,M., Coursin,T., Rippka,R., Tandeau De Marsac,N.,
+            Huntemann,M., Wei,C.-L., Han,J., Detter,J.C., Han,C., Tapia,R.,
+            Davenport,K., Daligault,H., Erkkila,T., Gu,W., Munk,A.C.C.,
+            Teshima,H., Xu,Y., Chain,P., Chen,A., Krypides,N., Mavromatis,K.,
+            Markowitz,V., Szeto,E., Ivanova,N., Mikhailova,N., Ovchinnikova,G.,
+            Pagani,I., Pati,A., Goodwin,L., Peters,L., Pitluck,S., Woyke,T. and
+            Kerfeld,C.
+  CONSRTM   US DOE Joint Genome Institute
+  TITLE     Finished chromosome of genome of Oscillatoria sp. PCC 7112
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 4118)
+  AUTHORS   Gugger,M., Coursin,T., Rippka,R., Tandeau De Marsac,N.,
+            Huntemann,M., Wei,C.-L., Han,J., Detter,J.C., Han,C., Tapia,R.,
+            Davenport,K., Daligault,H., Erkkila,T., Gu,W., Munk,A.C.C.,
+            Teshima,H., Xu,Y., Chain,P., Chen,A., Krypides,N., Mavromatis,K.,
+            Markowitz,V., Szeto,E., Ivanova,N., Mikhailova,N., Ovchinnikova,G.,
+            Pagani,I., Pati,A., Goodwin,L., Peters,L., Pitluck,S., Woyke,T. and
+            Kerfeld,C.
+  CONSRTM   US DOE Joint Genome Institute
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-MAY-2012) US DOE Joint Genome Institute, 2800
+            Mitchell Drive B310, Walnut Creek, CA 94598-1698, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            CP003614.
+            URL -- http://www.jgi.doe.gov
+            JGI Project ID: 4087498
+            Source DNA and Organism available from Cheryl A. Kerfeld
+            (CKerfeld@lbl.gov)
+            Contacts: Cheryl A. Kerfeld (CKerfeld@lbl.gov)
+                      Tanja Woyke (microbe@cuba.jgi-psf.org)
+            Whole genome sequencing and draft assembly at JGI-PGF
+            Annotation by JGI-ORNL
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this
+            project in a timely fashion and we welcome collaborative
+            interaction on the project and analysis.
+            (http://www.genome.gov/page.cfm?pageID=10506376).
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##MIGS-Data-START##
+            investigation_type  :: bacteria_archaea
+            project_name        :: Oscillatoria sp. PCC 7112
+            collection_date     :: Missing
+            lat_lon             :: Missing
+            depth               :: Missing
+            alt_elev            :: Missing
+            country             :: USA
+            environment         :: Missing
+            num_replicons       :: 6
+            ref_biomaterial     :: PCC 7112
+            biotic_relationship :: Free living
+            trophic_level       :: Missing
+            rel_to_oxygen       :: Missing
+            isol_growth_condt   :: Missing
+            sequencing_meth     :: WGS
+            assembly            :: Newbler v. 2.3 (pre-release), VELVET v.
+                                   1.0.13, Parallel phrap v. 4.24 SPS
+            finishing_strategy  :: Finished
+            GOLD Stamp ID       :: Gi04314
+            Funding Program     :: DOE-GEBA 2009
+            Isolation Site      :: soil in orchid house
+            Isolation Comments  :: isolated by A Neilson in 1970
+            Temperature Range   :: Mesophile
+            Gram Staining       :: Gram-
+            Diseases            :: None
+            ##MIGS-Data-END##
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: Finished
+            Current Finishing Status :: Finished
+            Assembly Method          :: Newbler v. 2.3 (pre-release), VELVET v.
+                                        1.0.13, Parallel phrap v. 4.24 SPS
+            Genome Coverage          :: 30x
+            Sequencing Technology    :: 454/Illumina
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 09/25/2019 03:25:52
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.9
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 6,896
+            CDSs (total)                      :: 6,811
+            Genes (coding)                    :: 6,200
+            CDSs (with protein)               :: 6,200
+            Genes (RNA)                       :: 85
+            rRNAs                             :: 3, 2, 2 (5S, 16S, 23S)
+            complete rRNAs                    :: 3, 2, 2 (5S, 16S, 23S)
+            tRNAs                             :: 74
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 611
+            CDSs (without protein)            :: 611
+            Pseudo Genes (ambiguous residues) :: 0 of 611
+            Pseudo Genes (frameshifted)       :: 210 of 611
+            Pseudo Genes (incomplete)         :: 392 of 611
+            Pseudo Genes (internal stop)      :: 144 of 611
+            Pseudo Genes (multiple problems)  :: 118 of 611
+            CRISPR Arrays                     :: 9
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..4118
+                     /organism="Oscillatoria nigro-viridis PCC 7112"
+                     /mol_type="genomic DNA"
+                     /strain="PCC 7112"
+                     /isolation_source="soil in orchid house"
+                     /type_material="type strain of Oscillatoria nigro-viridis"
+                     /db_xref="taxon:179408"
+                     /country="USA"
+                     /collection_date="1970"
+                     /collected_by="A. Neilson"
+     gene            complement(102..>1202)
+                     /locus_tag="OSC7112_RS23540"
+                     /pseudo
+     CDS             complement(102..>1202)
+                     /locus_tag="OSC7112_RS23540"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_015163149.1"
+                     /note="incomplete; partial in the middle of a contig;
+                     missing N-terminus; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="IS200/IS605 family element transposase accessory
+                     protein TnpB"
+     gene            complement(1199..3070)
+                     /gene="ltrA"
+                     /locus_tag="OSC7112_RS23545"
+                     /old_locus_tag="Osc7112_4731"
+     CDS             complement(1199..3070)
+                     /gene="ltrA"
+                     /locus_tag="OSC7112_RS23545"
+                     /old_locus_tag="Osc7112_4731"
+                     /EC_number="2.7.7.49"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_015205156.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="group II intron reverse transcriptase/maturase"
+                     /protein_id="WP_015174573.1"
+                     /db_xref="GI:504987471"
+                     /translation="MSKTLSNQMVEWRETDWRKLERRIFKLQKRIFQASSRGDLKAVR
+                     RLQKTLMRSWSGKMLAVRRVTQDNQGKKTAGVDGVKSLSPVQRIALVEKLELKGKTKP
+                     TRRVWIDKPGTDEKRPLGIPTMYDRALQALVKLMLEPEWEARFEPNSYGFRPGRSCHD
+                     AVEAIFNAIKSKAKYVLDADIAKCFDRINHGELLKKLNTFPTLRRQINAWLKSGVMDG
+                     NQLFPTSEGTPQGGVISPLLANIALHGMEERIKQVAETLPTPRGHSKRGNRQSLSLIR
+                     YADDFVILHEDLTVVHRCKEVISEWLNGIGLELKPSKTRLAHTLNKHDEQDAGFNFLG
+                     FNIRQYPVGKYNTGCNPHGEPLGFKTLIKPSKQKLKLHYDSISEVIEQHKTAPQAALI
+                     THLNPIIRGWANYYRTVTSKETYSELGHKVYKKLKSWAHRRHPNKSGEWIANKYWQTI
+                     GDDNWVFATRQERKNPLRLQNHNATDIVRHVKVKGDASPYDGNLVYWSARMGKNPEVP
+                     KDVATLLKRQKGKCTHCGLHFTEESVLEVDHVIPKSKGGKDSYDNLQLLHRHCHDEKT
+                     TKDGSLGNKSGCNRAKPSPSKTGNRGTHDKSLITEEPDEVKASRPVLKTSRAGDSLA"
+     gene            complement(<3662..3775)
+                     /locus_tag="OSC7112_RS36120"
+                     /pseudo
+     CDS             complement(<3662..3775)
+                     /locus_tag="OSC7112_RS36120"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:NP_681048.1"
+                     /note="incomplete; partial in the middle of a contig;
+                     missing C-terminus; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="helix-turn-helix domain-containing protein"
+ORIGIN      
+        1 tttctccttt tttgatggac tttgttaaca ttctgatttt aacaaaggtt ccaattaaga
+       61 aatctgcggg aatctggggt taaaacaatc cattgatata ctcaccgccc taaaagggca
+      121 gtgattcttg acgcttcatt gggagatgct acggtcgtag tcttactttc cctctgcgtc
+      181 cgtttagagt cgtggcaata tcccatcccg actttctcta tatttttagc ggcgtttccg
+      241 tctctgtcgt gatgcgtccc gcaattgatg cagacaactt cgcgaacaga aaggtctaac
+      301 tttccccatc taaaatcgca ttcagagcaa acttgactgg taggctccca cctactaatt
+      361 accctaaaat cgcgtcccaa cttatcgcac ttagcttcgc agagaactcg gaattgatac
+      421 catccttgcc cactaattgc tcttgccaag cgtcgatttt ttaccatccc cgacacgttt
+      481 aaatcttcca aaacaacagt ttggttttct ctgactattt tggttgacaa tttgtgcagg
+      541 aaatcggcgc gggtgtctgc tatcttgttg tactggcggg ctatccgaat tcgagtcttg
+      601 ttcctgcgcc ttgagtcatg cggttggcgg gctaacttcc tttgcaactt cctgattttg
+      661 cggtcgggtt tcgagtaatc cgggcttttt acctgcgttc catcactgag ggaggcaaaa
+      721 gtttttagcc ccaagtctat ccccactgat tggttcttcg ggagcggact tgcaggattt
+      781 atttcgacta caaaactgag gaagtagcgg tttgcacaat ccttaattac cgttacagag
+      841 ctaggttctg aaggtaattc cctcgacaaa atcggactga catctcctac cttagctaag
+      901 tagacttggc atcccttaat agagaacccg gatttggtaa actccgcaga ttggctgttg
+      961 gtctttttct taaacttggg tgtcccaact tttattccct ttctcttccc cttgcgggaa
+     1021 ttgaaaaaat ttttgtatgc tactgataag tgccgcagag attgttgcaa gggaacgcaa
+     1081 gacacattgt taagccaact ccgctcttga gtctttttgg atgcagttaa taaacctgac
+     1141 agttgattgt aattgggcaa tttttccgaa cttttgcaca aatttaaagc atggtaaact
+     1201 aagcaaggct gtcaccagcc ctgctcgtct tcaaaaccgg acgtgaagct ttcacctcat
+     1261 ccggctcctc agtaataagg ctcttgtcat gagtacctct attccccgtt tttgagggtg
+     1321 aaggcttggc gcgattacag ccagatttgt tgccaagact tccatccttg gttgtctttt
+     1381 catcgtggca atgtcggtgg agtagttgca aattgtcata gctatccttt ccgcctttcg
+     1441 acttagggat aacgtggtct acttctaaca ccgattcttc tgtgaagtgt aatccgcagt
+     1501 gggtacattt gcctttctgt cgtttcaaga gtgttgccac atctttaggg acttcggggt
+     1561 ttttgcccat tcttgcactc cagtacacaa ggttgccatc atagggacta gcatcgcctt
+     1621 tgactttcac atgacgcacg atatctgtag cgttgtgatt ttgtaaccgc aaggggtttt
+     1681 tcctttcttg cctggttgcg aatacccagt tatcatcgcc tatggtttgc caatatttgt
+     1741 tggctatcca ttcccctgat ttattcgggt ggcgtctatg tgcccagctt tttagcttct
+     1801 tgtacacttt gtgtcccagt tcggagtatg tttccttgct ggtaacagtg cggtaatagt
+     1861 tagcccatcc tctgatgatt ggatttaaat gagttatcag cgcagcttgt ggagctgttt
+     1921 tatgctgttc tattacctca gagatactgt catagtgtag ctttagcttc tgcttgctgg
+     1981 gtttgatgag cgtcttgaat ccaagtggtt ccccatgagg attacaaccc gtgttatatt
+     2041 tacctactgg gtactgtctg atattaaacc ccaggaagtt aaaccccgcg tcttgctcat
+     2101 catgtttatt caatgtatgg gcaaggcgcg ttttacttgg tttcaattca agtccaatgc
+     2161 cgtttagcca ctcagaaatc acttctttac atctatggac aacggttaag tcctcgtgca
+     2221 gtattacgaa gtcgtcggcg taccggatta ggcttagaga ttggcgattt cctcgcttac
+     2281 tatgtcctcg tggtgttggc aatgtttcag ccacctgctt tatccgttct tccatcccgt
+     2341 gaagggcaat gtttgccagt agcggagaga tgaccccgcc ttgtggcgta ccctcagatg
+     2401 tggggaataa ttgattgcca tccatcactc ccgatttgag ccaagcgttt atctggcgtc
+     2461 ttaaggtcgg gaatgtattt aattttttga gaagttcccc gtggtttatg cggtcaaagc
+     2521 atttcgcgat gtcggcatcc agcacatatt tagcctttga cttaatagcg ttaaagattg
+     2581 cctcgacagc atcatggcat gaacgtcctg gtcggaatcc ataggagttg ggttcaaacc
+     2641 ttgcttccca ctccggttca agcatcaatt tcactaacgc ctgaagcgct ctgtcgtaca
+     2701 tcgtgggaat accaaggggg cgtttttcat ccgttcctgg tttgtcaatc catacccgtc
+     2761 gagtgggttt ggttttcccc tttagctcaa gtttttccac cagtgctatc ctttggacgg
+     2821 gtgagagtga tttaactccg tctactccgg ctgttttctt gccctggttg tcttgcgtca
+     2881 cgcgacgtac agctagcatc tttcctgacc aagacctcat caatgtcttc tggagtctgc
+     2941 ggactgcttt caaatcacca cgactagagg cttggaatat tcttttttgc agcttaaaga
+     3001 ttcgccgttc cagcttacgc cagtccgtct ctctccattc caccatctga ttgctcagtg
+     3061 ttttagacat ttgtactgct actctacact attccttcct tatcaccgtg agtctgtctg
+     3121 catatccttg tcattacagc aaggcgtttg cttctgactc aatcccaccc actcgcagca
+     3181 tccggttagc acctgctcac ggtatttgat ttccgagaga acatacgagg ggttacttcg
+     3241 ttccgaacga ccatgctatg aacctttaga gctccactat ccaccgggtt tatttagaga
+     3301 tgctgttggt cggggaacga accgccaacc tttttttcct ttgccttttt ggctccagct
+     3361 aatcagtcct ttttgctggt tgtagttgac gatggttcag tcgtggattc agacgtaatg
+     3421 ttttactcat gggttctttg cttgccccgc actatcctga actggaagtg ttgagaggct
+     3481 ttcatccccg ctctacggat tgagggctag tcgctaccgc aggggatgtg ctttcacctg
+     3541 gcatctacag gggagggttt tgcaccctca tggtcgctca gttgtcaagg ttcattttcg
+     3601 ggattactcc ctatttttgt ccttgctgct aatcccccaa acccttctta ttggatttgg
+     3661 tttctagcaa acgaatcgca ccgttccaga ctacacgcac gcagccaaac aactgagcta
+     3721 aactctgtcg ttgttggtct gttggataga atctgtagcg atatcttgct ttcatagcgg
+     3781 ggttgattta ctatctaaaa tagtaccata ttggcagcgc acaaaatggt actatttatg
+     3841 cgtattttta tttccatgca acttatgcaa ttgaagagta aagccgtcct ataaggacgg
+     3901 ggtttctacc ctgtttactg atgactgtca aacttgccgg aggcctttat tcaacaagcc
+     3961 taggttattg acaccaatct gctcgtccaa atccgcaaat attttgaact gtgcaccaat
+     4021 aattctgggg atcgcgtact ctattacccg tcagcagtca gcgtgggaaa acccagagac
+     4081 tgctaattgt catgaaacct tgagtttagt cgggaata
+//

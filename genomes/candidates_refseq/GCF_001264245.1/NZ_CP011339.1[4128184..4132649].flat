@@ -1,0 +1,206 @@
+LOCUS       NZ_CP011339             4466 bp    DNA     linear   CON 16-APR-2020
+DEFINITION  Microcystis panniformis FACHB-1757 chromosome, complete genome.
+ACCESSION   NZ_CP011339 REGION: 4128184..4132649
+VERSION     NZ_CP011339.1  GI:917764592
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN03392520
+            Assembly: GCF_001264245.1
+KEYWORDS    RefSeq.
+SOURCE      Microcystis panniformis FACHB-1757
+  ORGANISM  Microcystis panniformis FACHB-1757
+            Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales;
+            Microcystaceae; Microcystis.
+REFERENCE   1  (bases 1 to 4466)
+  AUTHORS   Zhang,J.Y., Guan,R., Zhang,H.J., Li,H., Xiao,P., Yu,G.L., Du,L.,
+            Cao,D.M., Zhu,B.C., Li,R.H. and Lu,Z.H.
+  TITLE     Complete genome sequence and genomic characterization of
+            Microcystis panniformis FACHB 1757 by third-generation sequencing
+  JOURNAL   Stand Genomic Sci 11, 11 (2016)
+   PUBMED   26823957
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 4466)
+  AUTHORS   Yi,Z.J. and Rui,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-APR-2015) School of Biological Sciences and Medical
+            Engineering, Wuxi Environmental Monitoring Centre & Southeast
+            University, Sipailou 2, Xuanwu District, Nanjing, Jiangsu 210096,
+            China
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            CP011339.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            Bacteria available from Zhang Junyi in Wuxi Environmental
+            Monitoring Center (blocksharon@163.com).
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: HGAP v. 2.2.3
+            Genome Coverage       :: 43.39
+            Sequencing Technology :: PacBio
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 04/08/2020 21:49:07
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.11
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 5,570
+            CDSs (total)                      :: 5,518
+            Genes (coding)                    :: 4,577
+            CDSs (with protein)               :: 4,577
+            Genes (RNA)                       :: 52
+            rRNAs                             :: 2, 2, 2 (5S, 16S, 23S)
+            complete rRNAs                    :: 2, 2, 2 (5S, 16S, 23S)
+            tRNAs                             :: 42
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 941
+            CDSs (without protein)            :: 941
+            Pseudo Genes (ambiguous residues) :: 0 of 941
+            Pseudo Genes (frameshifted)       :: 428 of 941
+            Pseudo Genes (incomplete)         :: 485 of 941
+            Pseudo Genes (internal stop)      :: 209 of 941
+            Pseudo Genes (multiple problems)  :: 159 of 941
+            CRISPR Arrays                     :: 2
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..4466
+                     /organism="Microcystis panniformis FACHB-1757"
+                     /mol_type="genomic DNA"
+                     /strain="FACHB-1757"
+                     /isolation_source="Lake Taihu water"
+                     /db_xref="taxon:1638788"
+                     /country="China: Wuxi"
+                     /lat_lon="31.421 N 120.201 E"
+                     /collection_date="2012-08-13"
+     gene            complement(199..>363)
+                     /locus_tag="VL20_RS19750"
+                     /pseudo
+     CDS             complement(199..>363)
+                     /locus_tag="VL20_RS19750"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_002773997.1"
+                     /note="incomplete; partial in the middle of a contig;
+                     missing N-terminus; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase"
+     gene            complement(465..2275)
+                     /gene="ltrA"
+                     /locus_tag="VL20_RS19755"
+                     /old_locus_tag="VL20_4801"
+                     /pseudo
+     CDS             complement(465..2275)
+                     /gene="ltrA"
+                     /locus_tag="VL20_RS19755"
+                     /old_locus_tag="VL20_4801"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008273687.1"
+                     /note="frameshifted; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="group II intron reverse transcriptase/maturase"
+     gene            complement(2904..4022)
+                     /gene="tnpB"
+                     /locus_tag="VL20_RS19760"
+                     /old_locus_tag="VL20_4802"
+                     /pseudo
+     CDS             complement(2904..4022)
+                     /gene="tnpB"
+                     /locus_tag="VL20_RS19760"
+                     /old_locus_tag="VL20_4802"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_006529335.1"
+                     /note="internal stop; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="IS200/IS605 family element transposase accessory
+                     protein TnpB"
+ORIGIN      
+        1 ccttctctgg cgaatttggc acttgtcact gataataggt tagtgatcag ttttattact
+       61 caatccacct taccacattt tgtccaccct aaggataggg ttatccttga tctcgatcgg
+      121 attttgtcaa gtacttttta caaaacttaa atcaatttta tacaagttta aaaatataca
+      181 aataaagagt tgacatcctc accgccaggg ccggacggtg atgaccggca gatcaaacaa
+      241 gcttaattga atgatcttcg gctgggttga cgcttcacag gacgctgctt ctttaacaga
+      301 agtcttatgc tgtccgaccc gtccgttttt taaggtctcc gattgcccac cggcgacctt
+      361 gataattaaa gtcagtaaga gagtcgcctc tcctactgct ctacaaaacg gaacgtgaca
+      421 atttctcgtc attccgctcc tcaactacac ggggtttgtc attcctacgt cattaccaac
+      481 atatccttta cccagatgta attatctggt atgggcggtt ctggcttgac actattgcag
+      541 tcagatttgt tgcctagact gccatcattg gctgtctttt catcatggca atgtcgatga
+      601 agaagttgga ggttattgta actgttattc cccctagtga tttaggggtg atgtggtcta
+      661 tctccattaa atccccatct cttaagaagt gtccacagtg agtacatttc cctttttgct
+      721 ttttcaacag ttttgaaatt tctgttggca tttcgggatg agtccccatt cttgaactcc
+      781 aataaactag gtttccatcg tagggtgagg cgttcccttt gaccttcaca tagcgtcgga
+      841 tttccgtttc tctatgttcg tacaacctta gaggattatt ttcttctctg gttgtgaaag
+      901 cccagttatt gccacctatt gtgtgaaagt gtcttttaga aatccacttt cttcctttgt
+      961 ttcgatggcg ttttatcccc catttgatga gtttatgccc taggatgtgg gttaatcttt
+     1021 caaagatttt ctgactaacc actgttgaga agtaattgca ccatcctctt attacagggt
+     1081 ttaacctttt aatgagttca gcttggttga ttcccttgct ggtgtttatg atgcgtttaa
+     1141 gttctctata gtgtcttatt tgactctctt tgttaggggt tattattgtt ttgaaaccaa
+     1201 gcagattacc tctgactttt cccgaggtgt atttaccgac gggaaattgt cttatattaa
+     1261 accctagaaa gtcgaatcca gcttgttcgc tttcatgttc tctcagtgtg tgggctattc
+     1321 ttgttttact tggttttaac tcaagtccga tgttttgtaa ccatccctct atttcctttt
+     1381 tgattaggag aataacccct aggttttcat gtagtaccac aaaatcgtct gcatatcgga
+     1441 ttaaggtcac tgattttatt ttgtctctaa cactcatttg tgtcccgtct ttgcgtttca
+     1501 tgtcaaatga gggtgctaga ttcataacca attcctctaa cccatgaagt gctatatttg
+     1561 ccaataatgg cgataacact ccgccttgcg gtgtaccttc tgaggttggg aataactgtt
+     1621 tgtcgtctat gactcctgct tttaaccatg atttgatttg tttcctcatg gttgggtagg
+     1681 tgttaagttt ttctaacagt ttttgatggt caatgcggtc aaagcattta gctatatctg
+     1741 catcaagaac atactttgcc tttttgttaa tggcttggaa tatccctgct atagcatcgt
+     1801 gacaagagcg tcctactcta aatccatagc tgttaggctc gaatttggct tcccactctg
+     1861 gttctagtac cagtttagct agtgcttgta aggcacggtc tttcatggta ggtattccta
+     1921 aaggtcgttt ttcgccgttg ggtttgggaa tccatactcg gcgtgtgggt ttgacctttg
+     1981 ttcccaagtt tagttcagtc attagggtta accgttgttt tggggttaga gatttaactc
+     2041 catccacacc tgcggttttc tttccttgat tgtcttgggt tactctacgc accgctaacg
+     2101 ctttagcact gtaggacttt aacaataatt tttggagtct gtgaaccttc ttgacatctc
+     2161 cacaactaga cgctctgaaa attcgttttt gtaacttaaa aacctgacgt tcaacctttt
+     2221 tccaattgat gtcttgccaa gtcttccatt tatccatctg ttgaacagtg gtcataactt
+     2281 ttacattact acttacaact tttcattcca tgtaatcgtg agtccgtctg catatcctat
+     2341 tcgttacaaa taggcgttgg cttttgactc aatctttccc tactattacc tgctgtattg
+     2401 cagagttttc gtcttagctg actgctctta gttttcgacc tttactaaag agtaataata
+     2461 gggttacttc gttcctctta acctttggtt tgttcccttt aggatgtcat ctttttaccg
+     2521 agtttttggg taacgcttgg tatatcgata caaatcctta taccacccta tactattgac
+     2581 cttttggtac tggcagtgtg tcagccttat ttcactgctt cgccgtaacg gtaattcgga
+     2641 cgatgactta actttcgtta tccataggaa cttgcttacg gttgacttat ttaggctata
+     2701 agtcgctttt tccgctcgat tccctgcttt acggattgat ggctagtcgc taccgtaagg
+     2761 gcgtttgctt tcattcctgc gtctggaagg taagacttgg ggtttctagg atactagccc
+     2821 tcacttacaa ggttatgaag ttgtcatctg ctgaggatta aagtgcgtac tcaacccagt
+     2881 tagggttact caacagaggc cagtcatccc cctatttcta ggtttcgact gaacgaatcg
+     2941 cacttaattg cggcgttcac gtctcgatca tggaaagtcc cacagaaaag acattcccac
+     3001 tcacggatat ttaatgcttt cttaccgccg atattcccac aacaggaaca tcgctgagac
+     3061 gttggctccc atcgagaaat tatccgaaaa tcacgcccat atttatcaga ttttgccgat
+     3121 agcatatctc ggaaagaacg ccatcctaag tctgatatgg cacgggataa cttgcgattc
+     3181 ttaagcattc ccgatgtgtt taaatcctct aaaactatcg tttgattttc acgaacgatt
+     3241 ctagtggata gtttctgcaa gaaatcagtg cgagcgtctt taatctttgc gtggatttta
+     3301 gctactcgtt tcctagtttt ttcccgtcgt ttacttcctt tctgttttct agaaaggttt
+     3361 ttctgtgcct ttcttagccg ttttaattgt ttctttaacg gtttcggtgc gtctatcttt
+     3421 tcccctgttg agagagtcgc aaaagtagca atccctagat cgattcccac ggactccccg
+     3481 ttattaggaa gtatttcgga ctgaatctcg acaacaaagc tgagaaaata gcgatctgct
+     3541 gcatctttaa tcacggtgac gctagaaggt ttagaaggta atggacgact ccaaactatt
+     3601 cttagatcgc cgattttcgc taaagtaacg cagtgctggt taacggtaaa accattgtca
+     3661 gtaaatcttg ctgattgctt agatttacgc ttcttaaatt taggaggttt gacttttctt
+     3721 ccttttctct ctcccttgca agatgcaaag aagttagagt aagcagtctc taagtctctc
+     3781 aaagactgtt gtaaaggaat agaagaaact tcagttaacc actgtttttc tttggttttt
+     3841 ttaatctgag tgattctttt agacaactcg gtatattttg gcttttttta tccttgttga
+     3901 tagagttctt ggcagtaagc taaggtatcg ttccagacga cacgcacgca cccgaacaac
+     3961 tgagacaaaa gctttttttg ttggtctgtt gggtaaaggc gatattgata ccttgctttc
+     4021 attgttggtt taaaatgtgt gtgtctgtac tctattttaa ctaggtctgt caataatgtc
+     4081 aattcggtca gtaatcagta atcagtaatc agtaaaaaga cagtaagtac ctaggcaaaa
+     4141 ttatttacac atgacgatca ttgccccgta agggttttag ctcgatcggg caggtaatta
+     4201 attttgcatg actacttaag aaacctctat ttaatactgc acacttaaaa actcacatct
+     4261 gataactgat aaccgtctct atataggttg gttcggtgtc atcctgatcc cgacgatctt
+     4321 aaccgctacc atctgctaac gctcttctgg aactttcgga aatccccgac ggaatccaga
+     4381 ttctgaaacc cttggttgac aagtgatcgc taactttttt tctaataaaa actcaaattt
+     4441 cgggtttctg ttagttagcg atagct
+//
