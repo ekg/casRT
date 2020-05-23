@@ -1,0 +1,2 @@
+Contig	Operon	Start	End	Prediction	Complete_Interference	Complete_Adaptation	Best_type	Best_score	Genes	Positions	E-values	CoverageSeq	CoverageHMM
+NZ_JXCB02000033.1	NZ_JXCB02000033.1@4	148267	151505	I-D	20%	67%	I-D	7.0	['Cas3_1_CAS-I-D', 'Cas4_0_I-II', 'Cas2_2_CAS-I-II-III-IV-V-VI']	[89, 90, 92]	['3.20e-44', '3.20e-35', '2.00e-25']	[0.345, 0.819, 0.837]	[0.703, 0.989, 0.987]

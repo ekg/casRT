@@ -1,0 +1,2 @@
+Contig	Operon	Start	End	Prediction	Complete_Interference	Complete_Adaptation	Best_type	Best_score	Genes	Positions	E-values	CoverageSeq	CoverageHMM
+NC_019779.1	NC_019779.1@30	1563969	1565936	V-J	100%	NA	V-J	4.0	['Cas12j_0_CAS-V-J']	[1424]	['0.00e+00']	[0.998]	[0.994]

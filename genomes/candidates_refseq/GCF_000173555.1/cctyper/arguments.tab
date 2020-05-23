@@ -1,0 +1,23 @@
+input:	candidates_refseq/GCF_000173555.1/GCF_000173555.1_ASM17355v1_genomic.fna
+output:	candidates_refseq/GCF_000173555.1/cctyper
+threads:	56
+prodigal:	single
+circular:	False
+skip_check:	False
+keep_tmp:	False
+log_lvl:	INFO
+redo_typing:	False
+simplelog:	False
+db:	
+dist:	3
+overall_eval:	0.01
+overall_cov_seq:	0.3
+overall_cov_hmm:	0.3
+ccd:	10000
+pred_prob:	0.75
+kmer:	4
+no_plot:	False
+scale:	10
+no_grid:	False
+expand:	0
+custom_hmm:	

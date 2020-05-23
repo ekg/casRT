@@ -1,0 +1,4 @@
+Contig	Operon	Operon_Pos	Prediction	CRISPRs	Distances	Prediction_Cas	Prediction_CRISPRs
+NC_019779.1	NC_019779.1@15	[755282, 788520]	Hybrid(I-D,III-D)	['NC_019779.1_2', 'NC_019779.1_3']	[538, 0]	Hybrid(I-D,III-D)	['Unknown', 'Unknown']
+NC_019779.1	NC_019779.1@27	[1438801, 1475169]	III-B	['NC_019779.1_4', 'NC_019779.1_5']	[0, 0]	III-B	['III-B', 'Unknown']
+NC_019779.1	NC_019779.1@34	[2082046, 2090203]	I-G	['NC_019779.1_6']	[233]	I-G	['I-G']

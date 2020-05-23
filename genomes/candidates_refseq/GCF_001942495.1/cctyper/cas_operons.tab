@@ -1,0 +1,2 @@
+Contig	Operon	Start	End	Prediction	Complete_Interference	Complete_Adaptation	Best_type	Best_score	Genes	Positions	E-values	CoverageSeq	CoverageHMM
+NZ_MKZS01000001.1	NZ_MKZS01000001.1@113	7465140	7466342	V-F	100%	0%	V-F	4.0	['Cas12f2_0_CAS-V-F']	[6242]	['1.10e-158']	[0.958]	[0.779]
