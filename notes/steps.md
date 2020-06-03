@@ -69,7 +69,13 @@ bedtools closest -d -a bed/r2dm.bed -b bed/cas14.bed  | awk '$11 > 0 && $11 < 10
 ; e=$3; }' >closest/r2dm_cas14.bed
 ```
 
-# element extraction
+## update for cyanobacteria
+
+The same steps above were repeated for cyanobacteria genomes from refseq, due to the fact that many cas14/RT hits were in that taxa.
+This resulted in a second set of matches for each protein class.
+The full set was then used to extract elements.
+
+## element extraction
 
 Here, we take candidate hits and extract ~10kb regions around them, then pull these into a pangenome graph and use that graph structure to help determine the boundaries of each element class.
 
