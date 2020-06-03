@@ -168,7 +168,7 @@ odgi bin -i rt_cas14_10kb.clean.genus.drop3k.prune-T-m3.uniq.reclean.odgi -w 50 
 In R, these can be examined:
 
 ```R
-tidyverse)
+require(tidyverse)
 require(ape)      
 require(phyclust) 
 require(ggfortify)
