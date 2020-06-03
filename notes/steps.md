@@ -69,14 +69,20 @@ bedtools closest -d -a bed/r2dm.bed -b bed/cas14.bed  | awk '$11 > 0 && $11 < 10
 ; e=$3; }' >closest/r2dm_cas14.bed
 ```
 
-# element extraction
+## update for cyanobacteria
+
+The same steps above were repeated for cyanobacteria genomes from refseq, due to the fact that many cas14/RT hits were in that taxa.
+This resulted in a second set of matches for each protein class.
+The full set was then used to extract elements.
+
+## element extraction
 
 Here, we take candidate hits and extract ~10kb regions around them, then pull these into a pangenome graph and use that graph structure to help determine the boundaries of each element class.
 
 Get the regions:
 
 ```
-bedtools closest -d -a bed/cyanobacteria_reverse_transcriptases.bed -b bed/cyanobacteria_cas14.bed | awk '$11 > 0 && $11 < 2000 && $5 < 1e-20 && $10 < 1e-20 { print }' | awk '{ if ($1 != f || ($3 < s || $2 > e)) { print; } f=$1; s=$2; e=$3; }' | grep '^NC_\|^NZ_' | awk '{ start=$2; if ($7 < start) { start=$7 }; end=$3; if ($8 > end) { end=$8 }; l=end-start; if (end-start < 10000) { inc=int((10000-(end-start))/2); start-=inc; end+=inc;} if (start < 0) { end-=start; start = 0 }; print $1, start, end, $4, $5, $9, $10 }'  | tr ' ' '\t'  >regions/cyanobacteria_rt_cas14_10kb.1.bed
+bedtools closest -d -a bed/reverse_transcriptases.bed -b bed/cas14.bed | awk '$11 > 0 && $11 < 2000 && $5 < 1e-10 && $10 < 1e-10 { print }' | awk '{ if ($1 != f || ($3 < s || $2 > e)) { print; } f=$1; s=$2; e=$3; }' | grep '^NC_\|^NZ_' | awk '{ start=$2; if ($7 < start) { start=$7 }; end=$3; if ($8 > end) { end=$8 }; l=end-start; if (end-start < 10000) { inc=int((10000-(end-start))/2); start-=inc; end+=inc;} if (start < 0) { end-=start; start = 0 }; print $1, start, end, $4, $5, $9, $10 }'  | tr ' ' '\t'  >regions/representative_rt_cas14_10kb.1.bed
 bedtools closest -d -a bed/cyanobacteria_reverse_transcriptases.bed -b bed/cyanobacteria_cas14.bed | awk '$11 > 0 && $11 < 2000 && $5 < 1e-10 && $10 < 1e-10 { print }' | awk '{ if ($1 != f || ($3 < s || $2 > e)) { print; } f=$1; s=$2; e=$3; }' | grep '^NC_\|^NZ_' | awk '{ start=$2; if ($7 < start) { start=$7 }; end=$3; if ($8 > end) { end=$8 }; l=end-start; if (end-start < 10000) { inc=int((10000-(end-start))/2); start-=inc; end+=inc;} if (start < 0) { end-=start; start = 0 }; print $1, start, end, $4, $5, $9, $10 }'  | tr ' ' '\t'  >regions/cyanobacteria_rt_cas14_10kb.1.bed 
 (cat regions/representative_rt_cas14_10kb.1.bed| grep -v -Ff <(cut -f 1 regions/cyanobacteria_rt_cas14_10kb.1.bed)  ; cat regions/cyanobacteria_rt_cas14_10kb.1.bed ) >regions/rt_cas14_10kb.bed
 cat regions/rt_cas14_10kb.bed| parallel 'seq=$(echo {} | cut -f 1-2 -d _); target=$(echo {} | cut -f 2- ); echo $seq  $target' | tr ' ' '\t'  >regions/rt_cas14_10kb.clean.bed
@@ -162,7 +168,7 @@ odgi bin -i rt_cas14_10kb.clean.genus.drop3k.prune-T-m3.uniq.reclean.odgi -w 50 
 In R, these can be examined:
 
 ```R
-tidyverse)
+require(tidyverse)
 require(ape)      
 require(phyclust) 
 require(ggfortify)
