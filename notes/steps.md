@@ -181,6 +181,11 @@ casRTs.tree <- nj(casRTs.dist)
 
 ggtree(casRTs.tree) %<+% data.frame(node=1:(nrow(casRTs.tree$edge)+1), path.name=factor(c(as.character(casRTs$path.name), rep("",nrow(casRTs.tree$edge)-nrow(casRTs)+1))), group.name=factor(c(as.character(casRTs$group.name),rep("internal",nrow(casRTs.tree$edge)-nrow(casRTs)+1)), levels=c(levels(casRTs$group.name),"internal"))) + aes(color=group.name, label=path.name) + scale_color_manual("genus", values=c(rainbow(20),"black")) + geom_text(nudge_x=5,size=3); ggsave("rt_cas14_10kb.clean.genus.drop3k.prune-T-m3.uniq.reclean.odgi.paths.tree.pdf", height=20, width=20)
 
+
+# todo change this to the right file
+casRT.bin50 <- read.delim('rt_cas14_10kb.clean.genus.drop3k.prune-T-m3.uniq.reclean+Cas14_genes.odgi.bin50.tsv.gz')
+casRT.bin50$path.name <- fct_inorder(casRT.bin50$path.name)
+
 ggplot(casRT.bin50, aes(x=bin, y=path.name, fill=path.prefix)) + geom_tile() + scale_fill_manual("genus", values=c(rainbow(19),"black")); ggsave('rt_cas14_10kb.clean.genus.drop3k.prune-T-m3.uniq.reclean.odgi.bin50.tile.pdf', height=20, width=20)
 ggplot(casRT.bin50, aes(x=bin, y=path.name, color=cas14.e.val*rt.e.val, fill=cas14.e.val*rt.e.val)) + geom_tile(); ggsave("rt_cas14_10kb.clean.genus.drop3k.prune-T-m3.uniq.reclean.odgi.bin50.tile.cas14_x_rt_e-val.pdf", height=20, width=20)
 ggplot(casRT.bin50, aes(x=bin, y=path.name, color=cas14.e.val+rt.e.val, fill=cas14.e.val+rt.e.val)) + geom_tile(); ggsave("rt_cas14_10kb.clean.genus.drop3k.prune-T-m3.uniq.reclean.odgi.bin50.tile.cas14_+_rt_e-val.pdf", height=20, width=20)
